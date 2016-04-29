@@ -1,6 +1,7 @@
 McBergbys-labs del 1.
 =====================
 
+
 **Hurtigmatkjeden McBergbys satser stort, og ønsker å ha mye funksjonalitet på sine nettsider. Nå skal du, som den eneste i utviklingsavdelingen *McBergbys-labs*, lage den første prototypen i et stort utviklingsprosjekt som skal gå over et helt år. utviklingsprosjektet kommer til å ta for seg mange temaer i løpet av året. Den første tiden skal brukes på funksjonalitet, så programmene skal stort sett kjøres i konsollvinduet**
 
 “[Hallo verden](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)” er en vanlig måte å teste ut ny teknologi på. Hva er vel bedre enn at *du* tester ut dette før utviklingsprosjektet går videre.
