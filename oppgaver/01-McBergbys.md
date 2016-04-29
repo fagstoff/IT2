@@ -1,7 +1,7 @@
 McBergbys-labs del 1.
 =====================
 
-**Hurtigmatkjeden McBergbys satser stort, og ønsker å følge opp suksessen med sine dynamiske nettsider. De har derfor oppretettet en egen utviklingsavdeling, og ansatt deg! Nå skal du, som den eneste i utviklingsavdelingen *McBergbys-labs*, lage den første prototypen i et stort utviklingsprosjekt som skal gå over et helt år. Prosjektet kommer til å ta for seg mange temaer i løpet av året, og den første tiden skal brukes på å bli trygg på programmering.**
+**Hurtigmatkjeden McBergbys satser stort, og ønsker å følge opp fjorårets suksess med dynamiske nettsider. De har derfor oppretettet en egen utviklingsavdeling, og ansatt deg! Nå skal du, som den eneste i utviklingsavdelingen *McBergbys-labs*, lage den første prototypen i et stort utviklingsprosjekt som skal gå over et helt år. Ledelsen kommer i løpet av året til å gi deg mange oppgaver, og forventer at du skal videreutvikle nettsidene til nye høyder. Men først må du vise at du mestrer elementær programmering.**
 
 “[Hallo verden](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)” er en vanlig måte å teste ut ny teknologi på. Hva er vel bedre enn at *du* tester ut dette før utviklingsprosjektet går videre.
 
@@ -22,6 +22,7 @@ Vurderingskriterier
 Kompetansemål
 -------------
 * utvikle og sette sammen delprogrammer
+* teste og finne feil i programmer ved å bruke vanlige teknikker
 
 ---
 
