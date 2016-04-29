@@ -1,8 +1,5 @@
----
-layout: docs
-title: Variabler
-permalink: /docs/oppgaver/02-McBergbys/
----
+McBergbys-labs del 2.
+=====================
 **Det store utviklingsprosjektet for hurtigmatkjeden McBergbys fortsetter. En viktig del av utviklingsprosjektet er å kunne håndtere og modifisere informasjon. Til dette må du bruke variabler.**
 
 Oppgave

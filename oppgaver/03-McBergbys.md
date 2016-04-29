@@ -1,8 +1,5 @@
----
-layout: docs
-title: Eventplanleggeren
-permalink: /docs/oppgaver/03-McBergbys/
----
+McBergbys-labs del 3.
+=====================
 Ledelsen i McBergbys ser potenisalet i arbeidet som gjøres på *McBergbys-labs*. De ønsker derfor at du ser nærmere på mulighetene som ligger i nettsider som håndterer brukerinteraksjon. Som den eneste ansatte i *McBergbys-labs* blir dette din jobb.
 
 Oppgaven
