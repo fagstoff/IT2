@@ -1,16 +1,12 @@
 Variabler del 1
 ===============
+I nesten alle programmer behandler, lagrer og manipulerer vi tall og tekst. For å få til dette er vi helt avhengige av å kunne lagre denne informasjonen et sted. Dette gjøres ved hjelp av variabler.
 
-
-**Hurtigmatkjeden McBergbys satser stort, og ønsker å ha mye funksjonalitet på sine nettsider. Nå skal du, som den eneste i utviklingsavdelingen *McBergbys-labs*, lage den første prototypen i et stort utviklingsprosjekt som skal gå over et helt år. utviklingsprosjektet kommer til å ta for seg mange temaer i løpet av året. Den første tiden skal brukes på funksjonalitet, så programmene skal stort sett kjøres i konsollvinduet**
-
-“[Hallo verden](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)” er en vanlig måte å teste ut ny teknologi på. Hva er vel bedre enn at *du* tester ut dette før utviklingsprosjektet går videre.
+En variabel i programmering brukes på samme måte som i matematikk. Det er et symbol som kan inneholde en verdi. Denne verdien kan være et tall, en tekst eller helt andre ting.
 
 Oppgave
 -------
-I denne oppgaven skal du lage en nettside der du kort forteller om variabler, og hvordan disse opprettes og brukes. Vis gjerne noen eksempler. Du skal også opprette, tilordne  og skrive ut verdien av variabler med datatypene heltall, desimaltall, og tekst i konsollvinduet.
-
-
+I denne oppgaven skal du lage en nettside der du kort forteller om variabler, og hvordan disse opprettes og brukes. Vis noen eksempler. Du skal også opprette, tilordne  og skrive ut verdien av variabler med datatypene heltall, desimaltall, og tekst i konsollvinduet.
 
 Ressurser
 ---------
@@ -20,6 +16,7 @@ Ressurser
 Vurderingskriterier
 -------------------
 * Siden skal validere uten feil og advarsler i konsollvinduet.
+* Du skal beskrive begrepene *deklarere* og *tilordne* på nettsiden.
 
 Kompetansemål
 -------------
