@@ -1,13 +1,32 @@
 McBergbys-labs del 2.
 =====================
-**Det store utviklingsprosjektet for hurtigmatkjeden McBergbys fortsetter. En viktig del av utviklingsprosjektet er å kunne håndtere og modifisere informasjon. Til dette må du bruke variabler.**
+
+Ledelsen i McBergbys har stor tro på JavaScript, og håper at du raskt skal bli god nok til å lage noen imponerende programmer som vil være med på å øke omsetningen og spare penger for burgerkjeden.
 
 Oppgave
 -------
-I denne oppgaven skal du lage en nettside der du kort forteller om variabler, og hvordan disse opprettes og brukes. Vis gjerne noen eksempler. Du skal også opprette, tilordne  og skrive ut verdien av variabler med datatypene heltall, desimaltall, og tekst i konsollvinduet. For å demonstrere dette i praksis skal de samme sidene ha funksjonalitet der brukeren kan taste inn et tall i en tekstboks, og det skal vises et tall som er åtte høyere i en annen tekstboks eller div.
+Du skal nå teste ut litt mer avansert bruk av konsollen.
 
-For å løse denne oppgaven må du bruke ```document.getElementById``` , ```onclick``` m.m.
+Bruk konsollen til følgende:
+1. Skriv ut en liten hilsen.
+2. Gang sammen to tall.
+3. Legg sammen to ord.
+4. Legg sammen fem bokstaver til et ord.
+
+Ressurser
+---------
+
+Vurderingskriterier
+-------------------
+* Siden skal validere uten feil og advarsler i konsollvinduet.
+* Det skal vises riktig utskrift i konsollvinduet.
+
+Kompetansemål
+-------------
+* utvikle og sette sammen delprogrammer
+* teste og finne feil i programmer ved å bruke vanlige teknikker
 
 ---
 
-_Denne oppgaven er laget av [fuzzbin](https://github.com/fuzzbin). Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.](http://creativecommons.org/licenses/by-sa/4.0/)_
+_Denne oppgaven er laget av [fuzzbin](https://github.com/fuzzbin). Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.
+](http://creativecommons.org/licenses/by-sa/4.0/)_

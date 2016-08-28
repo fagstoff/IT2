@@ -26,5 +26,5 @@ Kompetansemål
 
 ---
 
-_Denne oppgaven er laget av [fuzzbin](https://github.com/fuzzbin) og [bitjungle](https://github.com/bitjungle). Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.
+_Denne oppgaven er laget av [fuzzbin](https://github.com/fuzzbin). Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.
 ](http://creativecommons.org/licenses/by-sa/4.0/)_
