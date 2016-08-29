@@ -1,10 +1,9 @@
 Variabler del 2
 ===============
 
-
 Oppgave
 -------
-Deklarer og tilordne to ulike verdier til to variabler av datatypen heltall. Skriv ut sum, differanse og produkt av disse med forklarende tekst i konsollvinduet.
+I denne oppgaven skal vi jobbe mer med variabler. Du skal deklarere to variabler, og tilordne to ulike verdier til disse. Skriv ut sum, differanse og produkt sammen med en forklarende tekst i konsollvinduet.
 
 Ressurser
 ---------
@@ -19,7 +18,10 @@ Vurderingskriterier
 Kompetansemål
 -------------
 * utvikle og sette sammen delprogrammer
-
+* lese og bruke dokumentasjon og kode
+* definere variabler og velge hensiktsmessige datatyper
+* tilordne uttrykk til variabler
+* programmere med enkle og indekserte variabler eller andre kolleksjoner av variabler
 ---
 
 _Denne oppgaven er laget av [fuzzbin](https://github.com/fuzzbin). Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.

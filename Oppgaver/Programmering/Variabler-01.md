@@ -21,6 +21,11 @@ Vurderingskriterier
 Kompetansemål
 -------------
 * utvikle og sette sammen delprogrammer
+* utvikle og sette sammen delprogrammer
+* lese og bruke dokumentasjon og kode
+* definere variabler og velge hensiktsmessige datatyper
+* tilordne uttrykk til variabler
+* programmere med enkle og indekserte variabler eller andre kolleksjoner av variabler
 
 ---
 
