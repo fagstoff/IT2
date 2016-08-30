@@ -3,7 +3,7 @@ Variabler del 3
 
 Oppgave
 -------
-Lag en nettside der du skriver om operatorer og variabelnavn. Ta med flere eksempler på virkemåte, og hva som er god praksis. Lag gjerne noen oversiktelige tabeller, og bruk eksempler fra [w3schools](http://www.w3schools.com/js/js_operators.asp) eller andre ressurser. Husk å oppgi kilder.
+Lag en nettside der du skriver om begrepene: modulo, inkrementering og dekrementering. Gi eksempler på bruk i konsollen.
 
 Ressurser
 ---------
@@ -13,8 +13,7 @@ Ressurser
 Vurderingskriterier
 -------------------
 * Siden skal validere uten feil og advarsler i konsollvinduet.
-* Du skal ha med de viktigste variabeloperatorene og forklare hva de gjør.
-* Det skal komme klart fram hva som er gyldige variabelnavn, og hva man bør unngå.
+* Du skal ha med minst ett eksempel på bruk av hvert begrep.
 
 Kompetansemål
 -------------
