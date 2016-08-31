@@ -22,7 +22,7 @@ Kompetansemål
 * definere variabler og velge hensiktsmessige datatyper
 * tilordne uttrykk til variabler
 * programmere med enkle og indekserte variabler eller andre kolleksjoner av variabler
----
 
+---
 _Denne oppgaven er laget av [fuzzbin](https://github.com/fuzzbin). Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.
 ](http://creativecommons.org/licenses/by-sa/4.0/)_
