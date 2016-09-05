@@ -1,4 +1,4 @@
-Variabler del 3
+Variabler del 4
 ===============
 
 Oppgave
