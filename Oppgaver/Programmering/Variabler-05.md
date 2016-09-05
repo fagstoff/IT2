@@ -3,7 +3,7 @@ Variabler del 5
 
 Oppgave
 -------
-Lag et program som tar en verdi i sekunder, og skriver ut i konsollen hvor mange timer, minutter og sekunder dette tilsvarer.
+Lag et program som tar en verdi i sekunder, og skriver ut i konsollen hvor mange timer, minutter og sekunder dette tilsvarer. Du skal skrive på nettsiden hvordan du har kommet frem til løsningen på problemet.
 
 For eksempel skal innverdien 3723 skrives ut som 1 time(r) 2 minutt(er) og 3 sekund(er)
 
@@ -16,6 +16,7 @@ Vurderingskriterier
 -------------------
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Programmet beregne riktig antall timer, minutter og sekunder.
+* Det skal komme klart frem av forklaringen hvordan du har løst problemet.
 
 Kompetansemål
 -------------
