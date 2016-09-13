@@ -3,7 +3,7 @@ Funksjoner del 1
 
 Oppgave
 -------
-Lag et program der en funksjon legger sammen to innparameter, og returnerer resultatet i konsollen. Forklar på nettsiden hvordan funksjoner med inn- og utparameter fungerer.
+Lag et program der en funksjon returnerer summen av to innparametre i konsollen. Forklar på nettsiden hvordan funksjoner med inn- og utparameter fungerer.
 
 Ressurser
 ---------
@@ -23,7 +23,7 @@ Kompetansemål
 * definere variabler og velge hensiktsmessige datatyper
 * tilordne uttrykk til variabler
 * programmere med enkle og indekserte variabler eller andre kolleksjoner av variabler
-
+* lage egne og bruke egne og andres funksjoner eller metoder med parametere
 ---
 _Denne oppgaven er laget av [fuzzbin](https://github.com/fuzzbin). Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.
 ](http://creativecommons.org/licenses/by-sa/4.0/)_
