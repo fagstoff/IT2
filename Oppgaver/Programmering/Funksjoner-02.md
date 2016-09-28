@@ -24,6 +24,7 @@ Kompetansemål
 * tilordne uttrykk til variabler
 * programmere med enkle og indekserte variabler eller andre kolleksjoner av variabler
 * lage egne og bruke egne og andres funksjoner eller metoder med parametere
+
 ---
 _Denne oppgaven er laget av [fuzzbin](https://github.com/fuzzbin). Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.
 ](http://creativecommons.org/licenses/by-sa/4.0/)_
