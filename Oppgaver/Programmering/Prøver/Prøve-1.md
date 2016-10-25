@@ -23,7 +23,7 @@ Beregner energiforbruket til gutten når han enten sitter stille, eller går en 
 
 
 **Oppgave 2**
-Lag en enkel kontokalkulator der brukeren kan taste inn *lånebeløp, rente og antall år*. Programmet skal så beregne penger på konto på etter angitt antall år. Beregningen skal skje i en funksjon der lånebeløp, rente og antall år er *innparameter* og skal *returnere* antall kroner på konto. Svaret skal ha maksimalt to desimaler. Formelen for å beregne penger på konto etter x år er: ![equation](http://www.sciweavers.org/tex2img.php?eq=innskudd%20%5Ccdot%20vekstfaktor%5Ex&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+Lag en enkel kontokalkulator der brukeren kan taste inn *innskudd, rente og antall år*. Programmet skal så beregne penger på konto på etter angitt antall år. Beregningen skal skje i en funksjon der innskudd, rente og antall år er *innparameter* og skal *returnere* antall kroner på konto. Svaret skal ha maksimalt to desimaler. Formelen for å beregne penger på konto etter x år er: ![equation](http://www.sciweavers.org/tex2img.php?eq=innskudd%20%5Ccdot%20vekstfaktor%5Ex&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 Vurderingskriterier
 -------------------
