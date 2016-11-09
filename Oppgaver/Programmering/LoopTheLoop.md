@@ -1,9 +1,8 @@
----
-layout: docs
-title: Loop the loop
-permalink: /docs/oppgaver/10-LoopTheLoop/
----
+Count-O-Magic
+=============
 
+Oppgave
+-------
 1. Lag kode som skriver ut tallfølger:
 1,2,3,4,5,6,7,8,9,...,99
 
@@ -37,6 +36,24 @@ permalink: /docs/oppgaver/10-LoopTheLoop/
 -********-
 **********
 ```
+
+Ressurser
+---------
+* Du trenger en teksteditor og en nettleser til denne oppgaven.
+
+Vurderingskriterier
+-------------------
+* Siden skal validere uten feil og advarsler i konsollvinduet.
+* Det skal komme klart frem av forklaringen hvordan du har løst problemet.
+
+Kompetansemål
+-------------
+* utvikle og sette sammen delprogrammer
+* lese og bruke dokumentasjon og kode
+* definere variabler og velge hensiktsmessige datatyper
+* tilordne uttrykk til variabler
+* programmere med enkle og indekserte variabler eller andre kolleksjoner av variabler
+* lage egne og bruke egne og andres funksjoner eller metoder med parametere
 
 ---
 
