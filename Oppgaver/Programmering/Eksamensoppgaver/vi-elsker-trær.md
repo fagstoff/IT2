@@ -9,11 +9,11 @@ Oppgaven
 --------
 Tabellen under viser antall grove trær i Norge fra 1915 til 2000, angitt i millioner. Definisjonen på grove trær er at de er mer enn 30cm i diameter i brysthøyde ved 1,30 meter over bakken. Økningen i grove trær forteller oss blant annet noe om klimatutviklingen.
 
-| Tresort | 1915 | 1950 | 1970 | 1990 | 1992 | 2000 |
-|:-------:|------|------|------|------|------|------|
-| Furu    | 20   | 31   | 53   | 89   | 102  | 117  |
-| Gran    | 23   | 39   | 72   | 89   | 92   | 99   |
-| Lauvtre | 4    | 6    | 8    | 12   | 15   | 18   |
+|   Tresort   | 1915 | 1950 | 1970 | 1990 | 1992 | 2000 |
+|:-----------:|------|------|------|------|------|------|
+| **Furu**    | 20   | 31   | 53   | 89   | 102  | 117  |
+| **Gran**    | 23   | 39   | 72   | 89   | 92   | 99   |
+| **Lauvtre** | 4    | 6    | 8    | 12   | 15   | 18   |
 
 **a)** Lag en applikasjon der brukeren kan angi to utvalgte år for *en* tresort. Programmet skal deretter regne og skrive ut økningen som tallverdi og prosent.
 
@@ -44,4 +44,4 @@ Kompetansemål
 
 ---
 
-_Denne oppgaven er publiser på [UDIR](https://dok.udir.no/EksamensOppgaver.aspx?proveType=EV) og tilpasset til undervisning av [fuzzbin](https://github.com/fuzzbin). Oppgaven er lisensiert som ???
+_Denne oppgaven er opprinnelig publiser på_ [UDIR](https://dok.udir.no/EksamensOppgaver.aspx?proveType=EV) og tilpasset og omskrevet til undervisning av [fuzzbin](https://github.com/fuzzbin). Oppgaven er lisensiert som ???
