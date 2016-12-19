@@ -13,7 +13,6 @@ bilregister[6] = {regnummer:"NE10006" , merke:"Volvo", type:"V70" , regaar:2008 
 bilregister[7] = {regnummer:"NE10007" , merke:"Volvo", type:"XC90" , regaar:2009 , bilde:"bilder/volvo.jpg"};
 bilregister[8] = {regnummer:"NE10008" , merke:"Volvo", type:"Sonett" , regaar:1965 , bilde:"bilder/volvo.jpg"};
 
-
 //Lese inn elementer
 bilinfo = document.getElementById("visBil");
 
