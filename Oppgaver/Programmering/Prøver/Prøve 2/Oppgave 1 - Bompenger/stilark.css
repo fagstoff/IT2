@@ -1,0 +1,10 @@
+
+
+#kvitteringDiv{
+  margin: 30px;
+  width: 200px;
+  height: 400px;
+  background-color: #aaa;
+  border: dotted 2px;
+  border-radius: 10px;
+}
