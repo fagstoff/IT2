@@ -6,14 +6,10 @@ Innholdet er bygget opp etter strukturen til kompetansemåla i faget i form av f
 
 Bli gjerne med i nettverket for lærere som er interessert i IT2 med javascript på facebook.
 
-Alt innhold er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.
-](http://creativecommons.org/licenses/by-sa/4.0/)
-
 Tom Jarle Christiansen , Januar 2017
 
 --
 
-Oppgaveløsing er sentralt i IT2, og målet er at oppgavene her til sammen skal dekke alle kompetansemåla i faget.
 
 Planlegging og dokumentasjon
 ----------------------------
@@ -26,3 +22,8 @@ Hovedområdet handler om hvordan formelle språk kan brukes til å formulere str
 Multimedieutvikling
 -------------------
 Hovedområdet handler om utforming, strukturering, implementering og vurdering av multimedieapplikasjoner med tall, tekst, lyd, bilde, video og animasjoner. I tillegg omfatter hovedområdet både applikasjoner for lokal bruk og publisering over Internett.
+
+--
+
+>Alt innhold er lisensiert under en [Creative Commons >Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.
+](http://creativecommons.org/licenses/by-sa/4.0/)
