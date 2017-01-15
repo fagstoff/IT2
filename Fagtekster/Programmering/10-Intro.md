@@ -1,3 +1,6 @@
+Før vi begynner å programmere
+=============================
+
 **Gode verktøy er helt avgjørende uansett hva slags jobb vi skal gjøre. Dette gjelder også når vi skal programmere. I denne boka skal vi benytte oss av to typer verktøy.**
 
 **Nettleser** - Program der koden kjøres
