@@ -67,14 +67,14 @@ tall1--;
 console.log("kommandoen tall1++; vil øke minke med en slik at tall1 nå er " + tall1);
 ```
 
-Prøv å endre koden i dette eksempelet selv
+Tips: Kopier og prøv å endre koden i dette eksempelet selv
 
 Modulooperatoren
 ----------------
 I programmering er vi ofte interessert i å finne ut om et tall er delelig med et annet. Dette kan vi gjøres ved å bruke operatoren _modulo_. Denne brukes som en vanlig deleoperator, men til forskjell fra en vanlig divisjon gir modulo oss restverdien av divisjonen. Dette betyr at 8 % 2 = 0 , fordi hvis vi deler 8 på 2 så får vi 0 i rest. For å forstå hva restverdien er kan vi se på et eksempel.
 
-Omgjøring fra sekunder til minutter og sekunder
-------------------------------------------------------
+**Omgjøring fra sekunder til minutter og sekunder**
+
 
 Et praktisk eksempel på bruk av modulo kan være hvis vi ønsker å finne ut hvor mange minutter et gitt antall sekunder er.
 
