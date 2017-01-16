@@ -5,8 +5,8 @@ Løkker
 
 Det finnes to hovedtyper løkker - for-løkker og while-løkker:
 
-**for** - Gjentar kode et gitt antall ganger
-**while** - Gjentar kode sålenge en betingelse er sann
++ **for** - Gjentar kode et gitt antall ganger
++ **while** - Gjentar kode sålenge en betingelse er sann
 
 For-løkker
 ----------
