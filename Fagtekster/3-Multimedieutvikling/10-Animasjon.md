@@ -39,7 +39,8 @@ Det finnes flere gode biblioteker for å lage animasjoner med JavaScript. Et av 
 
 ``` html
 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>
+<!--CDN link for  TweenMax-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
 ```
 
 Du har nå tilgang til flere nye kommandoer som er spesiallaget for å enkelt kunne animere ved hjelp av CSS.
