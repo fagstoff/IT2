@@ -49,7 +49,7 @@ Du har nå tilgang til flere nye kommandoer som er spesiallaget for å enkelt ku
 <!DOCTYPE html>
 <html>
 <head>
-<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.7/TweenMax.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
   <meta charset="utf-8">
   <title>Animasjon med GSAP</title>
 </head>
