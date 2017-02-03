@@ -1,4 +1,5 @@
-// Løsning av oppgave 2 på prøveprøve
+// Creative Commons - BY - Tom Jarle Christiansen
+// Diverse listeeksempler fra timen.
 
 var liste = new Array();
 
