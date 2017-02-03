@@ -1,0 +1,54 @@
+
+#oppgave1{
+	margin-top: 20px;
+	width: 950px;
+	height: 400px;
+	background-color: #aa99dd;
+	border: 2px solid #446644;
+	box-shadow: 10px 10px 10px #aaaaaa;
+	border-radius: 10px;
+}
+
+#bilder{
+	position: relative;
+	left: 20px;
+	opacity: 1;
+}
+
+#bildetekst{
+	position: relative;
+	margin-top: 20px;
+	width: 400px;
+	height: 200px;
+	left: 50px;
+}
+
+#musikkDiv{
+	position: relative;
+	left: 40px;
+}
+
+#oppgave2{
+	position: relative;
+	margin-top: 20px;
+	margin-right: 40px;
+	width: 460px;
+	height: 190px;
+	float: left;
+	background-color: #aa99dd;
+	border: 2px solid #446644;
+	box-shadow: 10px 10px 10px #aaaaaa;
+	border-radius: 10px;
+}
+
+#oppgave4{
+	position: relative;
+	margin-top: 20px;
+	float: left;
+	width: 460px;
+	height: 190px;
+	background-color: #aa99dd;
+	border: 2px solid #446644;
+	box-shadow: 10px 10px 10px #aaaaaa;
+	border-radius: 10px;
+}

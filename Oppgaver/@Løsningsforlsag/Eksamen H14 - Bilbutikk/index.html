@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+	<meta charset="UTF-8">
+	<title>Eksamen H14</title>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="stilark.css">
+</head>
+<body>
+	<div>
+		<div id="oppgave1">
+			<h3>Oppgave 1</h3>
+			<div id="bildeDiv">
+				<table id="media">
+					<td>
+						<img id="bilder" width="400px" src="Media-Kuga/kuga_front.jpg">
+					</td>
+					<td>
+						<p id="bildetekst"></p>
+					</td>
+				</table>
+			</div>
+			<div id="musikkDiv">
+				<audio controls autoplay src="Media-Kuga/musikk.mp3"></audio>
+			</div>
+		</div>
+		<div> <!-- Samlediv for oppgave 2 og 4 -->
+			<div id="oppgave2">
+			<h3>Oppgave 2</h3>
+			<table>
+				<tr>
+					<td>
+						<input type="number" placeholder="Kjørelengde" id="lengdeinput">
+						<input type="number" placeholder="Drivstoffpris" id="drivstoffprisinput">
+					</td>
+					<td>
+						<input type="radio" name="kjoremiljo" id="by">Bykjøring<br>
+						<input type="radio" name="kjoremiljo" id="blandet">Blandet
+					</td>
+					<td>
+						<input type="button" value="Beregn" onclick="beregnBesparelse()">
+					</td>
+				</tr>
+			</table>
+			<div id="besparelseDiv"></div>
+			</div>
+			<div id="oppgave4">
+			<h3>Oppgave 4</h3>
+			<table>
+				<tr>
+					<td>
+						<select id="valgboksModell">
+							<option disabled selected>Velg modell</option>
+							<option value="0">Kuga</option>
+							<option value="1">C-max</option>
+							<option value="2">Focus</option>
+							<option value="3">Mondeo</option>
+						</select><br><br><br>
+					</td>
+					<td>
+						<input type="radio" name="grunnpakke" id="trendRadio">Trend</input><br>
+						<input type="radio" name="grunnpakke">Titanium</input><br><br>
+					</td>
+					<td>
+						<input type="checkbox" id="familieCheck">Familiepakke</input><br>
+						<input type="checkbox" id="forerCheck">Førerassistentpakke</input><br>
+						<input type="checkbox" id="stilCheck">Stilpakke</input>
+					</td>
+					<td>
+						<input type="button" value="Beregn pris" onclick="beregnPris()"><br><br><br>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<div id="resultat"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
