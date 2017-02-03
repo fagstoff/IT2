@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+	<meta charset="UTF-8">
+	<title>Trafikksikkerhet</title>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<h1>Differanse i antall promillekjøringer</h1>
+	<br>
+	<!-- År1 -->
+	<select id="comboAar1">
+		<option selected disabled>Fra årstall</option>
+		<option value="0">2002</option>
+		<option value="1">2003</option>
+		<option value="2">2004</option>
+		<option value="3">2005</option>
+		<option value="4">2006</option>
+		<option value="5">2007</option>
+	</select>
+	<!-- År2 -->
+	<select id="comboAar2">
+		<option selected disabled>Til årstall</option>
+		<option value="0">2002</option>
+		<option value="1">2003</option>
+		<option value="2">2004</option>
+		<option value="3">2005</option>
+		<option value="4">2006</option>
+		<option value="5">2007</option>
+	</select>
+	<input value="Differanse" type="button" onclick="beregnDiff()">
+	<br>
+	<br>
+	<div id="utData">Resultat</div>
+	<br>
+	<br>
+	<!-- Lovbruddstype -->
+	<select id="comboCrime" onchange="tegnDiagram()">
+		<option selected disabled>Til årstall</option>
+		<option value="1">Promillekjøring</option>
+		<option value="2">Fartsovertredelse</option>
+	</select>
+	<br>
+	<br>
+	<canvas id="minCanvas" width="300px" height="300px" style="border: solid 1px #000000"></canvas>
+
+</body>
+</html>

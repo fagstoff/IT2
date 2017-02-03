@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trafikksikkerhet</title>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<h1>Velkomme til trafikkregisteret</h1>
+	<h2>Du kan redigere tabllen under</h2>
+	<input type="button" value="Skriv ut tabell" onclick="skrivUt()"><br><br>
+	<select id="aarCombo">
+		<option value="0">2008</option>
+		<option value="1">2009</option>
+		<option value="2">2010</option>
+		<option value="3">2011</option>
+		<option value="4">2012</option>
+	</select>
+	<input type="number" placeholder="Antall promille" id="innPromille">
+	<input type="number" placeholder="Antall fart" id="innFart">
+	<input type="button" value="Rediger" onclick="rediger()">
+	<h3>Data</h3>
+	<div id="tabellDiv"></div>
+</body>
+</html>
