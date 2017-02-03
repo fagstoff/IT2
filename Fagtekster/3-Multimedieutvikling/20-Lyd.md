@@ -19,11 +19,3 @@ var audio = new Audio();
 audio.src = "song.ogg";
 audio.play();
 ```
-
-Den andre måten å gjøre dette på er å lage lydobjektet direkte i javascript som i eksempelet under.
-
-``` javascript
-
-var audio = new Audio("song.ogg");
-audio.play();
-```
