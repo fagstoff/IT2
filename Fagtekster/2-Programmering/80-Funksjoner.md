@@ -54,9 +54,36 @@ document.getElementById("demo").innerHTML=gangeToTall(4,3);
 Hendelser
 ---------
 
-I de aller fleste programmer ønsker man en interaktivitet mellom bruker og program. Dette kan for eksempel være at noe skjer når man trykker på en knapp. I HTML så finnes det mange ulike hendelsesatrubutter, men felles for dem alle er at de kjører en funksjon når ønsket hendelse skjer. I dette kurset kommer vi for det aller meste til å bruke hendelsesatributten "onclick". Denne kjører en valgfri funksjon når brukeren trykker på en knapp.
+I de aller fleste programmer ønsker man en interaktivitet mellom bruker og program. Dette kan for eksempel være at noe skjer når man trykker på en knapp. I HTML så finnes det mange ulike hendelsesatrubutter, men felles for dem alle er at de kjører en funksjon når ønsket hendelse skjer. Denne kjører en valgfri funksjon når brukeren trykker på en knapp.
 
-**Tips:**Ved å bruke hendelsesatributten _oncllick="minFunksjon()"_ på en knapp, vil programmet i funksjonen minFunksjon() kjøres hver gang denne trykkes.
+Den anbefalte metoden å lage hendelse er å opprette denne i JavaScript. Dette er for å skille html- og javascriptkode.
+
+I eksempelet under kan du se hvordan en funksjon kjøres når brukeren trykker på en knapp.
+
+I dette eksempelet lager vi en knapp og en div i html-dokumentet.
+
+``` html
+
+<input id="minKnapp" type="button" value="Trykk på meg">
+
+<div id="minDiv">
+  Denne teksten skal byttes ut når du trykker på knappen.
+</div>
+```
+
+I JavaScript-dokumentet oppretter vi lytter og en funksjon.
+
+```javascript
+
+var minBtn = document.getElementById("minKnapp");
+var divElement = document.getElementById("minDiv");
+
+minBtn.onclick = skrivUtBeskjed;
+
+function skrivUtBeskjed(){
+  divElement.innerHTML = "Du har trykket på knappen!";
+}
+```
 
 innerHTML og getElementById
 ---------------------------
