@@ -125,9 +125,3 @@ function skrivUt(){
 	document.getElementById("minDiv").innerHTML = "Du trykket på knappen!";
 }
 ```
-
-
-
-
-
-[/stextbox]
