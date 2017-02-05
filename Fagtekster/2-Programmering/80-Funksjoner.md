@@ -1,18 +1,36 @@
 Funksjoner
 ==========
 
-**En funksjon er en samling med kode som kjøres når man henviser til funksjonen i et funksjonskall. Et funksjonskall kan for eksempel skje når man har en hendelse som å trykker på en knapp eller en meny. Man kan også utføre et funksjonskall i et program ved å skrive navnet på funksjonen.**
+**En funksjon er en samling med kode som kjøres når man henviser til denne i et funksjonskall. Et funksjonskall kan for eksempel skje når man har en *hendelse*, som å trykker på en knapp eller en meny. Man kan også utføre et funksjonskall i et program ved å skrive navnet på funksjonen.**
 
-``` javascript
-<input type="button" value="Trykk her" onclick="minFunksjon()">
-En funksjon kan også kjøres ved å skrive navnet på funksjonen i programmet
+Koden under viser hvordan en funksjon kjøres ved hjelp av en knapp.
 
-for(var i=0;i<3;i++){
-   minFunksjon();
+I HTML-dokumentet er det en knapp med id.
+``` html
+
+<input id="minKnapp" type="button" value="Trykk her">
+```
+
+Javascriptdokumentet kan se slik ut:
+
+```javascript
+
+var minBtn = document.getElementById("minKnapp");
+
+minBtn.onclick = minFunksjon;
+```
+
+En funksjon kan også kjøres så mange ganger man vil ved å skrive navnet på funksjonen der man ønsker å kjøre denne.
+
+```javascript
+
+for (var i = 0; i < 3; i++) {
+  minFunksjon();
 }
 
+
 function minFunksjon(){
-   console.log("Dette er skrevet ut av en funksjon");
+  console.log("Dette er skrevet ut av en funksjon");
 }
 ```
 
@@ -48,7 +66,7 @@ function gangeToTall(a,b)
 return a*b;
 }
 
-document.getElementById("demo").innerHTML=gangeToTall(4,3);
+document.getElementById("demo").innerHTML = gangeToTall(4,3);
 ```
 
 Hendelser
@@ -60,7 +78,7 @@ Den anbefalte metoden å lage hendelse er å opprette denne i JavaScript. Dette 
 
 I eksempelet under kan du se hvordan en funksjon kjøres når brukeren trykker på en knapp.
 
-I dette eksempelet lager vi en knapp og en div i html-dokumentet.
+Vi har en knapp og en div i html-dokumentet.
 
 ``` html
 
@@ -107,9 +125,6 @@ HTML-koden i eksempelet under ligger i filen index.html, og inneholder en knapp 
   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
-
-Rett opp til å unngå inline javascript.
-
 ```
 I filen script.js ligger funksjonen med koden som kjøres når noen trykker på knappen.
 
@@ -119,9 +134,26 @@ I filen script.js ligger funksjonen med koden som kjøres når noen trykker på 
 var knappElement = document.getElementById("minKnapp");
 
 // Lytter på om noen har trykket på knappen.
+// Metode 1
 knappElement.onclick = skrivUt;
+// Metode 2
+knappElement.addEventListener("click", skrivUt);
 
 function skrivUt(){
 	document.getElementById("minDiv").innerHTML = "Du trykket på knappen!";
+}
+```
+
+Noen ganger er det ønskelig å kjøre funksjoner med inn-/utparameter.... mer fagtekst Henter
+
+
+```javascript
+
+var minTekst = "Dette er en tekst som er sendt som en parameter";
+
+knappElement.addEventListener("click", function(){ skrivUt(enTekst); });
+
+function skrivUt(utskrift){
+	document.getElementById("minDiv").innerHTML = utskrift;
 }
 ```
