@@ -5,7 +5,7 @@ Dette prosjektet har som mål å tilby åpne og frie oppgaver for å jobbe med a
 
 Innholdet er ment som ressursser for elever og lærere som ønsker å bruke javascript/HTML/CSS som programmeringsspråk i IT2-undervisningen. Sidene vil fylles på og endres fortløpende, og kan anses som en Betapublisering. Jeg vil rette en stor takk til Rune Mathisen, Gløer Olav Langslet, Aslak Berby og Geir Gåsodden for faglig konsultasjon og inspirasjon.
 
-Innholdet er bygget opp etter strukturen til kompetansemåla i faget i form av fagtekster og oppgaver. Alt innhold er lisensiert som *Creative Commons - BY* og kan gjenbrukes i henhold til disse retningslinjene. Gjennomføringen av kurset er i hovedsak oppgavedrevet. Bruk gjerne forslaget til [årsplan](https://docs.google.com/document/d/1oet8suvqiR0Jm1EV80nmOoqToBpZCIb90gMVwJLAVIY/edit#) for å se anbfalt progresjon i kurset.
+Innholdet er bygget opp etter strukturen til kompetansemåla i faget i form av fagtekster og oppgaver. Alt innhold er lisensiert som *Creative Commons - BY* og kan gjenbrukes i henhold til disse retningslinjene. Gjennomføringen av kurset er i hovedsak oppgavedrevet. Bruk gjerne forslaget til [årsplan](https://docs.google.com/document/d/1oet8suvqiR0Jm1EV80nmOoqToBpZCIb90gMVwJLAVIY/edit#) for å se anbfalt progresjon i kurset. Det er også laget noen [videoer](https://www.youtube.com/playlist?list=PLZPcDjKFEYPPs3UL7CsoRFfI-lrjuE4dk) som kan være en nyttig ressurs sammen med innholdet her.
 
 Bli gjerne med i [nettverket for lærere som er interessert i IT2 med javascript på facebook](https://www.facebook.com/groups/231993360276497/?fref=ts).
 
