@@ -3,24 +3,8 @@ Funksjoner
 
 **En funksjon er en samling med kode som kjøres når man henviser til denne i et funksjonskall. Et funksjonskall kan for eksempel skje når man har en *hendelse*, som å trykker på en knapp eller en meny. Man kan også utføre et funksjonskall i et program ved å skrive navnet på funksjonen.**
 
-Koden under viser hvordan en funksjon kjøres ved hjelp av en knapp.
 
-I HTML-dokumentet er det en knapp med id.
-``` html
-
-<input id="minKnapp" type="button" value="Trykk her">
-```
-
-Javascriptdokumentet kan se slik ut:
-
-```javascript
-
-var minBtn = document.getElementById("minKnapp");
-
-minBtn.onclick = minFunksjon;
-```
-
-En funksjon kan også kjøres så mange ganger man vil ved å skrive navnet på funksjonen der man ønsker å kjøre denne.
+En funksjon kan kjøres så mange ganger man vil ved å skrive navnet på funksjonen der man ønsker å kjøre denne. I eksempelet under kjøres funksjonen tre ganger i en løkke.
 
 ```javascript
 
@@ -51,23 +35,12 @@ console.log(tid + " " + dato);
 }
 ```
 
-Funksjoner med inn- og utparameter
-----------------------------------
+innerHTML og getElementById
+---------------------------
 
-For å øke gjenbruksverdien til kode kan det være lurt å bruke funksjoner. Disse kan kjøres så mange ganger man ønsker, kun ved hjelp av et funksjonskall. For å øke nytteverdien til en funksjon, kan det være nyttig å sende med, og få tilbake behandlet data. I eksempelet under ganges to tall sammen ved å sende de med som paramtere i funksjonskallet.
+Vi har sett at kommandoen console.log skriver ut en melding i konsollvinduet. Som regel er det mer hensiktsmessig å skrive ut innhold direkte på siden. En måte å gjøre dette på er å bruke kommandoen document.getElementById med egenskapen innerHTML. Dette er en måte å få tak i, og endre innholdet til et element eller tagg i html-dokumentet.
 
-```javascript
-//Funksjonen ganger sammen to tall som er
-//sendt med som innparameter.
-//Resultatet returneres
-
-function gangeToTall(a,b)
-{
-return a*b;
-}
-
-document.getElementById("demo").innerHTML = gangeToTall(4,3);
-```
+For å fortelle datamaskinen hvilket element eller tagg vi ønsker å få tak i, brukes kommandoen _document.getElementById("mittElement")_. Den vil da lete etter et element med id-atributt som passer. I dette tilfellet vil det være taggen med id="mittElement".
 
 Hendelser
 ---------
@@ -103,13 +76,6 @@ function skrivUtBeskjed(){
 }
 ```
 
-innerHTML og getElementById
----------------------------
-
-Vi har sett at kommandoen console.log skriver ut en melding i konsollvinduet. Som regel er det mer hensiktsmessig å skrive ut innhold direkte på siden. En måte å gjøre dette på er å bruke kommandoen document.getElementById med egenskapen innerHTML. Dette er en måte å få tak i, og endre innholdet til et element eller tagg i html-dokumentet.
-
-For å fortelle datamaskinen hvilket element eller tagg vi ønsker å få tak i, brukes kommandoen _document.getElementById("mittElement")_. Den vil da lete etter et element med id-atributt som passer. I dette tilfellet vil det være taggen med id="mittElement".
-
 HTML-koden i eksempelet under ligger i filen index.html, og inneholder en knapp med en hendelsesatributt og en tom div med id-atributt. Når brukeren trykker på knappen skrives det ut en beskjed med innerHTML i en div.
 
 ``` html
@@ -144,14 +110,34 @@ function skrivUt(){
 }
 ```
 
-Noen ganger er det ønskelig å kjøre funksjoner med inn-/utparameter.... mer fagtekst Henter
 
+Funksjoner med inn- og utparameter
+----------------------------------
+
+For å øke gjenbruksverdien til kode kan det være lurt å bruke funksjoner. Disse kan kjøres så mange ganger man ønsker, kun ved hjelp av et funksjonskall. For å øke nytteverdien til en funksjon, kan det være nyttig å sende med, og få tilbake behandlet data. I eksempelet under ganges to tall sammen ved å sende de med som paramtere i funksjonskallet.
 
 ```javascript
+//Funksjonen ganger sammen to tall som er
+//sendt med som innparameter.
+//Resultatet returneres
+
+function gangeToTall(a,b)
+{
+return a*b;
+}
+
+document.getElementById("demo").innerHTML = gangeToTall(4,3);
+```
+
+
+
+Noen ganger er det ønskelig å kjøre funksjoner med inn-/utparameter.... mer fagtekst her...
+
+``` javascript
 
 var minTekst = "Dette er en tekst som er sendt som en parameter";
 
-knappElement.addEventListener("click", function(){ skrivUt(enTekst); });
+knappElement.addEventListener("click", function(){ skrivUt(minTekst); });
 
 function skrivUt(utskrift){
 	document.getElementById("minDiv").innerHTML = utskrift;

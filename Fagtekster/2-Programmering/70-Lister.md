@@ -53,8 +53,13 @@ mineFag[4] = "Biologi 2";
 //Listen traverseres og hvert element skrives ut i konsollvinduet
 for(var i=0;i<mineFag.length;i++){
      console.log(mineFag[i]);}
+
+```
+
 Ofte har man behov for å manipulere innholdet i en liste. Til dette finnes det en rekke listefunksjoner eller argument. I kodeeksempelet under vises det noen eksempler på dette. Legg merke til skrivemåten med punktum mellom navnet på lista og argumentet.
 
+
+``` javascript
 //Antall elementer i lista
 minTabell.length();
 
@@ -67,11 +72,18 @@ minTabell.reverse();
 //Legge til eller fjerne elementer fra lista
 minTabell.splice();
 
+// Fjerner og returnerer første element i en liste
+minTabell.shift();
+
+//Utfører en handling på alle elementer i lista og lagrer resultatene i en ny liste.
+var nyTabell = minTabell.map();
+
 //Henter ut største verdi fra lista
 var maximum = Math.max.apply(null,Tabell);
 
 //Henter ut minste verdi fra lista
 var minimum = Math.min.apply(null,Tabell);
+
 ```
 
 Todimensjonale lister
