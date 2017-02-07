@@ -67,11 +67,11 @@ tall1--;
 console.log("kommandoen tall1++; vil øke minke med en slik at tall1 nå er " + tall1);
 ```
 
-Tips: Kopier og prøv å endre koden i dette eksempelet selv
+*Tips: Kopier og prøv å endre koden i dette eksempelet selv.*
 
 Modulooperatoren
 ----------------
-I programmering er vi ofte interessert i å finne ut om et tall er delelig med et annet. Dette kan vi gjøres ved å bruke operatoren _modulo_. Denne brukes som en vanlig deleoperator, men til forskjell fra en vanlig divisjon gir modulo oss restverdien av divisjonen. Dette betyr at 8 % 2 = 0 , fordi hvis vi deler 8 på 2 så får vi 0 i rest. For å forstå hva restverdien er kan vi se på et eksempel.
+I programmering er vi ofte interessert i å finne ut om et tall er delelig med et annet. Dette kan vi gjøres ved å bruke operatoren **modulo**. Denne brukes som en vanlig deleoperator, men til forskjell fra en vanlig divisjon gir modulo oss restverdien av divisjonen. Dette betyr at 8 % 2 = 0 , fordi hvis vi deler 8 på 2 så får vi 0 i rest. For å forstå hva restverdien er kan vi se på et eksempel.
 
 **Omgjøring fra sekunder til minutter og sekunder**
 
@@ -102,15 +102,14 @@ rest = 150 % 60;
 console.log("150 % 60 gir: " + rest + " i rest.");
 ```
 
-
-
 Logiske og sammenlikningsoperatorer
 -----------------------------------
 
-Disse operatorene brukes når vi skal sammenlikne likheter og ulikheter mellom størrelser og variabler.
+I programmering er det ofte ønskelig å sammenlikne to verdier. For å gjøre det bruker man **sammenlikningsoperatorer**. Disse operatorene brukes når vi skal sammenlikne størrelser og variabler. Legg merke til at skrivemåten er litt annerledes enn på de aritmetiske operatorene. Sammenlikningsoperatorene består ofte av to tegn.
+
+Et enkelt likhetstegn kalles tilordningsoperator, mens et dobbelt kalles for en sammelikningsoperator.
 
 Tabellen under viser hvilket resultat ulike aritmetiske operatorer gir når variabelen x har verdien 8.
-
 
 |Operator|Beskrivelse|Eksempel|Resultat|
 |:-------------:|:-------------:|:-----:|:-:|

@@ -39,13 +39,15 @@ Før vi lager vårt første program
 Nå er vi straks klare til å sette i gang med det som er gøy, men før det må vi ha noen få ting på plass.....
 
 
-Lag en mappe som skal inneholde filene du lager. (Hvert program skal ha sin egen mappe).
-Lag et nytt html-dokument som inneholder koden under. (Se under for startkoder).
-Lag et nytt dokument som du kaller for script.js, der du skriver programkoden. Dette dokumentet skal ligge **i samme mappe** som html-dokumentet som du også har laget.
+ 1. Lag en mappe som skal inneholde filene du lager. (Hvert program skal ha sin egen mappe).
+ 2. Lag et nytt html-dokument som inneholder koden i rammen under.
+ 3. Lag et nytt dokument som du kaller for *script.js*, der du skriver programkoden. Dette dokumentet skal ligge **i samme mappe** som html-dokumentet som du også har laget.
+ 4. Lag et nytt tomt dokument som du kaller for stilark.css. Dette dokumentet skal ligge **i samme mappe** som html-dokumentet som du også har laget men kan inntil videre være tomt.
 
 Programkoden som du  kan bruke i HTML-dokumentet for å komme i gang.
 
 ``` html
+
 <!DOCTYPE HTML>
 <html lang="nb">
 <head>
@@ -64,5 +66,8 @@ Programkoden som du  kan bruke i HTML-dokumentet for å komme i gang.
 
 Programkoden som kan brukes i fila script.js
 ``` javascript
+
 	console.log("Hallo verden");
 ```
+
+Denne fremgangsmåten kan du bruke på alle oppgavene du skal løse i år.

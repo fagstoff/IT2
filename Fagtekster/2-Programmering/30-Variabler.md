@@ -43,7 +43,7 @@ Variabler brukes hele tiden i programmering, og det er viktig at du blir trygg p
 Omgjøring fra en datatype til en annen - Casting
 ------------------------------------------------
 
-Ofte vil man ha behov for å endre fra en datatype til en annen. Dette kalles for casting og brukes mye i programmering. En vanlig omgjøring er når vi ønsker å endre fra datatypen string (tekst) til tall (number). Hvis variabelen mittTall inneholder teksten "35", kan denne endres til en annen datatype. Dette gjøres med kommandoen *Number(mittTall);*.
+Ofte vil man ha behov for å endre fra en datatype til en annen. Dette kalles for casting og brukes mye i programmering. En vanlig omgjøring er når vi ønsker å endre fra datatypen string (tekst) til tall (number). Hvis variabelen mittTall inneholder teksten "35", kan denne endres til en annen datatype. Dette gjøres med kommandoen `Number(mittTall);`.
 
 ``` javascript
 

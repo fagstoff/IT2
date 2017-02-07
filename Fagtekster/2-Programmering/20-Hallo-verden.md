@@ -24,4 +24,4 @@ document.write("Hallo verden!");
 ```
 Vi har nå laget vårt første program, og har tatt våre første skritt inn i en fantastisk verden!
 
-I den første delen av dette kurset kommer vi til å bruke kommandoen **console.log();**  for å skrive ut de resultatene vi ønsker å vise. Deretter vil programmene vi lager få mer grafisk brukergrensesnitt og innhold.
+I den første delen av dette kurset kommer vi til å bruke kommandoen `console.log();` for å skrive ut de resultatene vi ønsker å vise. Deretter vil programmene vi lager få mer grafisk brukergrensesnitt og innhold.
