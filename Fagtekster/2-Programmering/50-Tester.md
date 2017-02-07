@@ -1,7 +1,6 @@
 Tester
 ======
-I nesten alle programmer vil man før eller siden få behov for å teste eller sammenligne verdier.
-
+I nesten alle programmer vil man før eller siden få behov for å teste eller sammenligne verdier slik at programmet kan gjøre ulike ting avhengig av resultatet på testen.
 
 if-test
 -------
@@ -61,7 +60,7 @@ if(tall1 >= tall2 && tall2%2==0){
     //kode som skal kjøres kun hvis tall1 er større eller lik tall2
     console.log("tall1 er større eller lik tall2 OG tall2 er et partall");
 }
-//andre test som kun kjøres hvis ikke den første slår til
+//Neste test som kun kjøres hvis ikke den første slår til
 else if(tall1 != tall2 || tall1+tall2 > 10){
      console.log("tall1 er ulik tall2 ELLER tall1 pluss tall2 er større enn 10");
 }

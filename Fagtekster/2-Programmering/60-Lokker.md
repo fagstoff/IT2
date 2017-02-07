@@ -34,7 +34,6 @@ En while-løkke har veldig lik funksjonalitet som for-løkker. Forskjellen er at
 
 //Deklarasjon av tellervariabel
 var i=0;
-
 //Deklarasjon av en while-løkke
 while (i<5){
      console.log("Verdien av i er: " + i);
@@ -43,7 +42,6 @@ while (i<5){
 
 //Deklarasjon av tellevariabel
 var i=10;
-
 //Deklarasjon av en do-while-løkke
 do
   {

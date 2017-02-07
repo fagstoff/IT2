@@ -150,7 +150,7 @@ var personer = [
 
 Man får tilgang til og behandle data ved å bruke punktumnotasjon og indeksering som vi kjenner fra lister.
 
-Følgende kodeeksempel skriver ut alle fornavna i fra eksempelet over.
+Følgende kodeeksempel skriver ut alle fornavna i eksempelet over.
 
 ``` javascript
   for(var i=0;personer.length;i++){

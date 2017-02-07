@@ -8,7 +8,7 @@ Variabler
 
 En variabel i programmering brukes på samme måte som i matematikk. Det er et symbol som kan inneholde en verdi. Denne verdien kan være et tall, en tekst eller helt andre ting.
 
-La oss først se på hvordan vi kan deklarere (opprette) en ny variabel og tilordne (gi) den en verdi, og så skrive ut denne i konsollen.
+La oss først se på hvordan vi kan **deklarere** (opprette) en ny variabel, og **tilordne** (gi) den en verdi. Vi skriver så ut resultatet i konsollen.
 
 ``` javascript
 
