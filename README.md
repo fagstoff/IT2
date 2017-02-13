@@ -30,5 +30,5 @@ Hovedområdet handler om utforming, strukturering, implementering og vurdering a
 
 --
 
->Alt innhold er lisensiert under en [Creative Commons >Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.
+>Alt innhold er lisensiert under en [Creative Commons - Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.
 ](http://creativecommons.org/licenses/by-sa/4.0/)
