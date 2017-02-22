@@ -1,7 +1,7 @@
 Tegning med canvas
 ====================
 
-Ved å bruke taggen canvas kan du bruke en rekke kommandoer til å tegne og skrive på HTML-siden.
+Ved å bruke taggen canvas kan du bruke en rekke kommandoer til å tegne og skrive på HTML-siden. I eksempelet under lages det et enkelt søylediagram med data fra en liste.
 
 ``` html
 
