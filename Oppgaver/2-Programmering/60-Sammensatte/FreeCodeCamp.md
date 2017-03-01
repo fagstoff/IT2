@@ -1,4 +1,4 @@
-# Gjennomfør kurset "Intro to JS: Drawing & Animation"
+# Nettkurs
 
 Du skal gjennomføre kurset [Basic JavaScript](https://www.freecodecamp.com/) på FreeCodeCamp.
 
