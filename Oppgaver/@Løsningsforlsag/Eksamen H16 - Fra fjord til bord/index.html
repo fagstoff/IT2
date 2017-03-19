@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <title>Fra fjord til bord</title>
+  <link rel="stylesheet" href="stilark.css">
+</head>
+<body>
+  <div class="infoDiv" id="ordreDiv"></div>
+
+  <h1>Velkommen til "Fra fjord til bord"</h1>
+  <h2>Oppgave 1</h2>
+  <h2>Her kan du bestille middagskasse</h2>
+  <p>Vennligst velg ønsket produkt og mengde under. Bekreft bestillingen når du er ferdig.</p>
+
+  <h2>1. Fyll ut</h2>
+  <input id="navnInput" type="text" placeholder="Navn"><br>
+  <input id="adresseInput" type="text" placeholder="Adresse"><br><br>
+  <select id="antMiddagElement">
+    <option value="">Velg antall middager</option>
+    <option value="2">2 middager</option>
+    <option value="3">3 middager</option>
+  </select>
+
+  <select id="antPersonerElement">
+    <option value="">Velg antall personer</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+  </select>
+  <br>
+  <br>
+  <input id="visBtn" type="button" value="Vis handlekurv">
+    <input id="sendBtn" type="button" value="Send bestilling" disabled="TRUE">
+  <br>
+
+  <h2>Oppgave 2 - Bestilling til lokale fiskere</h2>
+  <div class="infoDiv" id="tabellDiv"></div>
+
+  <label for="ukenr">Velg uke:
+    <input id="ukeNrElement" type="week" name="ukenr">
+  </label><br>
+  <label for="antMiddager">Antall middager:
+    <select id="antMiddagElement2" name="antMiddager">
+      <option value="">Velg antall middager</option>
+      <option value="2">To</option>
+      <option value="3">Tre</option>
+    </select>
+  </label><br>
+  <label for="antVoksne">Antall voksne:
+  <select id="antVoksneElement" name="antVoksne">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+  </select>
+  </label><br>
+  <label for="antUngdom">Antall ungdom:
+  <select id="antUngdomElement" name="antUngdom">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+  </select>
+  </label><br>
+  <label for="antBarn">Antall barn:
+  <select id="antBarnElement" name="antBarn">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+  </select>
+  </label><br>
+  <input id="registrerBtn" type="button" value="Registrer data"><br>
+  <label for="visData">Vis data for
+    <input id="visUkeElement" type="week" name="visData" value="">
+  </label>
+  <input id="visDataBtn" type="button" value="Vis data">
+
+
+  <script type="text/javascript" src="script.js"></script>
+
+  </script>
+</body>
+</html>
