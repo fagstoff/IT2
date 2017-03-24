@@ -6,14 +6,14 @@ var fiskeTabell = new Array()
 
 // Leser inn elementer
 
-// Oppgave 1
+// Oppgave 2
 var antMiddagVelger = document.getElementById("antMiddagElement");
 var antPersonVelger = document.getElementById("antPersonerElement");
 var ordreTekst = document.getElementById("ordreDiv");
 var visKnapp = document.getElementById("visBtn");
 var sendKnapp = document.getElementById("sendBtn");
 
-// Oppgave 2
+// Oppgave 3
 var tabellTekst = document.getElementById("tabellDiv");
 var ukeNr = document.getElementById("ukeNrElement");
 var antMiddagVelger2 = document.getElementById("antMiddagElement2");
@@ -27,18 +27,18 @@ var visDataKnapp = document.getElementById("visDataBtn");
 
 
 // Lyttere
-// Oppgave 1
+// Oppgave 2
 visKnapp.onclick = visBestilling;
 sendKnapp.onclick = skrivUtKvittering;
 
-// Oppgave 2
+// Oppgave 3
 registrerKnapp.onclick = lagTabell;
 visDataBtn.onclick = visData;
 
 
 // Funksjoner
 
-// Oppgave 1-funskoner;
+// Oppgave 2-funskoner;
 function visBestilling(){
   var antMiddager = antMiddagVelger.options[antMiddagVelger.selectedIndex].value;
   var antPersoner = antPersonVelger.options[antPersonVelger.selectedIndex].value;
@@ -90,7 +90,7 @@ function beregnPris(antMidd, antPers){
   }
 }
 
-// Oppgave 2-funksjoner
+// Oppgave 3-funksjoner
 function lagTabell(){
 
   var middager = Number(antMiddagVelger2.options[antMiddagVelger2.selectedIndex].value);
@@ -100,6 +100,7 @@ function lagTabell(){
 
 
   // Sjekker om uka finnes i tabellen
+  console.log(ukeNr.value);
   var uke = Number(ukeNr.value.slice(-2));
   if(typeof fiskeTabell[uke] === "undefined"){
     fiskeTabell[uke]=[];
