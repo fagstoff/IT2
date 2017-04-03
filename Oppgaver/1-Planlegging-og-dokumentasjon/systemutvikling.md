@@ -5,6 +5,8 @@ Oppgave
 -------
 Lag en presentasjon der du beskriver systemutviklingsprosesser og dokumentasjon i henhold til vurderingskriteriene under.
 
+Oppgave kan løses i grupper, og den skal leveres på læringsplatformen sammen med en videoinnspilling de den fremføres.
+
 Ressurser
 ---------
 * Bruk ulike kilder for å innhente informasjon.
