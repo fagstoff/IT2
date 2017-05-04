@@ -25,6 +25,33 @@ for(var i=0; i<10; i++){
 }
 ```
 
+forEach
+-------
+
+En annen variant av for-løkker er _forEach_ og _for of_. Disse er veldig nyttige når man skal traversere alle elementene i en liste eller andre kolleksjoner av variabler.
+
+``` javascript
+
+// forEach-løkke
+// Lager en liste med tre elementer
+var minListe = ['a', 'b', 'c'];
+
+// forEach traverserer listen og skriver ut hvert enkelt element.
+minListe.forEach(function(element) {
+    console.log(element);
+});
+
+// for-of-løkke
+// Lager en liste med heltall
+var minListe = [10, 20, 30];
+
+// Listen traverseres, og det legges til veriden 1 i alle elementer.
+for (var verdi of minListe) {
+  verdi += 1;
+  console.log(verdi);
+}
+```
+
 While-løkker
 ------------
 
