@@ -39,6 +39,36 @@ console.log("Variabelen 'tall' har nå verdien: " + tall);
 
 Variabler brukes hele tiden i programmering, og det er viktig at du blir trygg på bruken av disse.
 
+let - En lokal variabel
+-----------------------
+
+I programmering brukes ofte begrepet (_scope_)[https://en.wikipedia.org/wiki/Scope_(computer_science)]. Dette betyr i hvilket område man forholder seg til. Variable kan være tilgjengelig i hele programmet (globale), eller kun inne i en funksjon (lokale). Vi sier da at variabelen har ulike _scope_. En ganske ny variant av variabeldeklarasjon er kommandoen _let_. Denne fungerer omtrent som kommandoen _var_, men har et annet scope.
+
+``` javascript
+
+// Eksempel som viser forskjellen på var og let
+
+// var
+function varTest() {
+  var x = 1;
+  if (true) {
+    var x = 2;  // x er den samme variabelen.
+    console.log(x);  // 2
+  }
+  console.log(x);  // 2
+}
+
+// let
+function letTest() {
+  let x = 1;
+  if (true) {
+    let x = 2;  // x er nå en annen variabel
+    console.log(x);  // 2
+  }
+  console.log(x);  // 1
+}
+```
+Eksempel hentet fra (MDN)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let]
 
 Omgjøring fra en datatype til en annen - Casting
 ------------------------------------------------
