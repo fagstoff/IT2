@@ -42,7 +42,7 @@ Variabler brukes hele tiden i programmering, og det er viktig at du blir trygg p
 let - En lokal variabel
 -----------------------
 
-I programmering brukes ofte begrepet (_scope_)[https://en.wikipedia.org/wiki/Scope_(computer_science)]. Dette betyr i hvilket område man forholder seg til. Variable kan være tilgjengelig i hele programmet (globale), eller kun inne i en funksjon (lokale). Vi sier da at variabelen har ulike _scope_. En ganske ny variant av variabeldeklarasjon er kommandoen _let_. Denne fungerer omtrent som kommandoen _var_, men har et annet scope.
+I programmering brukes ofte begrepet [_scope_](https://en.wikipedia.org/wiki/Scope_(computer_science)). Dette betyr i hvilket område man forholder seg til. Variable kan være tilgjengelig i hele programmet (globale), eller kun inne i en funksjon (lokale). Vi sier da at variabelen har ulike _scope_. En ganske ny variant av variabeldeklarasjon er kommandoen _let_. Denne fungerer omtrent som kommandoen _var_, men har et annet scope.
 
 ``` javascript
 
@@ -68,7 +68,7 @@ function letTest() {
   console.log(x);  // 1
 }
 ```
-Eksempel hentet fra (MDN)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let]
+Eksempel hentet fra [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 
 Omgjøring fra en datatype til en annen - Casting
 ------------------------------------------------
