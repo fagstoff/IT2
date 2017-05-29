@@ -26,17 +26,16 @@ Det finnes veldig mange gode editorer for programmering. De mest avanserte er st
 
 Kodeeditor
 ----------
-
-Bilde her...
+![test](https://upload.wikimedia.org/wikipedia/commons/6/64/Atom-editor.png)
 
 Skjermbilde fra editoren [Atom](http://atom.io). Legg merke til fargekodingen som gjør programmet enklere å lese.
 
-Til dette kurset anbefales det å bruke kodeeditoren [Atom](http://atom.io). Dette er en enkel, men kraftige kodeeditor der man kan jobbe med flere filer samtidig. Den har også god støtte for automatiske kodeforslag og fargelegging av kode slik at lesing går lettere.
+Til dette kurset anbefales det å bruke kodeeditoren [Atom](http://atom.io) eller [Visual Studio Code](https://code.visualstudio.com/). Dette er en enkel, men kraftige kodeeditor der man kan jobbe med flere filer samtidig. Den har også god støtte for automatiske kodeforslag og fargelegging av kode slik at lesing går lettere.
 
 Før vi lager vårt første program
 --------------------------------
 
-Nå er vi straks klare til å sette i gang med det som er gøy, men før det må vi ha noen få ting på plass.....
+Nå er vi straks klare til å sette i gang med det som er gøy, men før det må vi ha noen få ting på plass.
 
 
  1. Lag en mappe som skal inneholde filene du lager. (Hvert program skal ha sin egen mappe).
