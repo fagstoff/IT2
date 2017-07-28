@@ -30,7 +30,7 @@ Kodeeditor
 
 Skjermbilde fra editoren [Atom](http://atom.io). Legg merke til fargekodingen som gjør programmet enklere å lese.
 
-Til dette kurset anbefales det å bruke kodeeditoren [Atom](http://atom.io) eller [Visual Studio Code](https://code.visualstudio.com/). Dette er en enkel, men kraftige kodeeditor der man kan jobbe med flere filer samtidig. Den har også god støtte for automatiske kodeforslag og fargelegging av kode slik at lesing går lettere.
+Til dette kurset anbefales det å bruke kodeeditoren [Atom](http://atom.io) eller [Visual Studio Code](https://code.visualstudio.com/). Dette er enkle, men kraftige kodeeditorer der man kan jobbe med flere filer samtidig. De har også god støtte for automatiske kodeforslag og fargelegging av kode slik at lesing går lettere.
 
 Før vi lager vårt første program
 --------------------------------

@@ -6,7 +6,7 @@ Variabler
 Variabler
 ---------
 
-En variabel i programmering brukes på samme måte som i matematikk. Det er et symbol som kan inneholde en verdi. Denne verdien kan være et tall, en tekst eller helt andre ting.
+En variabel i programmering brukes på samme måte som i matematikk. Det er et symbol som kan inneholde en verdi. Denne verdien kan være et tall, en tekst eller helt andre ting. En variabel kan endre sin verdi etter at den er laget.
 
 La oss først se på hvordan vi kan **deklarere** (opprette) en ny variabel, og **tilordne** (gi) den en verdi. Vi skriver så ut resultatet i konsollen.
 
@@ -69,6 +69,18 @@ function letTest() {
 }
 ```
 Eksempel hentet fra [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+
+const - En konstant
+-------------------
+I noen tilfeller har vi bruk for en verdi som ikke skal endre seg i programmet. I slike tilfeller kan det være nyttig å bruke ```const```
+
+``` javascript
+const g = 9.81; // Gravitasjonskonstanten
+var m = 75; // Her legges massen inn
+
+console.log("F=mg gir da F=",m*g);
+
+```
 
 Omgjøring fra en datatype til en annen - Casting
 ------------------------------------------------

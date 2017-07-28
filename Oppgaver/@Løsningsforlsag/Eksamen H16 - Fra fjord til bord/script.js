@@ -2,7 +2,7 @@
 
 // Globals (Databasen)
 
-var fiskeTabell = new Array()
+var fiskeTabell = [];
 
 // Leser inn elementer
 
@@ -72,10 +72,10 @@ function skrivUtKvittering(){
 
     kvittering += "Takk for bestillingen " + navn + "!";
     kvittering += "<p>Den sendes til " + adresse + " i løpet av kort tid. ";
-    kvittering += "Du vi da motta:"
+    kvittering += "Du vi da motta:";
     kvittering += antMiddager + " middager for " + antPersoner + " personer. ";
-    kvittering += "Totalpris: " + beregnPris(antMiddager, antPersoner) + ",-</p>"
-    kvittering += "Velkommen tilbake!"
+    kvittering += "Totalpris: " + beregnPris(antMiddager, antPersoner) + ",-</p>";
+    kvittering += "Velkommen tilbake!";
 
     ordreTekst.innerHTML = "";
     ordreTekst.innerHTML = kvittering;
@@ -116,6 +116,6 @@ function visData(){
   ukeTabell.forEach(function(ukeTab) {
       utTekst += "<tr><td>" + uke + "</td><td>" + ukeTab[0] + "</td><td>" + ukeTab[1] + "</td><td>" + ukeTab[2] + "</td><td>" + ukeTab[3] + "</td></tr>";
   });
-  utTekst += "</table>"
+  utTekst += "</table>";
   tabellTekst.innerHTML = utTekst;
 }
