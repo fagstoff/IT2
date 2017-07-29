@@ -1,5 +1,4 @@
-Funksjoner
-==========
+# Funksjoner
 
 **En funksjon er en samling med kode som kjøres når man henviser til denne i et funksjonskall. Et funksjonskall kan for eksempel skje når man har en *hendelse*, som å trykker på en knapp eller en meny. Man kan også utføre et funksjonskall i et program ved å skrive navnet på funksjonen.**
 
@@ -15,14 +14,15 @@ for (var i = 0; i < 3; i++) {
 function minFunksjon(){
   console.log("Dette er skrevet ut av en funksjon");
 }
+
 ```
 
-Tidsstyrte funksjoner
----------------------
+## Tidsstyrte funksjoner
 
 Noen ganger kan det være behov for å kjøre en funksjon ved faste tidsintervall. Til dette brukes kommandoen setInterval. I eksempelet under kjøres funksjonen en gang hvert sekundet.
 
 ``` javascript
+
 //Kjører funksjonen "minKlokke" for hvert 1000ms
 var minVar=setInterval(function(){minKlokke()},1000);
 
@@ -32,10 +32,10 @@ var dato=new Date(); //Henter inn datoobjekt
 var tid=dato.toLocaleTimeString();
 console.log(tid + " " + dato);
 }
+
 ```
 
-innerHTML og getElementById
----------------------------
+## innerHTML og getElementById
 
 Vi har sett at kommandoen `console.log();` skriver ut en melding i konsollvinduet. Som regel er det mer hensiktsmessig å skrive ut innhold direkte på siden. En måte å gjøre dette på er å bruke kommandoen `document.getElementById` med egenskapen `innerHTML`. Dette er en måte å få tak i, og endre innholdet til et element eller tagg i html-dokumentet.
 
@@ -44,10 +44,10 @@ For å fortelle datamaskinen hvilket element eller tagg vi ønsker å få tak i,
 ``` javascript
 
 document.getElementById("minDiv").innerHTML = "<h1>Hallo verden!</h1>";
+
 ```
 
-Hendelser
----------
+## Hendelser
 
 I de aller fleste programmer ønsker man en interaktivitet mellom bruker og program. Dette kan for eksempel være at noe skjer når man trykker på en knapp. I HTML så finnes det mange ulike hendelsesatrubutter, men felles for dem alle er at de kjører en funksjon når ønsket hendelse skjer. Denne kjører en valgfri funksjon når brukeren trykker på en knapp.
 
@@ -64,6 +64,7 @@ Vi har en knapp og en div i html-dokumentet.
 <div id="minDiv">
   Denne teksten skal byttes ut når du trykker på knappen.
 </div>
+
 ```
 
 I JavaScript-dokumentet oppretter vi en lytter og en funksjon.
@@ -79,24 +80,27 @@ minBtn.onclick = skrivUtBeskjed;
 function skrivUtBeskjed(){
   divElement.innerHTML = "Du har trykket på knappen!";
 }
+
 ```
 
 HTML-koden i eksempelet under ligger i filen index.html, og inneholder en knapp med en hendelsesatributt og en tom div med id-atributt. Når brukeren trykker på knappen skrives det ut en beskjed med innerHTML i en div.
 
 ``` html
+
 <!doctype html>
 <html lang="nb">
 <head>
-	<meta charset="UTF-8">
-	<title>Hendelser</title>
+    <meta charset="UTF-8">
+    <title>Hendelser</title>
 </head>
 <body>
-	<input id="minKnapp" type="button" value="Skriv ut">
-	<div id="minDiv"></div>
+    <input id="minKnapp" type="button" value="Skriv ut">
+    <div id="minDiv"></div>
   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
 ```
+
 I filen script.js ligger funksjonen med koden som kjøres når noen trykker på knappen.
 
 ``` javascript
@@ -112,12 +116,11 @@ knapp1Element.onclick = skrivUt;
 knapp2Element.addEventListener("click", skrivUt);
 
 function skrivUt(){
-	document.getElementById("minDiv").innerHTML = "Du trykket på knappen!";
+    document.getElementById("minDiv").innerHTML = "Du trykket på knappen!";
 }
 ```
 
-Funksjoner med inn- og utparameter
-----------------------------------
+## Funksjoner med inn- og utparameter
 
 For å øke nytteverdien til en funksjon ytterligere, kan det være nyttig å sende med, og få tilbake behandlet data. I eksempelet under ganges to tall sammen ved å sende de med som paramtere i funksjonskallet. Resultatet returneres og kan skrives ut direkte der man kaller funksjonen.
 
@@ -144,6 +147,26 @@ var minTekst = "Dette er en tekst som er sendt som en parameter";
 knappElement.addEventListener("click", function(){ skrivUt(minTekst); });
 
 function skrivUt(utskrift){
-	document.getElementById("minDiv").innerHTML = utskrift;
+   document.getElementById("minDiv").innerHTML = utskrift;
 }
+```
+
+## Anonyme funksjoner
+
+Anonyme funksjoner kjøres umiddelbart, og er godt egnet hvis
+
+```javascript
+
+var kvadrer = function(tall){return tall * tall};
+
+var x = kvadrer(8); // Gir x = 64
+
+```
+
+```javascript
+
+var tall = 8;
+
+var kvadrert => tall * tall;
+
 ```
