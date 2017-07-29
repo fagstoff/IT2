@@ -153,20 +153,12 @@ function skrivUt(utskrift){
 
 ## Anonyme funksjoner
 
-Anonyme funksjoner kjøres umiddelbart, og er godt egnet hvis
+Anonyme funksjoner kjøres umiddelbart, og er godt egnet hvis man...
 
 ```javascript
 
 var kvadrer = function(tall){return tall * tall};
 
 var x = kvadrer(8); // Gir x = 64
-
-```
-
-```javascript
-
-var tall = 8;
-
-var kvadrert => tall * tall;
 
 ```
