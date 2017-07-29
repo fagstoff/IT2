@@ -2,14 +2,18 @@
 
 ## Oppgave
 
-Bla bla bla
+```javascript
 
-Oppgave med .length .typeof m.m.
+var minTekst = "Dette er en eksempeltekst!";
+
+```
+
+Ta utgangspunkt i det lille programmet over, og finn flest mulig kommandoer som du kan bruke på variabelen ```minTekst```. Det kan være antall tegn og datatype. Klarer du å legge til nye tegn, eller fjerne noen?
 
 ## Ressurser
 
-* Du trenger en teksteditor og en nettleser til denne oppgaven.
-* Les mer om variabler på [w3schools](http://www.w3schools.com/js/js_operators.asp)
+* Du trenger en kodeeditor og en nettleser til denne oppgaven.
+* Les mer om [string-metoder](https://www.w3schools.com/js/js_string_methods.asp)
 
 ## Vurderingskriterier
 

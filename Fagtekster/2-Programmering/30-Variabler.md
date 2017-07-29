@@ -94,3 +94,11 @@ mittTall = Number(mittTall);
 ```
 
 Man kan konvertere til og fra alle datatyper med ulike kommandoer som ```String()```,```parseInt``` og ```Number()```. Det finnes flere, men disse tre dekker mye.
+
+## Metoder
+
+En metode er en kommando som fungerer direkte på variabler (og andre objekter).
+
+Det finnes det mange [metoder](https://en.wikipedia.org/wiki/Method_(computer_programming)) som kan brukes på bl.a. [tekst](https://www.w3schools.com/js/js_string_methods.asp) og [tall](https://www.w3schools.com/js/js_number_methods.asp).
+
+(Note to self... Rydd opp/Fyll ut her)
