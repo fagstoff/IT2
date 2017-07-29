@@ -73,6 +73,8 @@ Eksempel hentet fra [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScrip
 
 I noen tilfeller har vi bruk for en verdi som ikke skal endre seg i programmet. I slike tilfeller kan det være nyttig å bruke ```const```
 
+I EKSEMPELET UNDER BRUKES DET BÅDE ```const```og ```var```. Dette fordi vi regner med at gravitasjonskonstanten ```g```ikke endres, mens massen ```m```kan få endret sin verdi.
+
 ``` javascript
 const g = 9.81; // Gravitasjonskonstanten
 var m = 75; // Her legges massen inn
