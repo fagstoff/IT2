@@ -4,8 +4,6 @@
 
 var fiskeTabell = [];
 
-
-
 // Leser inn elementer
 
 // Oppgave 2
@@ -36,7 +34,6 @@ sendKnapp.onclick = skrivUtKvittering;
 // Oppgave 3
 registrerKnapp.onclick = lagTabell;
 visDataBtn.onclick = visData;
-
 
 // Funksjoner
 
@@ -100,7 +97,6 @@ function lagTabell(){
   var ungdom = Number(antUngdom.options[antUngdom.selectedIndex].value);
   var barn = Number(antBarn.options[antBarn.selectedIndex].value);
 
-
   // Sjekker om uka finnes i tabellen
   console.log(ukeNr.value);
   var uke = Number(ukeNr.value.slice(-2));
@@ -109,7 +105,6 @@ function lagTabell(){
   }
   fiskeTabell[uke].push([middager,barn,ungdom,voksne]);
 }
-
 
 function visData(){
   var uke = Number(visDataUkeNr.value.slice(-2));
