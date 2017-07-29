@@ -1,10 +1,8 @@
-Variabler
-=========
+# Variabler og konstanter
 
 **I nesten alle programmer behandler, lagrer og manipulerer vi tall og tekst. For å få til dette er vi helt avhengige av å kunne lagre denne informasjonen et sted. Dette gjøres ved hjelp av variabler.**
 
-Variabler
----------
+## Variabler
 
 En variabel i programmering brukes på samme måte som i matematikk. Det er et symbol som kan inneholde en verdi. Denne verdien kan være et tall, en tekst eller helt andre ting. En variabel kan endre sin verdi etter at den er laget.
 
@@ -15,6 +13,7 @@ La oss først se på hvordan vi kan **deklarere** (opprette) en ny variabel, og 
 var tall = 3;
 console.log(tall);
 ```
+
 Variabler kan ha mange ulike typer innhold. Dette kalles for datatyper.
 
 Ulike datatyper kan være:
@@ -39,8 +38,7 @@ console.log("Variabelen 'tall' har nå verdien: " + tall);
 
 Variabler brukes hele tiden i programmering, og det er viktig at du blir trygg på bruken av disse.
 
-let - En lokal variabel
------------------------
+## let - En lokal variabel
 
 I programmering brukes ofte begrepet [_scope_](https://en.wikipedia.org/wiki/Scope_(computer_science)). Dette betyr i hvilket område man forholder seg til. Variable kan være tilgjengelig i hele programmet (globale), eller kun inne i en funksjon (lokale). Vi sier da at variabelen har ulike _scope_. En ganske ny variant av variabeldeklarasjon er kommandoen _let_. Denne fungerer omtrent som kommandoen _var_, men har et annet scope.
 
@@ -68,10 +66,11 @@ function letTest() {
   console.log(x);  // 1
 }
 ```
+
 Eksempel hentet fra [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 
-const - En konstant
--------------------
+## const - En konstant
+
 I noen tilfeller har vi bruk for en verdi som ikke skal endre seg i programmet. I slike tilfeller kan det være nyttig å bruke ```const```
 
 ``` javascript
@@ -82,8 +81,7 @@ console.log("F=mg gir da F=",m*g);
 
 ```
 
-Omgjøring fra en datatype til en annen - Casting
-------------------------------------------------
+## Omgjøring fra en datatype til en annen - Casting
 
 Ofte vil man ha behov for å endre fra en datatype til en annen. Dette kalles for casting og brukes mye i programmering. En vanlig omgjøring er når vi ønsker å endre fra datatypen string (tekst) til tall (number). Hvis variabelen mittTall inneholder teksten "35", kan denne endres til en annen datatype. Dette gjøres med kommandoen `Number(mittTall);`.
 
