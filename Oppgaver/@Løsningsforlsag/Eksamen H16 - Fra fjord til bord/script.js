@@ -4,6 +4,8 @@
 
 var fiskeTabell = [];
 
+
+
 // Leser inn elementer
 
 // Oppgave 2

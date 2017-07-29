@@ -2,7 +2,7 @@
 
 // Deklarerer en liste
 
-var minListe = new Array();
+var minListe = [];
 
 minListe[0] = "Kamel";
 minListe[1] = "Hund";
