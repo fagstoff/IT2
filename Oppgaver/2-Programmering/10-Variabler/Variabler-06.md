@@ -1,10 +1,10 @@
-# Variabler del 5
+# Variabler del 6
 
 ## Oppgave
 
-Lag et program som tar en verdi i sekunder, og skriver ut i konsollen hvor mange timer, minutter og sekunder dette tilsvarer. Du skal skrive på nettsiden hvordan du har kommet frem til løsningen på problemet.
+Bla bla bla
 
-For eksempel skal innverdien 3723 skrives ut som 1 time(r) 2 minutt(er) og 3 sekund(er)
+Oppgave med .length .typeof m.m.
 
 ## Ressurser
 

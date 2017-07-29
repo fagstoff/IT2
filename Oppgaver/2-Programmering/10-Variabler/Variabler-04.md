@@ -1,22 +1,21 @@
-Variabler del 4
-===============
+# Variabler del 4
 
-Oppgave
--------
+## Oppgave
+
 Lag en nettside der du skriver om begrepene: modulo, inkrementering og dekrementering. Gi eksempler på bruk i konsollen.
 
-Ressurser
----------
+## Ressurser
+
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 * Les mer om variabler på [w3schools](http://www.w3schools.com/js/js_operators.asp)
 
-Vurderingskriterier
--------------------
+## Vurderingskriterier
+
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Du skal ha med minst ett eksempel på bruk av hvert begrep.
 
-Kompetansemål
--------------
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper

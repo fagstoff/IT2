@@ -1,23 +1,22 @@
-Variabler del 3
-===============
+# Variabler del 3
 
-Oppgave
--------
+## Oppgave
+
 Lag en nettside der du skriver om operatorer og variabelnavn. Ta med flere eksempler på virkemåte, og hva som er god praksis. Lag gjerne noen oversiktelige tabeller, og bruk eksempler fra [w3schools](http://www.w3schools.com/js/js_operators.asp) eller andre ressurser. Husk å oppgi kilder.
 
-Ressurser
----------
+## Ressurser
+
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 * Les mer om variabler på [w3schools](http://www.w3schools.com/js/js_operators.asp)
 
-Vurderingskriterier
--------------------
+## Vurderingskriterier
+
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Du skal ha med de viktigste variabeloperatorene og forklare hva de gjør.
 * Det skal komme klart fram hva som er gyldige variabelnavn, og hva man bør unngå.
 
-Kompetansemål
--------------
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper
