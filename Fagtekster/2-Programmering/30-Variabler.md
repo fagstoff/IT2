@@ -40,7 +40,7 @@ Variabler brukes hele tiden i programmering, og det er viktig at du blir trygg p
 
 ## let - En lokal variabel
 
-I programmering brukes ofte begrepet [_scope_](https://en.wikipedia.org/wiki/Scope_(computer_science)). Dette betyr i hvilket område man forholder seg til. Variable kan være tilgjengelig i hele programmet (globale), eller kun inne i en funksjon (lokale). Vi sier da at variabelen har ulike _scope_. En ganske ny variant av variabeldeklarasjon er kommandoen _let_. Denne fungerer omtrent som kommandoen _var_, men har et annet scope.
+I programmering brukes ofte begrepet [_scope_](https://en.wikipedia.org/wiki/Scope_(computer_science)). Dette betyr i hvilket område i programmet man forholder seg til. Variabler kan være tilgjengelig i hele programmet (globale), eller kun inne i en funksjon (lokale). Vi sier da at variabelen har ulike _scope_. En ganske ny variant av variabeldeklarasjon er kommandoen ```let```. Denne fungerer omtrent som kommandoen ```var```, men har et annet scope. Det anbefales å bruke ```let```.
 
 ``` javascript
 
@@ -100,5 +100,19 @@ Man kan konvertere til og fra alle datatyper med ulike kommandoer som ```String(
 En metode er en kommando som fungerer direkte på variabler (og andre objekter).
 
 Det finnes det mange [metoder](https://en.wikipedia.org/wiki/Method_(computer_programming)) som kan brukes på bl.a. [tekst](https://www.w3schools.com/js/js_string_methods.asp) og [tall](https://www.w3schools.com/js/js_number_methods.asp).
+
+## Litt om anførselstegn
+
+``` javascript
+
+let tall1 = 3;
+let tall2 = 5;
+
+console.log("Tall 1 har verdien " + tall1 + " og tall 2 har verdien " + tall2);
+
+
+console.log(`Tall 1 har verdien ${tall1} og tall 2 har verdien ${tall2}`);
+
+```
 
 (Note to self... Rydd opp/Fyll ut her)

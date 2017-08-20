@@ -1,14 +1,14 @@
 # Fremdriftsplan
 
-| Uke | Tema | Annet |
+| Uke | Tema | Oppgaver |
 |:---:|:----|:-----|
-| 35 | Velkommen til IT2 | Klargjøring av programvare |
-| 36 | [Hallo verden!]()| |
-| 37 | ||
+| 35 | Velkommen til IT2  - [Hallo verden!]() | Klargjøring av programvare |
+| 36 | [Variabler](https://github.com/fagstoff/IT2/blob/master/Fagtekster/2-Programmering/30-Variabler.md) | [Variabler 1-6](https://github.com/fagstoff/IT2/tree/master/Oppgaver/2-Programmering/10-Variabler) |
+| 37 |[Variabler](https://github.com/fagstoff/IT2/blob/master/Fagtekster/2-Programmering/30-Variabler.md) | [Variabler 1-6](https://github.com/fagstoff/IT2/tree/master/Oppgaver/2-Programmering/10-Variabler) |
 | 38 |||
 | 39 |||
-| 40 |  ||
-| 41 |  ||
+| 40 |||
+| 41 |||
 | 42 | Høstferie ||
 | 43 |||
 | 44 |||
