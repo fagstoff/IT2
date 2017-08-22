@@ -24,7 +24,7 @@ Ulike datatyper kan være:
 >+ Lister -> ["Petter" , "Lise" ,  "Arne" ,"Julie" ]
 >+ [Boolsk](https://no.wikipedia.org/wiki/Boolsk_variabel) -> Sann eller ikke sann
 
-Det er viktig at man er bevisst på datatyper for å unngå uønskede resultater på beregninger. Et eksempel på dette kan være hvis man ønsker å legge sammen to tall som er lest inn fra en tekstboks. Disse talle er da i utgangspunktet tekst, og en addisjon vil da kun legge tallene på etter hverandre som en tekst. "11" + "6" = "116" dersom "tallene" er tekst.
+Det er viktig at man er bevisst på datatyper for å unngå uønskede resultater på beregninger. Et eksempel på dette kan være hvis man ønsker å legge sammen to tall som er lest inn fra en tekstboks. Disse tallene er da i utgangspunktet tekst. Addisjon vil da kun legge tallene etter hverandre. "11" + "6" = "116" dersom "tallene" er tekst. Dette er fordi datamskinen ser på sifferne som tegn, og ikke tall.
 
 Det fine med variabler er at vi kan endre og manipulere på innholdet.
 
@@ -40,7 +40,9 @@ Variabler brukes hele tiden i programmering, og det er viktig at du blir trygg p
 
 ## let - En lokal variabel
 
-I programmering brukes ofte begrepet [_scope_](https://en.wikipedia.org/wiki/Scope_(computer_science)). Dette betyr i hvilket område i programmet man forholder seg til. Variabler kan være tilgjengelig i hele programmet (globale), eller kun inne i en funksjon (lokale). Vi sier da at variabelen har ulike _scope_. En ganske ny variant av variabeldeklarasjon er kommandoen ```let```. Denne fungerer omtrent som kommandoen ```var```, men har et annet scope. Det anbefales å bruke ```let```.
+I den nyeste versjonen av JavaScript ([ES6](https://no.wikipedia.org/wiki/ECMAScript)) er det lagt til to nye variabeltyper. `let`og `const`.
+
+I programmering brukes ofte begrepet [_scope_](https://en.wikipedia.org/wiki/Scope_(computer_science)). Dette betyr i hvilket område i programmet man forholder seg til. Variabler kan være tilgjengelig i hele programmet (globale), eller kun inne i en funksjon (lokale). Vi sier da at variabelen har ulike _scope_. En ganske ny variant av variabeldeklarasjon er kommandoen ```let```. Denne fungerer omtrent som kommandoen ```var```, men har et annet scope. Det anbefales å bruke ```let``` når man skal ha en variabel som skal endre sin verdi. Ellers brukes `let` omtrent samme måte som `var`.
 
 ``` javascript
 
@@ -73,13 +75,13 @@ Eksempel hentet fra [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScrip
 
 I noen tilfeller har vi bruk for en verdi som ikke skal endre seg i programmet. I slike tilfeller kan det være nyttig å bruke ```const```
 
-I EKSEMPELET UNDER BRUKES DET BÅDE ```const```og ```var```. Dette fordi vi regner med at gravitasjonskonstanten ```g```ikke endres, mens massen ```m```kan få endret sin verdi.
+I EKSEMPELET UNDER BRUKES DET BÅDE ```const```og ```let```. Dette fordi vi regner med at gravitasjonskonstanten ```g```ikke endres, mens massen ```m```kan få endret sin verdi.
 
 ``` javascript
 const g = 9.81; // Gravitasjonskonstanten
-var m = 75; // Her legges massen inn
+let m = 75; // Her legges massen inn
 
-console.log("F=mg gir da F=",m*g);
+console.log("F=mg gir da F=", m*g);
 
 ```
 
@@ -109,10 +111,10 @@ let tall1 = 3;
 let tall2 = 5;
 
 console.log("Tall 1 har verdien " + tall1 + " og tall 2 har verdien " + tall2);
+```
+I [ES6](https://no.wikipedia.org/wiki/ECMAScript), som er den nye versjonen av JavaScript er det vanlig å bruke det som kalles [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) når man ønsker å sette inn kode inne i en tekst. Dette gjøre ved å skrive `$(<ønsket kode>)` inne i teksten, som vist i eksempelet under.
 
+``` javascript
 
 console.log(`Tall 1 har verdien ${tall1} og tall 2 har verdien ${tall2}`);
-
 ```
-
-(Note to self... Rydd opp/Fyll ut her)
