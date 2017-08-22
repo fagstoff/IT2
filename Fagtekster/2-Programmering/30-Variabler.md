@@ -95,7 +95,7 @@ mittTall = Number(mittTall);
 
 ```
 
-Man kan konvertere til og fra alle datatyper med ulike kommandoer som ```String()```,```parseInt``` og ```Number()```. Det finnes flere, men disse tre dekker mye.
+Man kan konvertere til og fra alle datatyper med ulike kommandoer som ```String()```,```parseInt``` og ```Number()```. Det finnes flere, men disse tre dekker dekker det vanligste.
 
 ## Metoder
 
