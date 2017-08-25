@@ -7,7 +7,8 @@ if-test
 If-kommandoen bruker operatorer til å sammenlikne to verdier, og resultatet av en if-test er enten sann eller falsk.
 
 ``` javascript
-var tall1, tall2;
+const tall1 = verdi;
+const tall2 = verdi;
 
 if(tall1 == tall2){
     //kode som skal kjøres kun hvis tall1 er lik tall2
@@ -21,7 +22,8 @@ I tester brukes trippel likhetstegn hvis du skal sjekke både verdi og datatype.
 La oss se på flere eksempel der vi kombinerer ulike operatorer.
 
 ``` javascript
-var tall1, tall2;
+const tall1 = verdi;
+const tall2 = verdi;
 
 //Test som sjekker om tall1 er lik tall2
 if(tall1 == tall2){
@@ -53,15 +55,16 @@ Noen ganger kan det være nødvendig å kombinere flere typer uttrykk og operato
 
 ``` javascript
 //To tester med if og else-if
-var tall1, tall2;
+const tall1 = verdi;
+const tall2 = verdi;
 
 //Første test
-if(tall1 >= tall2 && tall2%2==0){
+if(tall1 >= tall2 && tall2 % 2 == 0){
     //kode som skal kjøres kun hvis tall1 er større eller lik tall2
     console.log("tall1 er større eller lik tall2 OG tall2 er et partall");
 }
 //Neste test som kun kjøres hvis ikke den første slår til
-else if(tall1 != tall2 || tall1+tall2 > 10){
+else if(tall1 != tall2 || tall1 + tall2 > 10){
      console.log("tall1 er ulik tall2 ELLER tall1 pluss tall2 er større enn 10");
 }
 //Hvis ingen av testene slår til
@@ -80,36 +83,36 @@ Hvis man ønsker å teste et begrenset antall utfall kan det være hensiktsmessi
 //Programmet henter ut nummeret (0 til 6) på dagens dag,
 // og legger dette i variabelen dag. Kommandoen break; hopper ut av testen.
 
-var dag=new Date().getDay();
+const dag = new Date().getDay();
 switch (dag)
 {
 case 0:
-  x="søndag";
+  x = "søndag";
   break;
 case 1:
-  x="mandag";
+  x = "mandag";
   break;
 case 2:
-  x="tirsdag";
+  x = "tirsdag";
   break;
 case 3:
-  x="onsdag";
+  x = "onsdag";
   break;
 case 4:
-  x="torsdag";
+  x = "torsdag";
   break;
 case 5:
-  x="fredag";
+  x = "fredag";
   break;
 case 6:
-  x="lørdag";
+  x = "lørdag";
   break;
 
 //Standardverdi hvis ingen av valgene over slår til
 default:
-  x="Verdien er ikke en gyldig ukedag";
+  x = "Verdien er ikke en gyldig ukedag";
 }
 
 //Skriver ut hvilken dag det er.
-console.log("Dagen i dag er " + x);
+console.log(`Dagen i dag er ${x}`);
 ```
