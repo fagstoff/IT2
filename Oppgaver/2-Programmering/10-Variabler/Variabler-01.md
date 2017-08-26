@@ -21,7 +21,6 @@ I denne oppgaven skal du lage en nettside der du kort forteller om variabler, og
 ## Kompetansemål
 
 * utvikle og sette sammen delprogrammer
-* utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper
 * tilordne uttrykk til variabler

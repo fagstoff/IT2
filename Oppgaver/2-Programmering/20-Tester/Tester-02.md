@@ -1,22 +1,21 @@
-# Tester del 1
+# Tester del 2
 
-I nesten alle program ønsker vi å utføre handlinger basert på et eller flere valg. For å få til dette bruker vi tester.
-
-En [test](https://en.wikipedia.org/wiki/Conditional_(computer_programming)) sammenligner to eller flere verdier, og blir enten sann eller falsk.
+I denne oppgaven skal vi se nærmere på [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 ## Oppgave
 
-I denne oppgaven skal du lage en nettside der du kort forteller om tester, og hvordan disse opprettes og brukes. Vis noen eksempler. Du skal også lage tre ulike tester som skriver ut resultatene i konsollvinduet.
+Lag et lite porgram der man sjekker verdien i en variabel og skriver ut ukedagen den tilsvarer i konsollvinduet. 1 -> Mandag, 2 -> Tirsdag, osv
 
 ## Ressurser
 
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
-* Les mer om tester på [w3schools](https://www.w3schools.com/js/js_if_else.aspp)
+* Les mer om switch på [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 ## Vurderingskriterier
 
 * Siden skal validere uten feil og advarsler i konsollvinduet.
-* Du skal lage tre ulike tester med ulike sammenligningsoperatorer.
+* Programmet skal skrive ut riktig ukedag.
+* Programmet skal skrive ut feilmelding når verdien er ugyldig.
 
 ## Kompetansemål
 
