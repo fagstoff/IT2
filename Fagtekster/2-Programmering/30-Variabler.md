@@ -28,6 +28,8 @@ Det er viktig at man er bevisst på datatyper for å unngå uønskede resultater
 
 Det fine med variabler er at vi kan endre og manipulere på innholdet.
 
+I begynnelsen av dette kurset vil det fokuseres på variabler som inneholder tall og tekst. Lister kommer litt senere.
+
 ``` javascript
 var tall = 3;
 console.log("Variabelen 'tall' har verdien: " + tall);
@@ -46,7 +48,10 @@ I programmering brukes ofte begrepet [_scope_](https://en.wikipedia.org/wiki/Sco
 
 ``` javascript
 
-// Eksempel som viser forskjellen på var og let
+// Eksempel som viser forskjellen på var og let. 
+// Noe av koden i dette eksempelet gir kanskje ikke mening ennå.
+// Se på innrykken. Kode på samme innrykk er i samme kodeblokk (scope).
+
 
 // var
 function varTest() {
@@ -91,6 +96,7 @@ Ofte vil man ha behov for å endre fra en datatype til en annen. Dette kalles fo
 
 ``` javascript
 
+let mittTall = "35"
 mittTall = Number(mittTall);
 
 ```
@@ -118,3 +124,5 @@ I [ES6](https://no.wikipedia.org/wiki/ECMAScript), som er den nye versjonen av J
 
 console.log(`Tall 1 har verdien ${tall1} og tall 2 har verdien ${tall2}`);
 ```
+
+Dette gjør det enklere å sette inn variabler sammen med tekst.
