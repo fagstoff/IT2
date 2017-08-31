@@ -20,9 +20,7 @@ Lag kode som sjekker:
 
 ## Vurderingskriterier
 
-* Siden skal validere uten feil og advarsler i konsollvinduet.
-* Programmet skal skrive ut riktig ukedag.
-* Programmet skal skrive ut feilmelding når verdien er ugyldig.
+* Hver oppgave gir ett poeng for riktig utførelse.
 
 ## Kompetansemål
 
