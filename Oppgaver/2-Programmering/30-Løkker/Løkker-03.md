@@ -1,53 +1,24 @@
-Count-O-Magic
-=============
+# Count-O-Magic
 
-Oppgave
--------
-1. Lag kode som skriver ut tallfølger:
-1,2,3,4,5,6,7,8,9,...,99
+## Oppgave
 
-2. Lag kode som skriver ut tallfølgen:
-99,98,97,...,1
+Lag et program som teller fra 000 til 999. Programmet skal telle ved hjelp av tre løkker, der hver løkke teller henholdsvis 1er-, 10er- og 100er-plassen. Hver tallposisjon skal ha sin egen variabel (i,j,k) i programmet.
 
-3. Lag kode som skriver ut tallfølgen:
-2,4,6,8,10,..,96,98
+**Ekstraoppgave:**
+Lag en parameter som gjør at programmet kan telle i andre tallsystemer.
 
-4. Lag  kode som skriver ut tallfølgen:
-1,4,9,16,25,...10000
+---
+## Ressurser
 
-5. Lag kode som skriver ut mønsteret i konsollen:
-```
-*
-**
-***
-****
-*****
-******
-*******
-********
-*********
-```
-6. Lag kode som skriver ut mønsteret i konsollen:
-```
-----------
-----**----
----****---
---******--
--********-
-**********
-```
-
-Ressurser
----------
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 
-Vurderingskriterier
--------------------
+## Vurderingskriterier
+
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
 
-Kompetansemål
--------------
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper

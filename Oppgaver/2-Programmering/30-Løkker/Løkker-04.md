@@ -1,8 +1,7 @@
-100 bottles
-===========
+# 100 Bottles
 
-Oppgave
--------
+## Oppgave
+
 Vi skal lage kode for å skrive ut de 100 vers av den kjente vandrervisen "One Hundred Bottles of Beer".
 
 De to første versene går slik:
@@ -18,23 +17,22 @@ If one of those bootles should happen to fall
 osv. osv.
 ```
 
-Lag en funksjon som løser dette problemet. Funksjonen skal ha to innparameter, der brukeren kan taste inn antall vers og bytte ut beer med en annen drikke.
+Programmet skal ha to variabler som inneholder antall vers og type drikke.
 
 Velg brukergrensesnitt selv.
 
-Ressurser
----------
+## Ressurser
+
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 
-Vurderingskriterier
--------------------
+## Vurderingskriterier
+
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Programmet skal skrive ut riktig antall vers og drikke.
-* Du skal bruke innparameter for å løse oppgaven.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
 
-Kompetansemål
--------------
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper

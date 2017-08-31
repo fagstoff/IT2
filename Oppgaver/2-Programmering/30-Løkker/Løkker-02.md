@@ -1,26 +1,40 @@
-Count-O-Magic
-=============
+# Løkker - Småoppgaver 2
 
-Oppgave
+## Oppgave
 -------
-Lag et program som teller fra 000 til 999. Programmet skal telle ved hjelp av tre løkker, der hver løkke teller henholdsvis 1er-, 10er- og 100er-plassen. Hver tallposisjon skal ha sin egen variabel (i,j,k) i programmet.
+1. Lag kode som skriver ut mønsteret i konsollen:
+```
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+```
+2. Lag kode som skriver ut mønsteret i konsollen:
+```
+----------
+----**----
+---****---
+--******--
+-********-
+**********
+```
 
-Ekstraoppgave:
-1. Lag en parameter som gjør at programmet kan telle i andre tallsystemer.
-2. Lag et grafisk grensesnitt til programmet. (Hint:Bruk tidsforsinkelse)
+## Ressurser
 
----
-Ressurser
----------
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 
-Vurderingskriterier
--------------------
+## Vurderingskriterier
+
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
 
-Kompetansemål
--------------
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper
