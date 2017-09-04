@@ -1,12 +1,10 @@
-Operatorer
-==========
+# Operatorer
 
 **Operatorer i programmering er tegn eller symboler som brukes til å gjøre noe. Det høres nok vanskeligere ut enn det det egentlig er, for operatorer kjenner vi godt til fra før i matematikken. Her bruker vi også ulike tegn og symboler når vi skal gjøre noe. Slik er det også i programmering.**
 
 Det finnes flere ulike typer operatorer litt avhengig av hva du skal gjøre.
 
-Aritmetiske operatorer
-----------------------
+## Aritmetiske operatorer
 
 I tabellen under vises det hvilken verdi x får etter at der er brukt ulike operatorer på _y som har verdien 5_.
 
@@ -20,11 +18,10 @@ I tabellen under vises det hvilken verdi x får etter at der er brukt ulike oper
 | ++ |Inkrementering|x=y++|6
 | -- |Dekrementering|x=y--|4
 
-
 Operatorer brukes vanligvis på variabler, så det er viktig at du kan deklarere og tilordne en verdi til en variabel før du fortsetter.
 
-Bruk av operatorer på variabler
--------------------------------
+## Bruk av operatorer på variabler
+
 I dette eksempelet ser vi hvordan vi bruker de fire regneartene på variablene tall1 og tall2. Til sist i eksempelet ser vi på inkrementerings og dekrementeringsoperatorene. Dette er operatorer som øker eller minker verdien i variabelen med 1. Disse brukes mye i telleløkker som vi kommer tilbake til siden.
 
 ``` javascript
@@ -69,12 +66,11 @@ console.log("kommandoen tall1++; vil øke minke med en slik at tall1 nå er " + 
 
 *Tips: Kopier og prøv å endre koden i dette eksempelet selv.*
 
-Modulooperatoren
-----------------
+## Modulooperatoren
+
 I programmering er vi ofte interessert i å finne ut om et tall er delelig med et annet. Dette kan vi gjøres ved å bruke operatoren **modulo**. Denne brukes som en vanlig deleoperator, men til forskjell fra en vanlig divisjon gir modulo oss restverdien av divisjonen. Dette betyr at 8 % 2 = 0 , fordi hvis vi deler 8 på 2 så får vi 0 i rest. For å forstå hva restverdien er kan vi se på et eksempel.
 
-**Omgjøring fra sekunder til minutter og sekunder**
-
+### Omgjøring fra sekunder til minutter og sekunder
 
 Et praktisk eksempel på bruk av modulo kan være hvis vi ønsker å finne ut hvor mange minutter et gitt antall sekunder er.
 
@@ -102,8 +98,7 @@ rest = 150 % 60;
 console.log("150 % 60 gir: " + rest + " i rest.");
 ```
 
-Logiske og sammenlikningsoperatorer
------------------------------------
+## Logiske og sammenlikningsoperatorer
 
 I programmering er det ofte ønskelig å sammenlikne to verdier. For å gjøre det bruker man **sammenlikningsoperatorer**. Disse operatorene brukes når vi skal sammenlikne størrelser og variabler. Legg merke til at skrivemåten er litt annerledes enn på de aritmetiske operatorene. Sammenlikningsoperatorene består ofte av to tegn.
 

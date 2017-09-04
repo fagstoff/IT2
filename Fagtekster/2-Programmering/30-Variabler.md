@@ -48,7 +48,7 @@ I programmering brukes ofte begrepet [_scope_](https://en.wikipedia.org/wiki/Sco
 
 ``` javascript
 
-// Eksempel som viser forskjellen på var og let. 
+// Eksempel som viser forskjellen på var og let.
 // Noe av koden i dette eksempelet gir kanskje ikke mening ennå.
 // Se på innrykken. Kode på samme innrykk er i samme kodeblokk (scope).
 
@@ -109,6 +109,19 @@ En metode er en kommando som fungerer direkte på variabler (og andre objekter).
 
 Det finnes det mange [metoder](https://en.wikipedia.org/wiki/Method_(computer_programming)) som kan brukes på bl.a. [tekst](https://www.w3schools.com/js/js_string_methods.asp) og [tall](https://www.w3schools.com/js/js_number_methods.asp).
 
+``` javascript
+
+// Noen få eksempler
+
+const minTekst = "Dette er en tekst;"
+console.log(minTekst.length); // Gir antall tegn i minTekst.
+
+// Matematikk
+console.log(Math.PI); // Skriver ut Pi - 3.1415....
+console.log(Math.Pow(2, 3)); // Skriver ut 2^3 -> 8
+
+```
+
 ## Litt om anførselstegn
 
 ``` javascript
@@ -118,6 +131,7 @@ let tall2 = 5;
 
 console.log("Tall 1 har verdien " + tall1 + " og tall 2 har verdien " + tall2);
 ```
+
 I [ES6](https://no.wikipedia.org/wiki/ECMAScript), som er den nye versjonen av JavaScript er det vanlig å bruke det som kalles [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) når man ønsker å sette inn kode inne i en tekst. Dette gjøre ved å skrive `$(<ønsket kode>)` inne i teksten, som vist i eksempelet under.
 
 ``` javascript
