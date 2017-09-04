@@ -111,8 +111,9 @@ Det finnes det mange [metoder](https://en.wikipedia.org/wiki/Method_(computer_pr
 
 ``` javascript
 
-// Noen få eksempler
+// Noen få eksempler på ulike metoder
 
+// Tekster
 const minTekst = "Dette er en tekst;"
 console.log(minTekst.length); // Gir antall tegn i minTekst.
 
