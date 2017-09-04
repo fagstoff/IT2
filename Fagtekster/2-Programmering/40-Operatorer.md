@@ -28,7 +28,7 @@ I dette eksempelet ser vi hvordan vi bruker de fire regneartene på variablene t
 
 //Vi deklarerer variablene vi skal jobbe med i dette eksempelet.
 
-var sum,tall1,tall2;
+let sum,tall1,tall2;
 
 //Variablene tall1 og tall2 tilordnes verdier.
 
