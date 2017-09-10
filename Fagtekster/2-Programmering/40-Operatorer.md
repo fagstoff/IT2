@@ -86,16 +86,13 @@ Vi skal løse oppgaven på to måter. Først som vi ville ha gjort i mattetimen,
 
 // Eksempel - Modulooperatoren
 
-// Deklarerer variabler
-var rest;
-
 //Eksempler
-rest = 10 % 2;
-console.log("10 % 2 gir: " + rest + " i rest.");
+const rest = 10 % 2;
+console.log(`10 % 2 gir ${rest} i rest.`);
 
 //Sekundrest i 150 sekunder
-rest = 150 % 60;
-console.log("150 % 60 gir: " + rest + " i rest.");
+const restSek = 150 % 60;
+console.log(`150 % 60 gir ${restSek} i rest.`);
 ```
 
 ## Logiske og sammenlikningsoperatorer
