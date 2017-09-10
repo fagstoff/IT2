@@ -1,9 +1,9 @@
-Tester
-======
+# Tester
+
 I nesten alle programmer vil man før eller siden få behov for å teste eller sammenligne verdier slik at programmet kan gjøre ulike ting avhengig av resultatet på testen.
 
-if-test
--------
+## if-test
+
 If-kommandoen bruker operatorer til å sammenlikne to verdier, og resultatet av en if-test er enten sann eller falsk.
 
 ``` javascript
@@ -49,8 +49,8 @@ if(tall1 != tall2){
 }
 ```
 
-else if og logiske kombinasjoner i tester
------------------------------------------
+## else if og logiske kombinasjoner i tester
+
 Noen ganger kan det være nødvendig å kombinere flere typer uttrykk og operatorer for å få testet det man ønsker.
 
 ``` javascript
@@ -73,8 +73,7 @@ else{
 }
 ```
 
-Switch
-------
+## Switch
 
 Hvis man ønsker å teste et begrenset antall utfall kan det være hensiktsmessig å bruke kommandoen switch. Denne er veldig godt egnet til å registrere for eksempel ukedager som i eksempelet under. Sammen med switch brukes også kommandoen break, for å hoppe ut av testen når den slår til.
 
