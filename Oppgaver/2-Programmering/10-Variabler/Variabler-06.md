@@ -18,7 +18,7 @@ Ta utgangspunkt i det lille programmet over, og finn flest mulig kommandoer som 
 ## Vurderingskriterier
 
 * Siden skal validere uten feil og advarsler i konsollvinduet.
-* Programmet beregne riktig antall timer, minutter og sekunder.
+* Bruke minst tre ulike string-metoder på teksten.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
 
 ## Kompetansemål
