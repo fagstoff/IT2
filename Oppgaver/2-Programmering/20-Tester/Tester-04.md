@@ -9,7 +9,7 @@ Lag et program som avgjør om et årstall er [skuddår](https://no.wikipedia.org
 ## Ressurser
 
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
-* Les mer om tester på [w3schools](https://www.w3schools.com/js/js_if_else.aspp)
+* Les mer om tester på [w3schools](https://www.w3schools.com/js/js_if_else.asp)
 
 ## Vurderingskriterier
 
