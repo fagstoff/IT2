@@ -50,28 +50,28 @@ for (var verdi of minListe) {
 ```
 ## for of
 
-```for in``` brukes når man skal traversere lister
+```for in``` brukes når man skal traversere lister.
 
 ```javascript
-let iterable = [10, 20, 30];
+let liste = [10, 20, 30];
 
-for (let value of iterable) {
-  value += 1;
-  console.log(value);
+for (let verdi of liste) {
+  verdi += 1; // Det adderes 1 til alle elementene i lista
+  console.log(verdi);
 }
 ```
 
 ## for in
 
-```for in```brukes når man skal traversere objekter. ....fyll på her
+```for in```brukes når man skal traversere innholdet i objekter.
  
  ```javascript
-var obj = {a: 1, b: 2, c: 3};
-    
-for (var prop in obj) {
-  console.log(`obj.${prop} = ${obj[prop]}`);
+const person = {fornavn: "Tom Jarle", alder: 42, jobb: "Lærer"};
+
+for (var attributt in person) {
+console.log(`person.${attributt} = ${person[attributt]}`);
 }
-````
+```
 
 ## While-løkker
 
