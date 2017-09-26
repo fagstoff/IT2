@@ -9,7 +9,7 @@ Det finnes to hovedtyper løkker - for-løkker og while-løkker:
 
 ## For-løkker
 
-I en for-løkke bestemmer vi hvor mange ganger en kode skal gjentas. Alt dette gjøres i deklarasjonen av løkka.
+I en for-løkke bestemmer vi hvor mange ganger en kode skal gjentas. Alt dette gjøres i deklarasjonen av løkka. Dette er også den vanligste løkketypen.
 
 ``` javascript
 
@@ -17,9 +17,9 @@ I en for-løkke bestemmer vi hvor mange ganger en kode skal gjentas. Alt dette g
 // i er variabelen det testes på. i<10 er betingelsen.
 // i++ øker verdien til i for hver gang løkka kjøres
 
-for(var i=0; i<10; i++){
+for(let i=0; i<10; i++){
     //Kode som gjentas sålenge betingelsen er sann.
-    console.log("Verdien til telleren er: " + i);
+    console.log(`Verdien til telleren er ${i}`);
 }
 ```
 
@@ -31,41 +31,35 @@ En annen variant av for-løkker er _forEach_ og _for of_. Disse er veldig nyttig
 
 // forEach-løkke
 // Lager en liste med tre elementer
-var minListe = ['a', 'b', 'c'];
+let minListe = ['a', 'b', 'c'];
 
 // forEach traverserer listen og skriver ut hvert enkelt element.
 minListe.forEach(function(element) {
     console.log(element);
 });
-
-// for-of-løkke
-// Lager en liste med heltall
-var minListe = [10, 20, 30];
-
-// Listen traverseres, og det legges til veriden 1 i alle elementer.
-for (var verdi of minListe) {
-  verdi += 1;
-  console.log(verdi);
-}
 ```
+
 ## for of
 
-```for in``` brukes når man skal traversere lister.
+`for of` brukes når man skal traversere lister.
 
-```javascript
+``` javascript
+
 let liste = [10, 20, 30];
 
 for (let verdi of liste) {
   verdi += 1; // Det adderes 1 til alle elementene i lista
   console.log(verdi);
 }
+
 ```
 
 ## for in
 
-```for in```brukes når man skal traversere innholdet i objekter.
+`for in` brukes når man skal traversere innholdet i objekter.
  
- ```javascript
+ ``` javascript
+
 const person = {fornavn: "Tom Jarle", alder: 42, jobb: "Lærer"};
 
 for (var attributt in person) {
@@ -80,7 +74,7 @@ En while-løkke har veldig lik funksjonalitet som for-løkker. Forskjellen er at
 ``` javascript
 
 //Deklarasjon av tellervariabel
-var i=0;
+let i=0;
 //Deklarasjon av en while-løkke
 while (i<5){
      console.log("Verdien av i er: " + i);
@@ -88,7 +82,7 @@ while (i<5){
 }
 
 //Deklarasjon av tellevariabel
-var i=10;
+let i=10;
 //Deklarasjon av en do-while-løkke
 do
   {
