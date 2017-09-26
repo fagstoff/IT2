@@ -57,7 +57,7 @@ for (let verdi of liste) {
 ## for in
 
 `for in` brukes når man skal traversere innholdet i objekter.
- 
+
  ``` javascript
 
 const person = {fornavn: "Tom Jarle", alder: 42, jobb: "Lærer"};
@@ -65,6 +65,7 @@ const person = {fornavn: "Tom Jarle", alder: 42, jobb: "Lærer"};
 for (var attributt in person) {
 console.log(`person.${attributt} = ${person[attributt]}`);
 }
+
 ```
 
 ## While-løkker
@@ -89,4 +90,5 @@ do
   console.log("Verdien av i er: " +i);
 }
 while (i<5); //Verdien til i er 10, men koden kjøres allikevel en gang
+
 ```
