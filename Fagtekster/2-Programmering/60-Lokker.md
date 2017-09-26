@@ -1,5 +1,4 @@
-Løkker
-======
+# Løkker
 
 **I programmering har vi ofte behov for å gjenta kode mange ganger. For å få til dette bruker man løkker. Løkker har mye til felles med tester, men med den forskjellen at i en løkke gjentas kode intill en betingelse er sann eller usann.**
 
@@ -8,8 +7,7 @@ Det finnes to hovedtyper løkker - for-løkker og while-løkker:
 + **for** - Gjentar kode et gitt antall ganger
 + **while** - Gjentar kode sålenge en betingelse er sann
 
-For-løkker
-----------
+## For-løkker
 
 I en for-løkke bestemmer vi hvor mange ganger en kode skal gjentas. Alt dette gjøres i deklarasjonen av løkka.
 
@@ -25,8 +23,7 @@ for(var i=0; i<10; i++){
 }
 ```
 
-forEach
--------
+## forEach
 
 En annen variant av for-løkker er _forEach_ og _for of_. Disse er veldig nyttige når man skal traversere alle elementene i en liste eller andre kolleksjoner av variabler.
 
@@ -51,9 +48,32 @@ for (var verdi of minListe) {
   console.log(verdi);
 }
 ```
+## for of
 
-While-løkker
-------------
+```for in``` brukes når man skal traversere lister
+
+```javascript
+let iterable = [10, 20, 30];
+
+for (let value of iterable) {
+  value += 1;
+  console.log(value);
+}
+```
+
+## for in
+
+```for in```brukes når man skal traversere objekter. ....fyll på her
+ 
+ ```javascript
+var obj = {a: 1, b: 2, c: 3};
+    
+for (var prop in obj) {
+  console.log(`obj.${prop} = ${obj[prop]}`);
+}
+````
+
+## While-løkker
 
 En while-løkke har veldig lik funksjonalitet som for-løkker. Forskjellen er at i en while-løkke så må tellevariabelen deklarereres på forhånd, og den må økes eller minkes manuelt inne i koden. Alt dette gjøres i deklarasjonen på en for-løkke. Det finnes også en variant av while-løkker som kalles do-while. Disse fungerer nesten likt som while-løkker, men med den forskjellen at innholdet i løkken kjøres alltid en gang uavhengig om betingelsen er sann eller ikke.
 
