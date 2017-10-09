@@ -30,7 +30,7 @@ mineFag[4] = "Biologi 2";
 //Metode 2
 const mineFag =  new Array("Informasjonsteknologi 2","Matematikk R2","Fysikk 2","Kjemi 2","Biologi 2");
 
-//Metode 3: Firkantparantesene erstatter kommandoen new Array
+//Metode 3: Firkantparantesene erstatter kommandoen new Array (Anbefalt metode)
 const mineFag = ["Informasjonsteknologi 2","Matematikk R2","Fysikk 2","Kjemi 2","Biologi 2"];
 ```
 
@@ -125,12 +125,14 @@ bilTab[5] = {merke:"Mercedes",modell:"C-klasse",farge:"Blå"};
 bilTab[6] = {merke:"Mercedes",modell:"E-klasse",farge:"Rød"};
 
 //Traverserer listen og skriver kun ut elmenter med merke lik Mercedes
-for(var i=0;i<bilTab.length;i++){
+for(let i=0;i<bilTab.length;i++){
   if(bilTab[i].merke=="Mercedes") {
     console.log(bilTab[i].merke + bilTab[i].modell + bilTab[i].farge);
   }
 }
 ```
+
+## Litt om JSON
 
 [JSON](http://no.wikipedia.org/wiki/JSON) (JavaScript Object Notation), er en enkel tekstbasert standard for datautveksling. Den er opprinnelig avledet fra JavaScript for å representere enkle datastrukturer. Standarden er imidlertid uavhengig av JavaScript eller andre programmeringsspråk.
 
@@ -138,7 +140,7 @@ JSON er meget godt egnet til å lagre og behandle ulike typer data i javascript.
 
 ``` javascript
 
-var personer = [
+const personer = [
   { "fornavn":"Kari" , "etternavn":"Normann" },
   { "fornavn":"Ola" , "etternavn":"Normann" },
   { "fornavn":"Tom Jarle" , "etternavn": "Christiansen" }
