@@ -1,21 +1,20 @@
-Pizzameny 2.0
-=============
+# Pizzameny 2.0
 
-Oppgave
--------
+## Oppgave
+
 Lag et enkelt bestillingssystem, der brukeren kan bestille pizza og drikke. Systemet ska være enkelt, og skal bestå av to rullgardinmenyer. I den ene skal brukeren velge seg en pizza, og i den andre velges det antall drikke. Når brukeren har bestillt så vises det en kvittering som inneholder navn på pizza og antall drikke vises på skjermen.. Totalpris med og uten mva skal også vises. Kom også med en kort forklaring på nettsiden om hvordan du har løst oppgaven.
 
-Ressurser
----------
+## Ressurser
+
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 
-Vurderingskriterier
--------------------
+## Vurderingskriterier
+
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
 
-Kompetansemål
--------------
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper

@@ -1,24 +1,22 @@
-Gangetabellen
-=============
+# Gangetabellen
 
-Oppgave
--------
+## Oppgave
+
 Lag et program der du lagrer den lille gangetabellen i en todimensjonale liste.
-
 
 Lag to rullgardinmenyer (kombobokser), slik at brukeren kan velger hvilke to tall som skal ganges sammen. Du skal så *slå opp* resultatet i tabellen. Skriv ut regnestykket med resultat på skjermen. Skriv også en kort forklaring på hvordan du har løst oppgaven.
 
-Ressurser
----------
+## Ressurser
+
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 
-Vurderingskriterier
--------------------
+## Vurderingskriterier
+
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
 
-Kompetansemål
--------------
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper

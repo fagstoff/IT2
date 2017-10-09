@@ -1,25 +1,24 @@
-Mine fag
-========
+# Mine fag
 
-Oppgave
--------
+## Oppgaver
+
 Lag en liste som inneholder fem ulike skolefag.
 
-1. Lag en løkke som skriver ut faga i konsollvinduet.
-2. Skriv ut faga i omvendt rekkefølge i konsollvinduet.
-3. Sorter faga i alfabetisk rekkefølge i konsollvinduet.
+1. Lag en løkke som skriver ut hvert enkelt fag i konsollvinduet.
+1. Skriv ut hvert enkelt fag i omvendt rekkefølge i konsollvinduet.
+1. Skriv ut hvert enkelt fag i alfabetisk rekkefølge i konsollvinduet.
 
-Ressurser
----------
+## Ressurser
+
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 
-Vurderingskriterier
--------------------
-* Siden skal validere uten feil og advarsler i konsollvinduet.
-* Det skal komme klart frem av forklaringen hvordan du har løst problemet.
+## Vurderingskriterier
 
-Kompetansemål
--------------
+* Siden skal validere uten feil og advarsler i konsollvinduet.
+* Det skal komme klart frem av koden hvordan du har løst problemet.
+
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper
