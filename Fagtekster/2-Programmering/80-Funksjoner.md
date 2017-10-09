@@ -6,7 +6,7 @@ For å øke gjenbruksverdien til kode kan det være lurt å bruke funksjoner. Di
 
 ```javascript
 
-for (var i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
   minFunksjon();
 }
 
@@ -24,13 +24,12 @@ Noen ganger kan det være behov for å kjøre en funksjon ved faste tidsinterval
 ``` javascript
 
 //Kjører funksjonen "minKlokke" for hvert 1000ms
-var minVar=setInterval(function(){minKlokke()},1000);
+let minVar=setInterval(function(){minKlokke()},1000);
 
-function minKlokke()
-{
-var dato=new Date(); //Henter inn datoobjekt
-var tid=dato.toLocaleTimeString();
-console.log(tid + " " + dato);
+function minKlokke(){
+  const dato=new Date(); //Henter inn datoobjekt
+  const tid=dato.toLocaleTimeString();
+  console.log(tid + " " + dato);
 }
 
 ```
