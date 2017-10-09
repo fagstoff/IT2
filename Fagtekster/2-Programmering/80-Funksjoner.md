@@ -34,18 +34,6 @@ function minKlokke(){
 
 ```
 
-## innerHTML og getElementById
-
-Vi har sett at kommandoen `console.log();` skriver ut en melding i konsollvinduet. Som regel er det mer hensiktsmessig å skrive ut innhold direkte på siden. En måte å gjøre dette på er å bruke kommandoen `document.getElementById` med egenskapen `innerHTML`. Dette er en måte å få tak i, og endre innholdet til et element eller tagg i html-dokumentet.
-
-For å fortelle datamaskinen hvilket element eller tagg vi ønsker å få tak i, brukes kommandoen `document.getElementById("mittElement")`. Den vil da lete i HTML-dokumentet etter et element med id-atributt som passer. I dette tilfellet vil det være et html-element med `id="minDiv"`.
-
-``` javascript
-
-document.getElementById("minDiv").innerHTML = "<h1>Hallo verden!</h1>";
-
-```
-
 ## Hendelser
 
 I de aller fleste programmer ønsker man en interaktivitet mellom bruker og program. Dette kan for eksempel være at noe skjer når man trykker på en knapp. I HTML så finnes det mange ulike hendelsesatrubutter, men felles for dem alle er at de kjører en funksjon når ønsket hendelse skjer. Denne kjører en valgfri funksjon når brukeren trykker på en knapp.
