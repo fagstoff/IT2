@@ -107,12 +107,12 @@ console.log(minTabell[1][2]);  //Skriver ut verdien 6 i konsollvinduet.
 
 ## Assosiative lister og objekter
 
-Noen ganger kan det være hensiktsmessig å legge inn ekstrainformasjon i listene. Dette gjør at vi kan sortere og hente ut data basert på navn som kan gi mer mening. Et eksempel på dette kan være en liste som inneholder biler. Vi kan da for hvert listeelement som er en bil, legge inn informasjon om merke, modell, farge osv. I eksempelet undervises det hvordan man deklarerer en assosiativ liste. Teknisk sett er dette en liste med objekter, og assosiative lister og objekter har vedlig mange avde samme egenskapene. Forskjellen er at lister har nummerert index, mens objekter bruker navn for å skille mellom de ulike elementene.
+Noen ganger kan det være hensiktsmessig å legge inn ekstrainformasjon i listene. Dette gjør at vi kan sortere og hente ut data basert på navn som kan gi mer mening. Et eksempel på dette kan være en liste som inneholder biler. Vi kan da for hvert listeelement som er en bil, legge inn informasjon om merke, modell, farge osv. I eksempelet undervises det hvordan man deklarerer en assosiativ liste. Teknisk sett er dette en liste med objekter, og assosiative lister og objekter har vedlig mange av de samme egenskapene. Forskjellen er at lister har nummerert index, mens objekter bruker navn for å skille mellom de ulike elementene. Mer om dette i fagstoffet om objekter og klasser.
 
 ```javascript
 
 //Deklarerer en tom liste
-var bilTab = new Array();
+let bilTab = [];
 
 //Legger inn data. Hvert listeelement tilsvarer en bil.
 //For hver bil legger vi inn merkelapper med mer informasjon
