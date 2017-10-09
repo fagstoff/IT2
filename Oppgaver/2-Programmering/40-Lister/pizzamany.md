@@ -4,11 +4,12 @@ En pizzameny er et godt eksempel på en enkel liste
 
 ## Oppgave
 
-Lag en pizzameny ved hjelp av lister. Skriv ut lista ved ved hjelp av en løkke i konsollen. Bruk listemetoder til å legge til, fjerne, sortere og vise lengden på pizzamenyen.
+Lag en pizzameny ved hjelp av lister. Skriv ut lista ved ved hjelp av en løkke i konsollen. Bruk mint fire ulike [metoder](https://www.w3schools.com/js/js_array_methods.asp) på menyen.
 
 ## Ressurser
 
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
+* Ulike [Metoder](https://www.w3schools.com/js/js_array_methods.asp) som kan brukes på lister
 
 ## Vurderingskriterier
 
