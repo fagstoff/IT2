@@ -6,14 +6,14 @@ Vi skal lage kode for å skrive ut de 100 vers av den kjente vandrervisen "One H
 
 De to første versene går slik:
 
-```
+``` html
 100 botles of beer on the wall
 100 bottles of beer
 If one of those bottles should happen to fall
 99 bottles of beer on the wall
 
 99 bottles of beer
-If one of those bootles should happen to fall
+If one of those botles should happen to fall
 osv. osv.
 ```
 
