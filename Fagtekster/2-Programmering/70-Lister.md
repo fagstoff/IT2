@@ -30,7 +30,7 @@ mineFag[4] = "Biologi 2";
 //Metode 2
 const mineFag =  new Array("Informasjonsteknologi 2","Matematikk R2","Fysikk 2","Kjemi 2","Biologi 2");
 
-//Metode 3: Firkantparantesene erstatter kommandoen new Array (Anbefalt metode)
+//Metode 3: Firkantparantesene erstatter kommandoen new Array. Dette er den anbefalte metoden å bruke.
 const mineFag = ["Informasjonsteknologi 2","Matematikk R2","Fysikk 2","Kjemi 2","Biologi 2"];
 ```
 
@@ -53,6 +53,29 @@ mineFag[4] = "Biologi 2";
 for(let i=0;i<mineFag.length;i++){
      console.log(mineFag[i]);}
 
+// forEach-løkke (ofte brukes .map() istedenfor.)
+// Lager en liste med tre elementer
+let minListe = ['a', 'b', 'c'];
+
+// forEach traverserer listen og skriver ut hvert enkelt element.
+minListe.forEach(function(element) {
+    console.log(element);
+});
+```
+
+## for of
+
+`for of` brukes også ofte når man skal traversere lister.
+
+``` javascript
+
+let liste = [10, 20, 30];
+
+for (let verdi of liste) {
+  verdi += 1; // Det adderes 1 til alle elementene i lista
+  console.log(verdi);
+}
+
 ```
 
 Ofte har man behov for å manipulere innholdet i en liste. Til dette finnes det en rekke listefunksjoner eller argument. I kodeeksempelet under vises det noen eksempler på dette. Legg merke til skrivemåten med punktum mellom navnet på lista og argumentet.
@@ -74,13 +97,13 @@ minTabell.splice();
 minTabell.shift();
 
 //Utfører en handling på alle elementer i lista og lagrer resultatene i en ny liste.
-var nyTabell = minTabell.map();
+const nyTabell = minTabell.map();
 
 //Henter ut største verdi fra lista
-var maximum = Math.max.apply(null,Tabell);
+const maximum = Math.max.apply(null,Tabell);
 
 //Henter ut minste verdi fra lista
-var minimum = Math.min.apply(null,Tabell);
+const minimum = Math.min.apply(null,Tabell);
 
 ```
 
