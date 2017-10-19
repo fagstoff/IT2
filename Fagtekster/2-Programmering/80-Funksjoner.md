@@ -10,7 +10,6 @@ for (let i = 0; i < 3; i++) {
   minFunksjon();
 }
 
-
 function minFunksjon(){
   console.log("Dette er skrevet ut av en funksjon");
 }
@@ -119,7 +118,7 @@ For å øke nytteverdien til en funksjon ytterligere, kan det være nyttig å se
 
 function gangeToTall(a,b)
 {
-return a*b;
+return a * b;
 }
 
 document.getElementById("demo").innerHTML = gangeToTall(4,3);
