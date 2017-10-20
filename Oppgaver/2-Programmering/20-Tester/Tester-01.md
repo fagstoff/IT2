@@ -11,7 +11,7 @@ I denne oppgaven skal du lage en nettside der du kort forteller om tester, og hv
 ## Ressurser
 
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
-* Les mer om tester på [w3schools](https://www.w3schools.com/js/js_if_else.aspp)
+* Les mer om tester på [w3schools](https://www.w3schools.com/js/js_if_else.asp)
 
 ## Vurderingskriterier
 
