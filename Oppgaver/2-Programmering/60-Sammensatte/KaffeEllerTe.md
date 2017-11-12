@@ -1,21 +1,20 @@
-Kaffe eller te
-==============
+# Kaffe eller te
 
-Oppgave
--------
+## Oppgave
+
 Lag et lite program der brukeren kan bestille kaffe eller te, og kjeks eller smultring ved hjelp av radioknapper. Bestillingen skal vises i en div når brukeren trykker på bestillingsknappen.
 
-Ressurser
----------
+## Ressurser
+
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 
-Vurderingskriterier
--------------------
+## Vurderingskriterier
+
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
 
-Kompetansemål
--------------
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper

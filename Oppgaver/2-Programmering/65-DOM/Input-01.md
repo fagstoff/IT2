@@ -1,23 +1,22 @@
-Input del 1
-===========
+# Input del 1
 
-Oppgave
--------
-Lag et program der du trykker på en knapp, og så skrives det ut et tilfeldig tall mellom 0 og 100 i konsollen. For hver gang du trykker på knappen skal det skrives ut et nytt tilfeldig tall mellom 0 og 100. Forklar kort på nettsiden hvordan du har løst oppgaven.
+## Oppgave
 
-Ressurser
----------
+Lag et program der det skrives det ut et tilfeldig tall mellom 0 og 100 i en div når man trykker på en knapp. For hver gang knappen trykkes skal det skrives ut et nytt tilfeldig tall mellom 0 og 100. Forklar kort på nettsiden hvordan du har løst oppgaven.
+
+## Ressurser
+
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 * Les mer om tilfeldige tall på [w3schools](http://www.w3schools.com/jsref/jsref_random.asp)
 
-Vurderingskriterier
--------------------
+## Vurderingskriterier
+
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Programmet skrive ut et tall mellom 1 og 100 for hver gang du trykker på knappen.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
 
-Kompetansemål
--------------
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper

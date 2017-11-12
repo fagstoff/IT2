@@ -1,23 +1,22 @@
-Input del 2
-===========
+# Input del 2
 
-Oppgave
--------
-Lag en enkel kalkulator med to inputfelt, fire knapper of ett felt der svaret skrives ut. Knappene representerer de fire regneartene pluss, minus, gange og dele. Når skriver inn tall i inputfeltene skal du kunne trykke på en av knappene for å utføre tilhørende operasjon. Resultatet skal skrives ut på skjermen. Skriv en kort forklaring på om hvordan du har løst oppgaven.
+## Oppgave
 
-Ressurser
----------
+Lag en enkel kalkulator med to inputfelt, fire knapper of ett felt der svaret skrives ut. Knappene representerer de fire regneartene pluss, minus, gange og dele. Når man skriver inn tall i inputfeltene skal du kunne trykke på en av knappene for å utføre tilhørende operasjon. Resultatet skal skrives ut på skjermen. Skriv en kort forklaring på om hvordan du har løst oppgaven.
+
+## Ressurser
+
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 * Les mer om inputfelt på [w3schools](http://www.w3schools.com/tags/tag_input.asp)
 
-Vurderingskriterier
--------------------
+## Vurderingskriterier
+
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Programmet skal utføre de fire regneartene og skrive ut resultatet på skjermen.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
 
-Kompetansemål
--------------
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper
