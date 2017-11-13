@@ -1,24 +1,23 @@
-Quiz
-====
+# Quiz
 
-Oppgave
--------
-1) Lag en quiz hvor brukeren skal svare på et spørsmål ved å trykke på en av tre knapper. Hvis svaret er riktig skal det dukke opp et felt hvor det står Riktig! Hvis svaret er feil skal det dukke opp et felt hvor det står Feil! Begynn med å lage spillet med bare ett spørsmål.
-2) Utvid spillet slik at brukeren kan svare på flere spørsmål.
-3) Skriv en kort forklaring på hvordan du har løst problemet.
+## Oppgave
 
-Ressurser
----------
+1. Lag en quiz hvor brukeren skal svare på et spørsmål ved å trykke på en av tre knapper. Hvis svaret er riktig skal det dukke opp et felt hvor det står Riktig! Hvis svaret er feil skal det dukke opp et felt hvor det står Feil! Begynn med å lage spillet med bare ett spørsmål.
+1. Utvid spillet slik at brukeren kan svare på flere spørsmål.
+1. Skriv en kort forklaring på hvordan du har løst problemet.
+
+## Ressurser
+
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 
-Vurderingskriterier
--------------------
+## Vurderingskriterier
+
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Programmet skal gi riktig respons på quizen.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
 
-Kompetansemål
--------------
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper
