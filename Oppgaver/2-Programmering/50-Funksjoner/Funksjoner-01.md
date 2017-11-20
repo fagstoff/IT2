@@ -1,23 +1,22 @@
-Funksjoner del 1
-===============
+# Funksjoner del 1
 
-Oppgave
--------
+## Oppgave
+
 Lag et program der en funksjon returnerer summen av to innparametre i konsollen. Forklar på nettsiden hvordan funksjoner med inn- og utparameter fungerer.
 
-Ressurser
----------
+## Ressurser
+
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 * Les mer om variabler på [w3schools](http://www.w3schools.com/js/js_functions.asp)
 
-Vurderingskriterier
--------------------
+## Vurderingskriterier
+
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Programmet summere innparameterne og returenere resultatet i konsollen.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
 
-Kompetansemål
--------------
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper
