@@ -13,7 +13,7 @@ Lag en nettside som viser minst fire bilder. Når brukeren trykker på et av bil
 ## Vurderingskriterier
 
 * Siden skal validere uten feil og advarsler i konsollvinduet.
-* Programmet vise videoer med kontrollknapper
+* Videoene skal vises med kontrollknapper
 * Det skal være minst et lydklipp et videoklipp med.
 * Menybildene skal være like store, og plassert i et rutenett.
 * Video og lyd skal spilles av i et eget område under menyen.
