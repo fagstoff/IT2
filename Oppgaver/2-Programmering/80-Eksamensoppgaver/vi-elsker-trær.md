@@ -1,12 +1,11 @@
-Vi elsker Trær
-==============
+# Vi elsker Trær
 
-Om oppgaven
------------
-Denne oppgaven er hentet fra eksamen i IT2 XYY. Den er godt egnet for å trene på todimmensjonale matriser, og enkler beregninger
+## Om oppgaven
 
-Oppgaven
---------
+Denne oppgaven er hentet fra eksamen i IT2 V2011. Den er godt egnet for å trene på todimmensjonale matriser, og enkler beregninger
+
+## Oppgaven
+
 Tabellen under viser antall grove trær i Norge fra 1915 til 2000, angitt i millioner. Definisjonen på grove trær er at de er mer enn 30cm i diameter i brysthøyde ved 1,30 meter over bakken. Økningen i grove trær forteller oss blant annet noe om klimatutviklingen.
 
 |   Tresort   | 1915 | 1950 | 1970 | 1990 | 1992 | 2000 |
@@ -24,17 +23,17 @@ For eksempelet over blir utregningen: (86/31)*100
 
 **b)** Utvid programmet slik at man nå kan velge en tresort og få listet opp antall trær (i antall  millioner) fra 1915 og fram til år 2000 som tallverdier og søylediagram. I tillegg skal brukeren skal kunne finne økningen mellom to valgte år for en valgt tresort, og skrive ut økningen som tallverdi og prosent.	Bruk gjerne kombobokser eller lignende for å løse oppgaven.
 
-Ressurser
----------
+## Ressurser
+
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
 
-Vurderingskriterier
--------------------
+## Vurderingskriterier
+
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
 
-Kompetansemål
--------------
+## Kompetansemål
+
 * utvikle og sette sammen delprogrammer
 * lese og bruke dokumentasjon og kode
 * definere variabler og velge hensiktsmessige datatyper
