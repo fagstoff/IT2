@@ -2,7 +2,7 @@
 
 ## Om oppgaven
 
-Denne oppgaven er hentet fra eksamen i IT2 V2011. Den er godt egnet for å trene på todimmensjonale matriser, og enkler beregninger
+Denne oppgaven er hentet fra eksamen i IT2 V2011. Den er godt egnet for å trene på todimmensjonale lister, og enkle beregninger
 
 ## Oppgaven
 
