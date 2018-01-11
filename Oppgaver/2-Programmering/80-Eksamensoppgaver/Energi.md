@@ -47,7 +47,7 @@ Brukeren skal kunne oppgi vindstyrke i m/s, og applikasjonen skal så vise hvor 
 watt som produseres i timen. Eksempel: Dersom brukeren oppgir 3.7 m/s, skal det
 skrives ut at vindmølla gir cirka 10 watt i timen.
 
-## Oppgave 3a: Wattproduksjon per døgn
+## Oppgave 3: Wattproduksjon per døgn
 
 En oversikt fra yr.no over neste døgns vindstyrker kan se slik ut, oppgitt i 6-
 timersperioder:
@@ -59,11 +59,11 @@ Applikasjonen skal så beregne hvor mange watt vindmølla produserer det døgnet
 oppgitte vindstyrkene. Applikasjonen skal bruke tabellen i oppgave 2 som grunnlag for
 utregningen.
 
-### Oppgave 3b: Dokumentasjon
+### Oppgave 3a: Dokumentasjon
 
 Skriv en grov pseudokode for oppgave 3.
 
-### Oppgave 3c
+### Oppgave 3b
 
 Programmer rutinen, og dokumenter koden.
 
