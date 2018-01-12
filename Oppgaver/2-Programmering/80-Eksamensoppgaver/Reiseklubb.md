@@ -1,4 +1,4 @@
-# Reiseklubb - Eksamen V15
+# Reiseklubb - Eksamen V16
 
 En regionavis ønsker å etablere en reiseklubb for abonnentene sine med språk- og
 kulturopplevelser som tema. De ønsker derfor å utvikle interaktive applikasjoner til
