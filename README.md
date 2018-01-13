@@ -9,6 +9,8 @@ Innholdet er bygget opp etter strukturen til kompetansemåla i faget i form av f
 
 Bli gjerne med i [nettverket for lærere som er interessert i IT2 med javascript på facebook](https://www.facebook.com/groups/231993360276497/?fref=ts).
 
+**Du er hjertelig velkommen til å bidra! Fork i vei og send en pull request, eller ta kontakt**
+
 Tom Jarle Christiansen , Januar 2017
 
 --
