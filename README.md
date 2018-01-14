@@ -1,5 +1,4 @@
-Informasjonsteknologi 2
-=======================
+# Informasjonsteknologi 2
 
 Dette prosjektet har som mål å tilby åpne og frie oppgaver for å jobbe med alle kompetansemålene i IT2 ([INF1-01 REA3015](http://www.udir.no/kl06/INF1-01/Kompetansemaal?arst=1858830315&kmsn=130796663)).
 
@@ -9,23 +8,32 @@ Innholdet er bygget opp etter strukturen til kompetansemåla i faget i form av f
 
 Bli gjerne med i [nettverket for lærere som er interessert i IT2 med javascript på facebook](https://www.facebook.com/groups/231993360276497/?fref=ts).
 
-Tom Jarle Christiansen , Januar 2017
+## Dine bidrag er ønsket
+
+Alle som ønsker inviteres til å bidra. Dette kan både gjøres ved å legge inn forslag, tips, feilmeldinger, ønsker eller andre kommentarer under [issues](https://github.com/fagstoff/IT2/issues).
+
+Ønsker du å bidra med innholdsproduksjon kan det enkelt gjøres ved å:
+
+1. Lag en fork av dette repoet.
+1. Gjør endringer/lag innhold.
+1. Legg inn en pull request her.
+
+Tom Jarle Christiansen , Januar 2018
 
 --
 
-Hovedområder i faget
-====================
+## Hovedområder i faget
 
-Planlegging og dokumentasjon
-----------------------------
+### Planlegging og dokumentasjon
+
 Hovedområdet handler om planlegging av IT-løsninger, og utvikling av disse etter gitte spesifikasjoner for å oppfylle brukernes behov. Videre dreier det seg om dokumentasjon og vurdering av IT-løsninger. Hovedområdet omfatter også utforming, dokumentasjon og vurdering av løsninger i forhold til retningslinjer for brukergrensesnitt.
 
-Programmering
--------------
+### Programmering
+
 Hovedområdet handler om hvordan formelle språk kan brukes til å formulere strukturer og sette sammen instruksjoner som kan utføres av en datamaskin. Sentralt i hovedområdet er eksperimentering og problemløsning. I tillegg dreier det seg om objektorientering.
 
-Multimedieutvikling
--------------------
+### Multimedieutvikling
+
 Hovedområdet handler om utforming, strukturering, implementering og vurdering av multimedieapplikasjoner med tall, tekst, lyd, bilde, video og animasjoner. I tillegg omfatter hovedområdet både applikasjoner for lokal bruk og publisering over Internett.
 
 --
