@@ -12,6 +12,8 @@ Bli gjerne med i [nettverket for lærere som er interessert i IT2 med javascript
 
 Alle som ønsker inviteres til å bidra. Dette kan både gjøres ved å legge inn forslag, tips, feilmeldinger, ønsker eller andre kommentarer under [issues](https://github.com/fagstoff/IT2/issues).
 
+**Du er hjertelig velkommen til å bidra! Fork i vei og send en pull request, eller ta kontakt**
+
 Ønsker du å bidra med innholdsproduksjon kan det enkelt gjøres ved å:
 
 1. Lag en fork av dette repoet.

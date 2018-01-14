@@ -48,4 +48,4 @@ En bruker som velger Kuga Trend med familiepakke og stilpakke, skal betale 401 0
 
 ---
 
-_Denne oppgaven er opprinnelig publiser på_ [UDIR](https://dok.udir.no/EksamensOppgaver.aspx?proveType=EV) og tilpasset og omskrevet til undervisning av [fuzzbin](https://github.com/fuzzbin). Oppgaven er lisensiert som ??? - Branchtest
+_Denne oppgaven er opprinnelig publiser på_ [UDIR](https://dok.udir.no/EksamensOppgaver.aspx?proveType=EV) og tilpasset og omskrevet til undervisning av [fuzzbin](https://github.com/fuzzbin). Oppgaven er lisensiert som ???

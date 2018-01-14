@@ -21,7 +21,7 @@ Eksempel: Ved registrering av verdiene for furutrær i 1950 og 200, henholdsvis 
 Formelen for å regne ut prosent: prosent = (økning/opprinnelig verdi)*100
 For eksempelet over blir utregningen: (86/31)*100
 
-**b)** Utvid programmet slik at man nå kan velge en tresort og få listet opp antall trær (i antall  millioner) fra 1915 og fram til år 2000 som tallverdier og søylediagram. I tillegg skal brukeren skal kunne finne økningen mellom to valgte år for en valgt tresort, og skrive ut økningen som tallverdi og prosent.	Bruk gjerne kombobokser eller lignende for å løse oppgaven.
+**b)** Utvid programmet slik at man nå kan velge en tresort og få listet opp antall trær (i antall  millioner) fra 1915 og fram til år 2000 som tallverdier og søylediagram. I tillegg skal brukeren skal kunne finne økningen mellom to valgte år for en valgt tresort, og skrive ut økningen som tallverdi og prosent. Bruk gjerne kombobokser eller lignende for å løse oppgaven.
 
 ## Ressurser
 
