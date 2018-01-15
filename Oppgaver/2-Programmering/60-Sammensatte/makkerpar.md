@@ -1,8 +1,8 @@
-# Fizz-Buzz
+# Makkerpar
 
 ## Oppgave
 
-Lag et program som skriver ut tallene fra 0 til 100 i konsollvinduet. Etter alle tall som er delelig med 3 skal det stå Fizz. Etter alle tall som er delelig med 5 skal det stå Buzz. Etter alle tall som er delelig med både 3 og 5 skal det stå FizzBuzz.
+Et makkerpar er to tilfeldig sammensatte elever. En kontaktlærer ønsker seg et program der man kan legge inn navn på elevene. Når man trykker på en knapp skal programmet lage tilfeldige makkerpar og vise resultatet på en skjerm.
 
 ## Ressurser
 
