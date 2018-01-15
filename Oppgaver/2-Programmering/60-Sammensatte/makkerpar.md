@@ -2,7 +2,7 @@
 
 ## Oppgave
 
-Et makkerpar er to tilfeldig sammensatte elever. En kontaktlærer ønsker seg et program der man kan legge inn navn på elevene. Når man trykker på en knapp skal programmet lage tilfeldige makkerpar og vise resultatet på en skjerm.
+Et makkerpar er to tilfeldig sammensatte elever. En kontaktlærer ønsker seg et program der man kan legge inn navn på elevene. Når man trykker på en knapp skal programmet lage tilfeldige makkerpar og vise resultatet på en skjerm. Lærer skal ha mulighet velge elever som ikke skal være makkere. Dette skal programmet ta hensyn til.
 
 ## Ressurser
 
