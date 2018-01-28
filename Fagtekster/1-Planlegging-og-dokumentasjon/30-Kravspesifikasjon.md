@@ -1,5 +1,5 @@
-Kravspesifikasjon
-=================
+# Kravspesifikasjon
+
 1. Innledning
   * Kort beskrivelse av hvem som er målgruppen
   * Kort beskrivelse av hvordan kravspesifikasjonen er organisert
