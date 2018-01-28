@@ -1,5 +1,9 @@
 # Kravspesifikasjon
 
+[Kravspesifikasjon](https://snl.no/kravspesifikasjon), beskrivelse av hvilke brukerfunksjoner og generell ytelse et datamaskin- eller programsystem skal ha. Kravspesifikasjon utarbeides før en datamaskin anskaffes eller et programsystem utvikles, for å sikre at brukernes behov blir dekket når det gjelder funksjonalitet, ytelse og brukervennlighet.
+
+## Eksempel på en kravspesifikasjon
+
 1. Innledning
   * Kort beskrivelse av hvem som er målgruppen
   * Kort beskrivelse av hvordan kravspesifikasjonen er organisert
@@ -30,4 +34,4 @@ Med funksjonelle krav menes de krav som er knyttet til programmets funksjonalite
   * hvilke inn/ut-enheter funksjonen skal benytte (tastatur, dataskjerm, skriver etc.)
   * Annen relevant informasjon
 
-Kilde: SINTEF sin mal for kravspesifikasjon
+Kilder: SINTEF sin mal for kravspesifikasjon og [SNL](https://snl.no/kravspesifikasjon)
