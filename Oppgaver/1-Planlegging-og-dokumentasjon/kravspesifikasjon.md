@@ -8,8 +8,9 @@ Lag en kravspesifikasjon for en tenkt bilbutikk som ønsker en applikasjon der k
 
 ## Vurderingskriterier
 
-* Du skal bruke malen fra SINTEF
-* Kravspesifikasjonen skal inneholde både funksjonelle og ikke funksjonelle krav
+* Du skal bruke [malen fra SINTEF](https://github.com/fagstoff/IT2/blob/master/Fagtekster/1-Planlegging-og-dokumentasjon/30-Kravspesifikasjon.md)
+* Kravspesifikasjonen skal inneholde både funksjonelle og ikke funksjonelle krav.
+* Oppgaven skal inneholde annen relevant dokumentasjon.
 
 ## Kompetansemål
 
