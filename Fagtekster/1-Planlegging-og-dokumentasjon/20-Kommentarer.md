@@ -1,9 +1,8 @@
-Kommentering av kode
-====================
+# Kommentering av kode
+
 Kommentering av kode er viktig. Ofte leses og utvikles programmer av flere personer, og det er derfor viktig at alle på en rask og oversiktlig måte kan sette seg inn i koden. Kommentarer er en viktig del av dokumentasjonen i en applikasjon. I tillegg til å kommentere koden bør alle som programmerer også venne seg til å strukterer koden slik at den blir mest mulig lesbar. Dett gjøres med innrykk og linjeskift.
 
-Kommentarer
------------
+## Kommentarer
 
 I html-kode vil alle tekst som ligger mellom <!-- og --> tolkes som kommentarer, og kommer ikke med på siden. Du trenge rikke å kommentere hver enkelt linje i et program. Du kan anta at den som leser koden kan programmere, og trenger derfor stort sett kun å kommentere hva hver enkelt blokk av programmet gjør. Det er også vanlig å legge inn informasjon i begynnelsen av koden om hvem som har laget programmet.
 
@@ -29,6 +28,7 @@ Lisens: Creative Commons - BY SA
 </body>
 </html>
 ```
+
 Eksempel på HTML-kode med kommentarer og god struktur.
 
 I eksempelet over er det lagt inn kommentarer i begynnelsen av dokumentet med en kort beskrivelse av tittel, opphavsperson og lisens. Ellers er det i dette tilfellet tilstrekkelig med en kort beskrivelse i body-taggen om hva denne kodeblokken gjør.
