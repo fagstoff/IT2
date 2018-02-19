@@ -1,6 +1,6 @@
-//
 // Løsningsforslag til eksamensoppgave H16 - Fra fjord til bord - Oppgave 2 og 3
 // Laget av Tom Jarle Christiansen - Creative Commons BY SA - 2018
+
 // jshint esversion: 6
 
 
@@ -10,23 +10,23 @@ const fiskeTabell = [];
 // Leser inn elementer
 
 // Oppgave 2
- antMiddagVelger = document.getElementById("antMiddagElement");
- antPersonVelger = document.getElementById("antPersonerElement");
- ordreTekst = document.getElementById("ordreDiv");
- visKnapp = document.getElementById("visBtn");
- sendKnapp = document.getElementById("sendBtn");
+const antMiddagVelger = document.getElementById("antMiddagElement");
+const antPersonVelger = document.getElementById("antPersonerElement");
+const ordreTekst = document.getElementById("ordreDiv");
+const visKnapp = document.getElementById("visBtn");
+const sendKnapp = document.getElementById("sendBtn");
 
 // Oppgave 3
- tabellTekst = document.getElementById("tabellDiv");
- ukeNr = document.getElementById("ukeNrElement");
- antMiddagVelger2 = document.getElementById("antMiddagElement2");
- antVoksne = document.getElementById("antVoksneElement");
- antUngdom = document.getElementById("antUngdomElement");
- antBarn = document.getElementById("antBarnElement");
- registrerKnapp = document.getElementById("registrerBtn");
+const tabellTekst = document.getElementById("tabellDiv");
+const ukeNr = document.getElementById("ukeNrElement");
+const antMiddagVelger2 = document.getElementById("antMiddagElement2");
+const antVoksne = document.getElementById("antVoksneElement");
+const antUngdom = document.getElementById("antUngdomElement");
+const antBarn = document.getElementById("antBarnElement");
+const registrerKnapp = document.getElementById("registrerBtn");
 
- visDataUkeNr = document.getElementById("visUkeElement");
- visDataKnapp = document.getElementById("visDataBtn");
+const visDataUkeNr = document.getElementById("visUkeElement");
+const visDataKnapp = document.getElementById("visDataBtn");
 
 
 // Lyttere
@@ -84,15 +84,15 @@ function skrivUtKvittering(){
   let antPersoner = antPersonVelger.options[antPersonVelger.selectedIndex].value;
   let kvittering = "";
 
-    kvittering += "Takk for bestillingen " + navn + "!";
-    kvittering += "<p>Den sendes til " + adresse + " i løpet av kort tid. ";
-    kvittering += "Du vi da motta:";
-    kvittering += antMiddager + " middager for " + antPersoner + " personer. ";
-    kvittering += "Totalpris: " + beregnPris(antMiddager, antPersoner) + ",-</p>";
-    kvittering += "Velkommen tilbake!";
+  kvittering += "Takk for bestillingen " + navn + "!";
+  kvittering += "<p>Den sendes til " + adresse + " i løpet av kort tid. ";
+  kvittering += "Du vi da motta:";
+  kvittering += antMiddager + " middager for " + antPersoner + " personer. ";
+  kvittering += "Totalpris: " + beregnPris(antMiddager, antPersoner) + ",-</p>";
+  kvittering += "Velkommen tilbake!";
 
-    ordreTekst.innerHTML = "";
-    ordreTekst.innerHTML = kvittering;
+  ordreTekst.innerHTML = "";
+  ordreTekst.innerHTML = kvittering;
 }
 
 function beregnPris(antMidd, antPers){
@@ -106,7 +106,6 @@ function beregnPris(antMidd, antPers){
 
 // Oppgave 3-funksjoner
 function lagTabell(){
-
   let middager = Number(antMiddagVelger2.options[antMiddagVelger2.selectedIndex].value);
   let voksne = Number(antVoksne.options[antVoksne.selectedIndex].value);
   let ungdom = Number(antUngdom.options[antUngdom.selectedIndex].value);
@@ -125,9 +124,11 @@ function visData(){
   let uke = Number(visDataUkeNr.value.slice(-2));
   let ukeTabell = fiskeTabell[uke];
   let utTekst = "<table border='1'><tr><th>Uke</th><th>Middager</th><th>Barn</th><th>Ungdom</th><th>Voksne</th></tr>";
+
   ukeTabell.forEach(function(ukeTab) {
       utTekst += "<tr><td>" + uke + "</td><td>" + ukeTab[0] + "</td><td>" + ukeTab[1] + "</td><td>" + ukeTab[2] + "</td><td>" + ukeTab[3] + "</td></tr>";
   });
+
   utTekst += "</table>";
   tabellTekst.innerHTML = utTekst;
 }
