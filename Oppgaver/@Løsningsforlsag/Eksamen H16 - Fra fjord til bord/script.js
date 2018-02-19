@@ -1,29 +1,32 @@
-// Laget av Tom Jarle Christiansen - Creative Commons BY SA - 2017
+//
+// Løsningsforslag til eksamensoppgave H16 - Fra fjord til bord - Oppgave 2 og 3
+// Laget av Tom Jarle Christiansen - Creative Commons BY SA - 2018
+// jshint esversion: 6
 
-// Globals (Databasen)
 
-var fiskeTabell = [];
+// Globale variabler
+const fiskeTabell = [];
 
 // Leser inn elementer
 
 // Oppgave 2
-var antMiddagVelger = document.getElementById("antMiddagElement");
-var antPersonVelger = document.getElementById("antPersonerElement");
-var ordreTekst = document.getElementById("ordreDiv");
-var visKnapp = document.getElementById("visBtn");
-var sendKnapp = document.getElementById("sendBtn");
+ antMiddagVelger = document.getElementById("antMiddagElement");
+ antPersonVelger = document.getElementById("antPersonerElement");
+ ordreTekst = document.getElementById("ordreDiv");
+ visKnapp = document.getElementById("visBtn");
+ sendKnapp = document.getElementById("sendBtn");
 
 // Oppgave 3
-var tabellTekst = document.getElementById("tabellDiv");
-var ukeNr = document.getElementById("ukeNrElement");
-var antMiddagVelger2 = document.getElementById("antMiddagElement2");
-var antVoksne = document.getElementById("antVoksneElement");
-var antUngdom = document.getElementById("antUngdomElement");
-var antBarn = document.getElementById("antBarnElement");
-var registrerKnapp = document.getElementById("registrerBtn");
+ tabellTekst = document.getElementById("tabellDiv");
+ ukeNr = document.getElementById("ukeNrElement");
+ antMiddagVelger2 = document.getElementById("antMiddagElement2");
+ antVoksne = document.getElementById("antVoksneElement");
+ antUngdom = document.getElementById("antUngdomElement");
+ antBarn = document.getElementById("antBarnElement");
+ registrerKnapp = document.getElementById("registrerBtn");
 
-var visDataUkeNr = document.getElementById("visUkeElement");
-var visDataKnapp = document.getElementById("visDataBtn");
+ visDataUkeNr = document.getElementById("visUkeElement");
+ visDataKnapp = document.getElementById("visDataBtn");
 
 
 // Lyttere
@@ -39,9 +42,9 @@ visDataBtn.onclick = visData;
 
 // Oppgave 2-funskoner;
 function visBestilling(){
-  var antMiddager = antMiddagVelger.options[antMiddagVelger.selectedIndex].value;
-  var antPersoner = antPersonVelger.options[antPersonVelger.selectedIndex].value;
-  var ordre;
+  let antMiddager = antMiddagVelger.options[antMiddagVelger.selectedIndex].value;
+  let antPersoner = antPersonVelger.options[antPersonVelger.selectedIndex].value;
+  let ordre;
 
   ordre = "<h3>-- Handlekurv --</h3>";
   ordre += "Du har bestillt " + antMiddager + " middager for " + antPersoner + " personer<br>";
@@ -63,11 +66,11 @@ function bekreftet(){
 }
 
 function skrivUtKvittering(){
-  var navn = document.getElementById("navnInput").value;
-  var adresse = document.getElementById("adresseInput").value;
-  var antMiddager = antMiddagVelger.options[antMiddagVelger.selectedIndex].value;
-  var antPersoner = antPersonVelger.options[antPersonVelger.selectedIndex].value;
-  var kvittering = "";
+  let navn = document.getElementById("navnInput").value;
+  let adresse = document.getElementById("adresseInput").value;
+  let antMiddager = antMiddagVelger.options[antMiddagVelger.selectedIndex].value;
+  let antPersoner = antPersonVelger.options[antPersonVelger.selectedIndex].value;
+  let kvittering = "";
 
     kvittering += "Takk for bestillingen " + navn + "!";
     kvittering += "<p>Den sendes til " + adresse + " i løpet av kort tid. ";
@@ -92,10 +95,10 @@ function beregnPris(antMidd, antPers){
 // Oppgave 3-funksjoner
 function lagTabell(){
 
-  var middager = Number(antMiddagVelger2.options[antMiddagVelger2.selectedIndex].value);
-  var voksne = Number(antVoksne.options[antVoksne.selectedIndex].value);
-  var ungdom = Number(antUngdom.options[antUngdom.selectedIndex].value);
-  var barn = Number(antBarn.options[antBarn.selectedIndex].value);
+  let middager = Number(antMiddagVelger2.options[antMiddagVelger2.selectedIndex].value);
+  let voksne = Number(antVoksne.options[antVoksne.selectedIndex].value);
+  let ungdom = Number(antUngdom.options[antUngdom.selectedIndex].value);
+  let barn = Number(antBarn.options[antBarn.selectedIndex].value);
 
   // Sjekker om uka finnes i tabellen
   console.log(ukeNr.value);
@@ -107,9 +110,9 @@ function lagTabell(){
 }
 
 function visData(){
-  var uke = Number(visDataUkeNr.value.slice(-2));
-  var ukeTabell = fiskeTabell[uke];
-  var utTekst = "<table border='1'><tr><th>Uke</th><th>Middager</th><th>Barn</th><th>Ungdom</th><th>Voksne</th></tr>";
+  let uke = Number(visDataUkeNr.value.slice(-2));
+  let ukeTabell = fiskeTabell[uke];
+  let utTekst = "<table border='1'><tr><th>Uke</th><th>Middager</th><th>Barn</th><th>Ungdom</th><th>Voksne</th></tr>";
   ukeTabell.forEach(function(ukeTab) {
       utTekst += "<tr><td>" + uke + "</td><td>" + ukeTab[0] + "</td><td>" + ukeTab[1] + "</td><td>" + ukeTab[2] + "</td><td>" + ukeTab[3] + "</td></tr>";
   });
