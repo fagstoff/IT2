@@ -1,4 +1,4 @@
-.infoDiv{
+.infoDiv {
   background-color: #aa8888;
   border: solid 2px black;
   width: 300px;
@@ -6,4 +6,10 @@
   float: right;
   margin-right: 100px;
   margin-top: 50px;
+}
+
+.fiskebilde {
+  float: right;
+  width: 150px;
+  margin: 5px;
 }

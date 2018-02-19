@@ -45,11 +45,23 @@ function visBestilling(){
   let antMiddager = antMiddagVelger.options[antMiddagVelger.selectedIndex].value;
   let antPersoner = antPersonVelger.options[antPersonVelger.selectedIndex].value;
   let ordre;
+  let bilde;
 
-  ordre = "<h3>-- Handlekurv --</h3>";
-  ordre += "Du har bestillt " + antMiddager + " middager for " + antPersoner + " personer<br>";
-  ordre += "Totalpris: kr " + beregnPris(antMiddager, antPersoner) + ",-<br><br>";
-  ordre += '<input id="bekreftBtn" type="button" value="Gå videre til kasse">';
+  if (antMiddager == 2){
+    bilde = "krabbesuppe.jpg";
+  }
+  else {
+    bilde = "torsk.jpg";
+  }
+
+  ordre = `
+    <img class="fiskebilde" src="bilder/${bilde}"><br>
+    <h3>-- Handlekurv --</h3>
+    <p>Du har bestillt <b>${antMiddager}</b> middager for <b>${antPersoner}</b> personer.</p>
+    Totalpris: kr ${beregnPris(antMiddager, antPersoner)},-<br><br>
+    <input id="bekreftBtn" type="button" value="Gå videre til kasse">'
+  `;
+
   ordreTekst.innerHTML = ordre;
 
   // Leser inn og lytter på den nye knappen
