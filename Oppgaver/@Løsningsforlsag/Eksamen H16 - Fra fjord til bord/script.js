@@ -120,11 +120,13 @@ function lagTabell(){
   fiskeTabell[uke].push([middager,barn,ungdom,voksne]);
 }
 
+// Genererer en tabell med data i HTML
 function visData(){
-  let uke = Number(visDataUkeNr.value.slice(-2));
+  let uke = Number(visDataUkeNr.value.slice(-2)); // Henter ut ukernummer fra value
   let ukeTabell = fiskeTabell[uke];
   let utTekst = "<table border='1'><tr><th>Uke</th><th>Middager</th><th>Barn</th><th>Ungdom</th><th>Voksne</th></tr>";
 
+  // Legger til nye linjer med datai tabellen.
   ukeTabell.forEach(function(ukeTab) {
       utTekst += "<tr><td>" + uke + "</td><td>" + ukeTab[0] + "</td><td>" + ukeTab[1] + "</td><td>" + ukeTab[2] + "</td><td>" + ukeTab[3] + "</td></tr>";
   });
