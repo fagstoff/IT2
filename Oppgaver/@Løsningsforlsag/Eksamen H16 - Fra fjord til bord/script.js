@@ -14,7 +14,6 @@ const vektTabell = [
   [350, 350, 350, 500, 600, 350]
 ];
 
-
 // Leser inn elementer
 
 // Oppgave 2
