@@ -106,6 +106,7 @@ function beregnPris(antMidd, antPers){
 
 // Oppgave 3-funksjoner
 function lagTabell(){
+  // Tabelldata
   let middager = Number(antMiddagVelger2.options[antMiddagVelger2.selectedIndex].value);
   let voksne = Number(antVoksne.options[antVoksne.selectedIndex].value);
   let ungdom = Number(antUngdom.options[antUngdom.selectedIndex].value);
@@ -122,7 +123,7 @@ function lagTabell(){
 
 // Genererer en tabell med data i HTML
 function visData(){
-  let uke = Number(visDataUkeNr.value.slice(-2)); // Henter ut ukernummer fra value
+  let uke = Number(visDataUkeNr.value.slice(-2)); // Henter ut ukenummer fra value
   let ukeTabell = fiskeTabell[uke];
   let utTekst = "<table border='1'><tr><th>Uke</th><th>Middager</th><th>Barn</th><th>Ungdom</th><th>Voksne</th></tr>";
 
