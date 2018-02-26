@@ -7,6 +7,14 @@
 // Globale variabler
 const fiskeTabell = [];
 
+// Ressurstabell for uke 26.
+const vektTabell = [
+  [200, 200, 200, 250, 300, 200],
+  [300, 300, 300, 500, 500, 300],
+  [350, 350, 350, 500, 600, 350]
+];
+
+
 // Leser inn elementer
 
 // Oppgave 2
@@ -84,13 +92,16 @@ function skrivUtKvittering(){
   let antPersoner = antPersonVelger.options[antPersonVelger.selectedIndex].value;
   let kvittering = "";
 
-  kvittering += "Takk for bestillingen " + navn + "!";
-  kvittering += "<p>Den sendes til " + adresse + " i løpet av kort tid. ";
-  kvittering += "Du vi da motta:";
-  kvittering += antMiddager + " middager for " + antPersoner + " personer. ";
-  kvittering += "Totalpris: " + beregnPris(antMiddager, antPersoner) + ",-</p>";
-  kvittering += "Velkommen tilbake!";
-
+  kvittering += 
+    `Takk for bestillingen <b>${navn}!</b>
+    <p>
+      Den sendes til ${adresse}  i løpet av kort tid.
+      Du vil da motta:
+      ${antMiddager} middager for ${antPersoner} personer.
+      Totalpris: ${beregnPris(antMiddager, antPersoner)},-
+    </p>"
+    Velkommen tilbake!
+`;
   ordreTekst.innerHTML = "";
   ordreTekst.innerHTML = kvittering;
 }
@@ -131,7 +142,25 @@ function visData(){
   ukeTabell.forEach(function(ukeTab) {
       utTekst += "<tr><td>" + uke + "</td><td>" + ukeTab[0] + "</td><td>" + ukeTab[1] + "</td><td>" + ukeTab[2] + "</td><td>" + ukeTab[3] + "</td></tr>";
   });
-
   utTekst += "</table>";
+
+  // Legg inn råvaredata her....
+
+  for (let e of beregnFisk()) {
+    utTekst += `<br>${e}`;
+  }
   tabellTekst.innerHTML = utTekst;
+}
+
+  // Beregner totalmengden av fisk som skal fanges i en gitt uke
+function beregnFisk() {
+  const fangst = [0, 0, 0, 0, 0, 0]; // [Torsk, Sei, Makrell, Reker, Krabbe, Laks]
+  let uke = Number(visDataUkeNr.value.slice(-2));
+
+  for (let e of fiskeTabell[uke]) { // Traverserer bestillinger i en gitt uke
+    for (let i = 0; i<e.length; i++){ // Legger til fangstbestillinge for barn/ungdom/voksen
+      fangst[i] += e[i] * (vektTabell[0][i] * e[1] + vektTabell[1][i] * e[1] + vektTabell[2][i] * e[2]);
+    }
+  }
+  return fangst;
 }
