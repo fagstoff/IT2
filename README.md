@@ -1,5 +1,7 @@
 # Informasjonsteknologi 2
 
+** Etter 20.6.2018 bygges repoet om til ny struktur. Eksterne lenker til fagstoff og oppgaver kan derfor slutte å fungere **
+
 Dette prosjektet har som mål å tilby åpne og frie oppgaver for å jobbe med alle kompetansemålene i IT2 ([INF1-01 REA3015](http://www.udir.no/kl06/INF1-01/Kompetansemaal?arst=1858830315&kmsn=130796663)).
 
 Innholdet er ment som ressursser for elever og lærere som ønsker å bruke javascript/HTML/CSS som programmeringsspråk i IT2-undervisningen. Sidene vil fylles på og endres fortløpende, og kan anses som en Betapublisering. Jeg vil rette en stor takk til Rune Mathisen, Gløer Olav Langslet, Aslak Berby og Geir Gåsodden for faglig konsultasjon og inspirasjon.
