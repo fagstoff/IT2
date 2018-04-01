@@ -1,4 +1,6 @@
-// jshint esversion: 6
+// jshint esversion:6
+// Løsningsforslag - Eksamen H17 - Tom Jarle Christiansen V18
+
 
 // Henter elementer
 
