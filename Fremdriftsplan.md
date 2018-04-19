@@ -4,16 +4,16 @@
 |:---:|:----|:-----|
 | 35 | Velkommen til IT2  - [Hallo verden!](/Fagtekster/Intro.md) | Klargjøring av programvare |
 | 36 | [Variabler](/Fagtekster/Variabler.md) ||
-| 37 | [Variabler](/Fagtekster/Variabler.md) ||
-| 38 |Tester||
-| 39 |Løkker||
-| 40 |Løkker||
-| 41 |Lister||
-| 42 |Høstferie|
-| 43 |Lister||
-| 44 |Funksjoner||
-| 45 |Funksjoner||
-| 46 |DOM||
+| 37 | [Operatorer](/Fagtekster/Operatorer.md) ||
+| 38 |[Tester](/Fagtekster/Tester.md)||
+| 39 |[Løkker](/Fagtekster/Lokker.md)||
+| 40 |[Løkker](/Fagtekster/Lokker.md)||
+| 41 |Høstferie||
+| 42 |[Lister](/Fagtekster/Lister.md)||
+| 43 |[Lister](/Fagtekster/Lister.md)||
+| 44 |[Funksjoner](/Fagtekster/Funksjoner.md)||
+| 45 |[Funksjoner](/Fagtekster/Funksjoner.md)||
+| 46 |[Objekter og klasser](/Fagtekster/Objekter og klasser.md)||
 | 47 |DOM||
 | 48 |DOM||
 | 49 |DOM||
