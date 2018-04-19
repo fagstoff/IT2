@@ -2,9 +2,9 @@
 
 | Uke | Tema | Oppgaver |
 |:---:|:----|:-----|
-| 35 | Velkommen til IT2  - [Hallo verden!](https://github.com/fagstoff/IT2/blob/master/Fagtekster/2-Programmering/10-Intro.md) | Klargjøring av programvare |
-| 36 | [Variabler](https://github.com/fagstoff/IT2/blob/master/Fagtekster/2-Programmering/30-Variabler.md) | [Variabler 1-6](https://github.com/fagstoff/IT2/tree/master/Oppgaver/2-Programmering/10-Variabler) |
-| 37 |[Variabler](https://github.com/fagstoff/IT2/blob/master/Fagtekster/2-Programmering/30-Variabler.md) | [Variabler 1-6](https://github.com/fagstoff/IT2/tree/master/Oppgaver/2-Programmering/10-Variabler) |
+| 35 | Velkommen til IT2  - [Hallo verden!](/Fagtekster/Intro.md) | Klargjøring av programvare |
+| 36 | [Variabler](/Fagtekster/Variabler.md) ||
+| 37 | [Variabler](/Fagtekster/Variabler.md) ||
 | 38 |Tester||
 | 39 |Løkker||
 | 40 |Løkker||
