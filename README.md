@@ -1,7 +1,7 @@
 # Informasjonsteknologi 2
 
-### OBS! - Etter 20.6.2018 bygges repoet om til ny struktur. Eksterne lenker til fagstoff og oppgaver kan derfor slutte å fungere.
-## Vil du den nye strukturen allerede i dag kan du bytte til devbranch. (Under utvikling)
+# OBS! - Etter 20.6.2018 bygges repoet om til ny struktur. Eksterne lenker til fagstoff og oppgaver kan derfor slutte å fungere.
+### Vil du teste den nye strukturen allerede i dag kan du bytte til devbranch. (Under utvikling)
 
 Dette prosjektet har som mål å tilby åpne og frie oppgaver for å jobbe med alle kompetansemålene i IT2 ([INF1-01 REA3015](http://www.udir.no/kl06/INF1-01/Kompetansemaal?arst=1858830315&kmsn=130796663)).
 
