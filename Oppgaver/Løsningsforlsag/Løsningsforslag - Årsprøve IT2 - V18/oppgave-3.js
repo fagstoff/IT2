@@ -3,7 +3,6 @@
 // CC BY SA - Tom Jarle Christiansen 2018
 
 // Data
-
 const pizzaTabell = [];
 const bestilling = [];
 
@@ -86,7 +85,6 @@ function skrivBestSkjema() {
     bestillknapp.addEventListener('click', bestillPizza);
 }
 
-
 function bestillPizza() {
     const bestillte = document.querySelectorAll('.pizzaSelect');
     const størrelser = document.querySelectorAll('.sizeCheck');
@@ -107,9 +105,10 @@ function bestillPizza() {
         kvittering += `${pizzaTabell[bestillte[i].selectedIndex].navn} - Kr ${pris},-<br>`;
         sum += Number(pris);
     }
-    kvittering += `-------------------<br>
+    kvittering += `
+        -------------------<br>
         Sum: Kr ${sum},-<br>
-        ===================
+        ====================
     `;
     bestill.innerHTML += kvittering;
 }

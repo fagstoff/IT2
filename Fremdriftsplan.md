@@ -14,18 +14,18 @@
 | 44 |[Funksjoner](/Fagtekster/Funksjoner.md)||
 | 45 |[Funksjoner](/Fagtekster/Funksjoner.md)||
 | 46 |[Objekter og klasser](/Fagtekster/Objekter og klasser.md)||
-| 47 |DOM||
-| 48 |DOM||
-| 49 |DOM||
-| 50 |DOM||
-| 51 |DOM||
-| 52 |DOM||
-| 1 |Multimedia||
-| 2 |Multimedia||
- |3 |Multimedia||
- |4 |Multimedia||
- |5 |Dokumentasjon||
- |6 |Dokumenatsjon||
+| 47 |[Objekter og klasser](/Fagtekster/Objekter og klasser.md)||
+| 48 |[Lyd og video](/Fagtekster/Lyd og video.md)||
+| 49 |[Animasjon](/Fagtekster/Animasjon.md)||
+| 50 |[Animasjon](/Fagtekster/Animasjon.md)||
+| 51 |[DOM](/Fagtekster/DOM.md)||
+| 52 |[DOM](/Fagtekster/DOM.md)||
+| 1 |[Kommentarer](/Fagtekster/Kommentarer.md)||
+| 2 |[Enhetstesting](/Fagtekster/Enhetstesting.md)||
+ |3 |[Kravspesifikasjon](/Fagtekster/Kravspesifikasjon.md)||
+ |4 |Sammensatte oppgaver||
+ |5 |Sammensatte oppgaver||
+ |6 |Sammensatte oppgaver||
 | 7 |Sammensatte oppgaver||
 | 8 |Vinterferie||
 | 10 |Sammensatte oppgaver||
