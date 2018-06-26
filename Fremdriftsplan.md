@@ -13,8 +13,8 @@
 | 43 |[Lister](/Fagtekster/Lister.md)||
 | 44 |[Funksjoner](/Fagtekster/Funksjoner.md)||
 | 45 |[Funksjoner](/Fagtekster/Funksjoner.md)||
-| 46 |[Objekter og klasser](/Fagtekster/Objekter og klasser.md)||
-| 47 |[Objekter og klasser](/Fagtekster/Objekter og klasser.md)||
+| 46 |[Objekter og klasser](/Fagtekster/Objekter_klasser.md)||
+| 47 |[Objekter og klasser](/Fagtekster/Objekter_klasser.md)||
 | 48 |[Lyd og video](/Fagtekster/Lyd og video.md)||
 | 49 |[Animasjon](/Fagtekster/Animasjon.md)||
 | 50 |[Animasjon](/Fagtekster/Animasjon.md)||
