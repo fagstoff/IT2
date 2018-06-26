@@ -8,7 +8,7 @@ Innholdet er bygget opp etter strukturen til kompetansemåla i faget i form av [
 
 Bli gjerne med i [nettverket for lærere som er interessert i IT2 med javascript på facebook](https://www.facebook.com/groups/231993360276497/?fref=ts).
 
-## Dine bidrag er ønsket
+**Dine bidrag er ønsket!**
 
 Alle som ønsker inviteres til å bidra. Dette kan både gjøres ved å legge inn forslag, tips, feilmeldinger, ønsker eller andre kommentarer under [issues](https://github.com/fagstoff/IT2/issues).
 

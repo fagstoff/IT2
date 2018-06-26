@@ -15,7 +15,7 @@
 | 45 |[Funksjoner](/Fagtekster/Funksjoner.md)||
 | 46 |[Objekter og klasser](/Fagtekster/Objekter_klasser.md)||
 | 47 |[Objekter og klasser](/Fagtekster/Objekter_klasser.md)||
-| 48 |[Lyd og video](/Fagtekster/Lyd og video.md)||
+| 48 |[Lyd og video](/Fagtekster/Lyd_video.md)||
 | 49 |[Animasjon](/Fagtekster/Animasjon.md)||
 | 50 |[Animasjon](/Fagtekster/Animasjon.md)||
 | 51 |[DOM](/Fagtekster/DOM.md)||
