@@ -2,30 +2,30 @@
 
 | Uke | Tema | Oppgaver |
 |:---:|:----|:-----|
-| 35 | Velkommen til IT2  - [Hallo verden!](https://github.com/fagstoff/IT2/blob/master/Fagtekster/2-Programmering/10-Intro.md) | Klargjøring av programvare |
-| 36 | [Variabler](https://github.com/fagstoff/IT2/blob/master/Fagtekster/2-Programmering/30-Variabler.md) | [Variabler 1-6](https://github.com/fagstoff/IT2/tree/master/Oppgaver/2-Programmering/10-Variabler) |
-| 37 |[Variabler](https://github.com/fagstoff/IT2/blob/master/Fagtekster/2-Programmering/30-Variabler.md) | [Variabler 1-6](https://github.com/fagstoff/IT2/tree/master/Oppgaver/2-Programmering/10-Variabler) |
-| 38 |Tester||
-| 39 |Løkker||
-| 40 |Løkker||
-| 41 |Lister||
-| 42 |Høstferie|
-| 43 |Lister||
-| 44 |Funksjoner||
-| 45 |Funksjoner||
-| 46 |DOM||
-| 47 |DOM||
-| 48 |DOM||
-| 49 |DOM||
-| 50 |DOM||
-| 51 |DOM||
-| 52 |DOM||
-| 1 |Multimedia||
-| 2 |Multimedia||
- |3 |Multimedia||
- |4 |Multimedia||
- |5 |Dokumentasjon||
- |6 |Dokumenatsjon||
+| 35 | Velkommen til IT2  - [Hallo verden!](/Fagtekster/Intro.md) | Klargjøring av programvare |
+| 36 | [Variabler](/Fagtekster/Variabler.md) ||
+| 37 | [Operatorer](/Fagtekster/Operatorer.md) ||
+| 38 |[Tester](/Fagtekster/Tester.md)||
+| 39 |[Løkker](/Fagtekster/Lokker.md)||
+| 40 |[Løkker](/Fagtekster/Lokker.md)||
+| 41 |Høstferie||
+| 42 |[Lister](/Fagtekster/Lister.md)||
+| 43 |[Lister](/Fagtekster/Lister.md)||
+| 44 |[Funksjoner](/Fagtekster/Funksjoner.md)||
+| 45 |[Funksjoner](/Fagtekster/Funksjoner.md)||
+| 46 |[Objekter og klasser](/Fagtekster/Objekter og klasser.md)||
+| 47 |[Objekter og klasser](/Fagtekster/Objekter og klasser.md)||
+| 48 |[Lyd og video](/Fagtekster/Lyd og video.md)||
+| 49 |[Animasjon](/Fagtekster/Animasjon.md)||
+| 50 |[Animasjon](/Fagtekster/Animasjon.md)||
+| 51 |[DOM](/Fagtekster/DOM.md)||
+| 52 |[DOM](/Fagtekster/DOM.md)||
+| 1 |[Kommentarer](/Fagtekster/Kommentarer.md)||
+| 2 |[Enhetstesting](/Fagtekster/Enhetstesting.md)||
+ |3 |[Kravspesifikasjon](/Fagtekster/Kravspesifikasjon.md)||
+ |4 |Sammensatte oppgaver||
+ |5 |Sammensatte oppgaver||
+ |6 |Sammensatte oppgaver||
 | 7 |Sammensatte oppgaver||
 | 8 |Vinterferie||
 | 10 |Sammensatte oppgaver||

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oppgave 3</title>
+    <link rel="stylesheet" href="stilark.css">
+</head>
+<body>
+
+    <div id="registrerDiv">
+        <input id="pizzanavnInput" type="text" placeholder="Pizzanavn"><br>
+        <textarea id="innholdInput" rows="2" cols="20" placeholder="Innhold separert med komma"></textarea><br>
+        <textarea id="allergenerInput" rows="2" cols="20" placeholder="Allergener separert med komma"></textarea><br>
+        <input id="prisLitenInput" type="text" placeholder="pris liten umva"><br>
+        <input id="prisStorInput" type="text" placeholder="pris stor umva"><br>
+        <input id="btnRegpizza" type="button" value="Registrer pizza">
+    </div>
+    <br>
+    <div id="menyDiv">
+        <input id="btnMeny" type="button" value="Skriv ut menyen">
+        Her kommer menyen:
+    </div>
+    <br>
+    <div id="bestillDiv">
+        <h2>Bestill pizza</h2>
+        Hvor mange pizza ønsker du å bestille?
+        <select id="antallSelect" >
+            <option disabled selected="true">Velg antall</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+    </div>
+
+    <script src="oppgave-3.js"></script>
+</body>
+</html>
