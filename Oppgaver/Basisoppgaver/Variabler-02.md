@@ -7,7 +7,7 @@ I denne oppgaven skal vi jobbe mer med variabler. Du skal deklarere to variabler
 ## Ressurser
 
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
-* Les mer om variabler på [w3schools](http://www.w3schools.com/js/js_variables.asp)
+* Les mer om variabler på [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Declarations)
 
 ## Vurderingskriterier
 
