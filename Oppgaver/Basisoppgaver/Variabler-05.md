@@ -2,9 +2,9 @@
 
 ## Oppgave
 
-Lag et program som tar en verdi i sekunder, og skriver ut i konsollen hvor mange timer, minutter og sekunder dette tilsvarer. Du skal skrive på nettsiden hvordan du har kommet frem til løsningen på problemet.
+Lag et program som tar en verdi i sekunder, og skriver ut i konsollen hvor mange minutter og sekunder dette tilsvarer. Du skal skrive på nettsiden hvordan du har kommet frem til løsningen på problemet.
 
-For eksempel skal innverdien 3723 skrives ut som 1 time(r) 2 minutt(er) og 3 sekund(er)
+For eksempel skal innverdien 123 skrives ut som 2 minutt(er) og 3 sekund(er)
 
 ## Ressurser
 
