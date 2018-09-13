@@ -16,7 +16,7 @@ Lag kode som sjekker:
 ## Ressurser
 
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
-* Les mer om tester på [W3Schools](https://www.w3schools.com/js/js_comparisons.asp)
+* Les mer om sammenlikningsoperatorer på [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 
 ## Vurderingskriterier
 
