@@ -61,7 +61,7 @@ console.log("kommandoen tall1++; vil øke verdien med en slik at tall1 nå er " 
 tall1 = 10;
 console.log("Variabelen tall1 har verdien " + tall1);
 tall1--;
-console.log("kommandoen tall1++; vil øke minke med en slik at tall1 nå er " + tall1);
+console.log("kommandoen tall1--; vil minke veriden med en slik at tall1 nå er " + tall1);
 ```
 
 *Tips: Kopier og prøv å endre koden i dette eksempelet selv.*
