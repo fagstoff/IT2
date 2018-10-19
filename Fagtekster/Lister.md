@@ -1,6 +1,6 @@
 # Lister
 
-**Lister eller arrays er veldig sentrale i mange programmeringsspråk, og brukes når man skal lagre informasjon som hører naturlig sammen. For å forstå hvordan lister fungerer i programmering kan vi tenke oss en tabell med informasjon. I tillegg til informasjonen i tabellen, må vi også vite noe om hvilken linje vi finner innholdet vi ønsker å se på. Når vi kan nå forskjellige verdier i en liste kalles dette en indeksert variabel.**
+**Lister eller arrays er helt sentrale i mange programmeringsspråk, og brukes når man skal lagre informasjon som naturlig hører sammen. For å forstå hvordan lister fungerer i programmering kan vi tenke oss en tabell med informasjon. I tillegg til informasjonen i tabellen, må vi også vite noe om hvilken linje vi finner innholdet vi ønsker å se på. Når vi kan nå forskjellige verdier i en liste kalles dette en indeksert variabel.**
 
 Tabellen under er en enkel oversikt over noen realfag som undervises i videregående skole. Hvert fag ligger på en egen linje med linjernummer. Legg merke til at første linje har nummeret 0.
 
@@ -54,6 +54,7 @@ for(let i=0;i<mineFag.length;i++){
      console.log(mineFag[i]);}
 
 // forEach-løkke (ofte brukes .map() istedenfor.)
+
 // Lager en liste med tre elementer
 let minListe = ['a', 'b', 'c'];
 
@@ -69,8 +70,10 @@ minListe.forEach(function(element) {
 
 ``` javascript
 
+// Lager en liste
 let liste = [10, 20, 30];
 
+// Traverserer lista med "for of"-løkke
 for (let verdi of liste) {
   verdi += 1; // Det adderes 1 til alle elementene i lista
   console.log(verdi);
