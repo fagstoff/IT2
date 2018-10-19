@@ -1,5 +1,4 @@
-Lyd
-===
+# Lyd
 
 Det finnes [to likeverdige måter](https://wiki.mozilla.org/Audio_Data_API#API_Tutorial) å spille av lyd på nettside. Begge lager et lydobjekt som kan spille av en valgfri lyd.
 
