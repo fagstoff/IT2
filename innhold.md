@@ -18,7 +18,11 @@
 * [Kravspesifikasjon](/Fagtekster/Kravspesifikasjon.md)
 * [Tjenestedesign](/Fagtekster/Tjenestedesign.md)
 
+<hr>
+
 ## Basisoppgaver
+
+### Grunnleggende
 
 * [Variabler 1](/Oppgaver/Basisoppgaver/Variabler-01.md)
 * [Variabler 2](/Oppgaver/Basisoppgaver/Variabler-02.md)
@@ -41,3 +45,21 @@
 * [Funksjoner 3](/Oppgaver/Basisoppgaver/Funksjoner-03.md)
 * [Funksjoner 4](/Oppgaver/Basisoppgaver/Funksjoner-04.md)
 * [Funksjoner 5](/Oppgaver/Basisoppgaver/Funksjoner-05.md)
+
+### Sammensatte oppgaver
+
+* [Tall](/Oppgaver/Basisoppgaver/tall.md)
+* [Pizza 1](/Oppgaver/Basisoppgaver/pizzameny.md)
+* [Pizza 2](/Oppgaver/Basisoppgaver/pizzameny2.md)
+* [Pizza 3](/Oppgaver/Basisoppgaver/pizzameny3.md)
+* [Radioknapper - Kaffe eller te](/Oppgaver/Basisoppgaver/KaffeEllerTe.md)
+* [FizzBuzz](/Oppgaver/Basisoppgaver/FizzBuzz.md)
+* [Gangetabellen](/Oppgaver/Basisoppgaver/gangetabellen.md)
+* [JukeBox](/Oppgaver/Basisoppgaver/jukebox.md)
+* [Do-Da-DOM](/Oppgaver/Basisoppgaver/Do-Da-DOM.md)
+* [Lotto](/Oppgaver/Basisoppgaver/Lotto.md)
+* [Mine fag](/Oppgaver/Basisoppgaver/mine-fag.md)
+* [Quiz](/Oppgaver/Basisoppgaver/quiz.md)
+
+# Eksamensoppgaver
+* [Lister - Pizza 1](/Oppgaver/Eksamensoppgaver/vi-elsker-trær.md)
