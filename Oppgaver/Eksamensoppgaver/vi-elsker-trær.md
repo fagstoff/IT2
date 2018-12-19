@@ -1,4 +1,4 @@
-# Vi elsker Trær
+# Vi elsker trær
 
 ## Om oppgaven
 
