@@ -56,10 +56,13 @@
 * [FizzBuzz](/Oppgaver/Basisoppgaver/FizzBuzz.md)
 * [Gangetabellen](/Oppgaver/Basisoppgaver/gangetabellen.md)
 * [JukeBox](/Oppgaver/Basisoppgaver/jukebox.md)
-* [Do-Da-DOM](/Oppgaver/Basisoppgaver/Do-Da-DOM.md)
+* [Do-da-DOM](/Oppgaver/Basisoppgaver/Do-da-DOM.md)
 * [Lotto](/Oppgaver/Basisoppgaver/Lotto.md)
 * [Mine fag](/Oppgaver/Basisoppgaver/mine-fag.md)
 * [Quiz](/Oppgaver/Basisoppgaver/quiz.md)
 
 # Eksamensoppgaver
-* [Lister - Pizza 1](/Oppgaver/Eksamensoppgaver/vi-elsker-trær.md)
+* [Vi ❤️ trær](/Oppgaver/Eksamensoppgaver/vi-elsker-trær.md)
+* [Bilbutikk](/Oppgaver/Eksamensoppgaver/bilbutikk.md)
+* [Energi](/Oppgaver/Eksamensoppgaver/Energi.md)
+* [Reiseklubb](/Oppgaver/Eksamensoppgaver/Reiseklubb.md)
