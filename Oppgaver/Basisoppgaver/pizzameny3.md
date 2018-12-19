@@ -1,15 +1,14 @@
 # Pizzameny3.0
 
-Vi skal nå utvide pizzamenyen, slik at det nå også er informasjon om ingredienser og pris(er) for hver pizza.
+Vi skal nå utvide [pizzamenyen](pizzameny2.md), slik at det nå også er informasjon om ingredienser og priser (stor/liten) for hver pizza.
 
 ## Oppgave
 
-Lag en pizzameny ved hjelp av lister. Skriv ut hele menyen med pizzanavn, ingredienser og pris ved ved hjelp av en løkke i konsollen.
+Lag en pizzameny ved hjelp av *objekter*. Skriv ut hele menyen med pizzanavn, ingredienser og priser ved ved hjelp av en løkke i konsollen. Brukeren skal kunne bestille seg *en* pizza og valgfritt antall drikke. Totalpris med og uten mva skal vises i et eget felt.
 
 ## Ressurser
 
 * Du trenger en teksteditor og en nettleser til denne oppgaven.
-* Ulike [Metoder](https://www.w3schools.com/js/js_array_methods.asp) som kan brukes på lister.
 
 ## Vurderingskriterier
 
@@ -24,6 +23,7 @@ Lag en pizzameny ved hjelp av lister. Skriv ut hele menyen med pizzanavn, ingred
 * tilordne uttrykk til variabler
 * programmere med enkle og indekserte variabler eller andre kolleksjoner av variabler
 * lage egne og bruke egne og andres funksjoner eller metoder med parametere
+* gjøre rede for hensikten med objektorientert utvikling og begrepene klasse, objekt og arv
 
 ---
 
