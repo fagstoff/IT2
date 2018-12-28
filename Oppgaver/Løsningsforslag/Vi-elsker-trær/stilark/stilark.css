@@ -1,0 +1,25 @@
+
+
+#tabellbilde {
+    width: 400px;
+}
+
+figcaption {
+    width: 400px;
+}
+
+#diagramElement {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: lightcoral;
+}
+
+.soyleElement {
+    position: absolute;
+    background-color: blue;
+    float: left;
+    bottom: 10px;
+    width: 40px;
+    margin: 10px;
+}
