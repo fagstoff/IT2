@@ -2,7 +2,7 @@
 
 ## Oppgave
 
-Lag en nettside som viser minst fire bilder. Når brukeren trykker på et av bildene skal det spilles av en sang eller en videofilm.
+Lag en nettside som viser minst fire ulike bilder. Når brukeren trykker på et av bildene skal det spilles av enten en sang eller en videofilm.
 
 ## Ressurser
 
@@ -14,7 +14,7 @@ Lag en nettside som viser minst fire bilder. Når brukeren trykker på et av bil
 
 * Siden skal validere uten feil og advarsler i konsollvinduet.
 * Videoene skal vises med kontrollknapper
-* Det skal være minst et lydklipp et videoklipp med.
+* Det skal være minst et lydklipp og et videoklipp med.
 * Menybildene skal være like store, og plassert i et rutenett.
 * Video og lyd skal spilles av i et eget område under menyen.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
