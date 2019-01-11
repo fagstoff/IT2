@@ -16,7 +16,7 @@ Tabellen under viser antall grove trær i Norge fra 1915 til 2000, angitt i mill
 
 **a)** Lag en applikasjon der brukeren kan angi to utvalgte år for *en* tresort. Programmet skal deretter regne og skrive ut økningen som tallverdi og prosent.
 
-Eksempel: Ved registrering av verdiene for furutrær i 1950 og 200, henholdsvis 31 millioner og 117 millioner, skal applikasjonen beregne en økning på 86 millioner og en prosentvis økning på 277,4%
+Eksempel: Ved registrering av verdiene for furutrær i 1950 og 200, henholdsvis 31 millioner og 117 millioner, skal applikasjonen beregne en økning på 86 millioner og en prosentvis økning på 277,4%.
 
 Formelen for å regne ut prosent: prosent = (økning/opprinnelig verdi)*100
 For eksempelet over blir utregningen: (86/31)*100
