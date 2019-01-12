@@ -1,4 +1,30 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
 
+.header {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.infoboks {
+    padding-top: 50px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#utTekstElement {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#diagramElement {
+    grid-column: 2;
+    grid-row: 2;
+}
 
 #tabellbilde {
     width: 400px;
