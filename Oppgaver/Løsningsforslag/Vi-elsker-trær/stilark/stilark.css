@@ -39,6 +39,10 @@ figcaption {
     width: 400px;
     height: 400px;
     background-color: lightgrey;
+    border: 4px gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    padding: 10px;
 }
 
 .soyleElement {
