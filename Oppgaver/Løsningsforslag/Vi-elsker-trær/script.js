@@ -55,11 +55,16 @@ function visData() {
 function tegnSoyler(valgtTre) {
     let teller = 0;
     let venstre = 0;
+    let norm_v = 350 / Math.max(...tretabell[valgtTre]); // Normalisering for at søylene skal fylle helle div'en
+    let norm_h = 360 / tretabell[valgtTre].length; // Normalisering for at søylene skal fylle helle div'en 
     for (s of soyler) {
-        s.style.height = `${tretabell[valgtTre][teller]}px`;
+        s.style.height = `${tretabell[valgtTre][teller] * norm_v}px`;
         s.style.left = `${venstre}px`;
-        venstre += 50;
+        venstre += norm_h;
         teller++;
         console.log(venstre);
     }
 }
+
+// Tegner søyler for standardverdi.
+tegnSoyler(treVelger.selectedIndex);

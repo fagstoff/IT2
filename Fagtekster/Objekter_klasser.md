@@ -27,7 +27,7 @@ let person = {
     }
 };
 
-person.fulltNavn(); // Ole-Johan Dahl
+person.fulltNavn(); // "Ole-Johan Dahl"
 ```
 
 

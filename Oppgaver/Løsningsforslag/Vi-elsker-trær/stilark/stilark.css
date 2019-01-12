@@ -12,14 +12,15 @@ figcaption {
     position: relative;
     width: 400px;
     height: 400px;
-    background-color: lightcoral;
+    background-color: lightgrey;
 }
 
 .soyleElement {
     position: absolute;
-    background-color: blue;
+    background-color: lightskyblue;
     float: left;
     bottom: 10px;
     width: 40px;
     margin: 10px;
+    box-shadow: 5px 10px 5px #888888;
 }
