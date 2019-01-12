@@ -1,3 +1,9 @@
+/*
+Løsningsforslag: Vi elsker trær (Eksamen V2011)
+CC - BY SA -  Tom Jarle Christiansen 2019
+*/
+
+
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
