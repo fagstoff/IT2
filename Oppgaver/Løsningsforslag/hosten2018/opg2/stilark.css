@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+DIV {
+  text-align: center;
+  width: 150px;
+  height: 100px;
+  
+  border:brown;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+ 
+}
+
+body {font-family:verdana;
+}
+
+.ramme{
+	border:0px solid red;
+ 	position: absolute;
+    height: 100;
+    width: 100;
+}
+
+#granbo{
+  left: 480px;
+  top:160px;
+  z-index: 1;
+}
+
+#granstua{
+  left: 660px;
+  top:240px;
+  z-index: 1;
+}
+
+
+#galleri{
+  align-content: left;
+  left:1400px;
+  top:200px;
+  z-index: 1;
+}
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+
