@@ -5,7 +5,7 @@ Visualisere funksjoner
 Lineæret ligninger er bygget opp slik: f(x) = ax+b. 
 Der a er stigningstallet og b er der funksjonen krysser y-aksen.
 
- 
+![Vindmøller](media/energi/energi.png)
 
 Opg1)
 --------
