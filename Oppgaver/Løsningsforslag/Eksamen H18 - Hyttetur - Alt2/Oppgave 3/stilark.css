@@ -6,7 +6,9 @@
     border: solid 3px blue;
     border-radius: 10px;
     box-shadow: 10px 10px 5px black;
-    margin: 10px;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
 }
 
 img {

@@ -58,7 +58,6 @@ function visHytter(){
 function bestillHytte(navn) {
     let valgtFerie = ferievelger.selectedIndex - 1; // Index - 1 grunnet selectboksen
     const hytte = hytteliste.filter(h => h.navn == navn); // Filtrerer ut hytta som skal bookes
-    console.log(navn, hytte);
     hytte[0].book(); // index 0 grunnet filter returnerer en liste med resultater
     visHytter();
 }
