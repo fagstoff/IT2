@@ -6,10 +6,11 @@
 // Leser inn elementer
 let voksen = document.querySelector("#voksenRadio");
 let antDager = document.querySelector("#antDagerElement");
+let bekreftKnapp = document.querySelector("#bekreftElement");
 let ut = document.querySelector("#utElement");
 
 // Lytter
-antDager.addEventListener('change', bekreftKjop);
+bekreftKnapp.addEventListener('click', bekreftKjop);
 
 // Funksjoner
 
@@ -19,14 +20,14 @@ function bekreftKjop(){
     if(voksen.checked){
         pris = 200 * dager;
         if(pris > 1000) {
-            ut.innerHTML = `Voksen: Prisen er kr1000. Du får ${pris - 1000} i rabatt`;
+            ut.innerHTML = `Voksen: Du har bestillt heiskort for ${dager} dager.<br>Prisen er kr1000. Du får ${pris - 1000} i rabatt`;
         }
         else {
-            ut.innerHTML = `Voksen: Prisen er kr${pris}.`;
+            ut.innerHTML = `Voksen: Du har bestillt heiskort for ${dager} dager.<br>Prisen er kr${pris}.`;
         }    
     }
     else {
         pris = 100 * dager;
-        ut.innerHTML = `Barn: Prisen er kr${pris}`;  
+        ut.innerHTML = `Barn: Du har bestillt heiskort for ${dager} dager.<br>Prisen er kr${pris}`;  
     }
 }
