@@ -8,7 +8,20 @@
 </head>
 <body>
     <h1>Heiskortbestilling</h1>
-    <input type="radio" name="alder" id="">
+    <h3>Velg alder og antall dager.</h3>
+    <input type="radio" name="alder" id="voksenRadio">Voksen<br>
+    <input type="radio" name="alder" id="barnRadio">Barn (0-12)<br>
+    <select id="antDagerElement">
+        <option disabled selected>Velg antall dager</option>
+        <option value="1">1 dag</option>
+        <option value="2">2 dager</option>
+        <option value="3">3 dager</option>
+        <option value="4">4 dager</option>
+        <option value="5">5 dager</option>
+        <option value="6">6 dager</option>
+        <option value="7">7 dager</option>
+    </select>
+    <div id="utElement"></div>
     <script src="script.js"></script>
 </body>
 </html>
