@@ -41,7 +41,10 @@
 
 #presentasjonElement {
     width: 350px;
-    height: 350px;
+    height: 300px;
     float: left;
-    background-color: lightcoral;
+    background-color: lightgray;
+    border: 2px solid lightskyblue;
+    border-radius: 20px;
+    padding: 10px;
 }
