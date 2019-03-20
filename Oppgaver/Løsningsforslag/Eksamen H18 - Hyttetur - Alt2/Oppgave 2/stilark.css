@@ -1,0 +1,47 @@
+
+
+#hoved {
+    position: relative;
+}
+
+#oversikt {
+    width: 800px;
+
+}
+
+#infobilde {
+    height: 150px;
+}
+
+#granboElement {
+    position: absolute;
+    left: 660px;
+    top: 450px;
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    opacity: 0.5;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+#granstuaElement {
+    position: absolute;
+    left: 130px;
+    top: 320px;
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    opacity: 0.5;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+#presentasjonElement {
+    width: 350px;
+    height: 350px;
+    float: left;
+    background-color: lightcoral;
+}
