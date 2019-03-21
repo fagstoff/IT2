@@ -2,6 +2,7 @@
 
 #hoved {
     position: relative;
+    float: left;
 }
 
 #oversikt {
@@ -13,6 +14,12 @@
     height: 150px;
 }
 
+#film {
+    width: 300px;
+    margin: 20px;
+    border: 3px blue solid;
+    border-radius: 20px;
+}
 #granboElement {
     position: absolute;
     left: 660px;
@@ -43,6 +50,7 @@
     width: 350px;
     height: 300px;
     float: left;
+    margin: 20px;
     background-color: lightgray;
     border: 2px solid lightskyblue;
     border-radius: 20px;
