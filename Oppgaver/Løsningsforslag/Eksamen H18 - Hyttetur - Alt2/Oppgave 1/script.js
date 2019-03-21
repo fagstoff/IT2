@@ -28,6 +28,11 @@ function bekreftKjop(){
     }
     else {
         pris = 100 * dager;
-        ut.innerHTML = `Barn: Du har bestillt heiskort for ${dager} dager.<br>Prisen er kr${pris}`;  
+        if(pris > 500) {
+            ut.innerHTML = `Voksen: Du har bestillt heiskort for ${dager} dager.<br>Prisen er kr500. Du får ${pris - 500} i rabatt`;
+        }
+        else {
+            ut.innerHTML = `Barn: Du har bestillt heiskort for ${dager} dager.<br>Prisen er kr${pris}`; 
+        } 
     }
 }

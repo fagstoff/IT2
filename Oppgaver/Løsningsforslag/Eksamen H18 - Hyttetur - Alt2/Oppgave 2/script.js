@@ -53,5 +53,4 @@ function visHytte() {
             }
             bilde.src = `./bilder/${hytter[hyttenummer].bilder[bildenr]}`;
         });
-
 }
