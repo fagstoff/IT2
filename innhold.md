@@ -62,7 +62,4 @@
 * [Quiz](/Oppgaver/Basisoppgaver/quiz.md)
 
 # Eksamensoppgaver og løsningsforslag
-* [Vi ❤️ trær](/Oppgaver/Eksamensoppgaver/vi-elsker-trær.md) - [Løsningsforslag](/Oppgaver/Løsningsforslag/Vi-elsker-trær)
-* [Bilbutikk](/Oppgaver/Eksamensoppgaver/bilbutikk.md)
-* [Energi](/Oppgaver/Eksamensoppgaver/Energi.md)
-* [Reiseklubb](/Oppgaver/Eksamensoppgaver/Reiseklubb.md)
+* Kommer...
