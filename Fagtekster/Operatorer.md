@@ -105,9 +105,9 @@ Tabellen under viser hvilket resultat ulike aritmetiske operatorer gir når vari
 
 |Operator|Beskrivelse|Eksempel|Resultat|
 |:-------------:|:-------------:|:-----:|:-:|
-| == |Er lik          |x == 8|Usann
-| != |Er ulik         |x != 8|Sann
+| == |Er lik          |x == 8|Sann
+| != |Er ulik         |x != 8|Usann
 | <  |Mindre enn      |x < 8 |Usann
-| >  |Større enn      |x > 8 |Sann
+| >  |Større enn      |x > 8 |Usann
 | <= |Mindre eller lik|x <= 8|Sann
 | >= |Større eller lik|x >= 8|Sann
