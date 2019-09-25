@@ -64,15 +64,37 @@ else {
 
 // Svar: ______________________
 
+
 // Oppgave 6:
+
+for(let i = 0; i < 100; i++){
+    if( i % 57 == 0) {
+        console.log(i)
+    }
+}
+
+// Svar: ______________________
+
+// Oppgave 7:
+
+let min_liste = [4,3,6,8,1];
+
+for(x in min_liste){
+    console.log(x);
+}
+
+// Svar: __________________
+
+
+// Oppgave 8:
 
 let min_liste1 = [4, 1, 2, -3, 7, 4]
 
-console.log(min_liste[2]);
+console.log(min_liste1[2]);
 
 // Svar: _______________
 
-// Oppgave 7:
+// Oppgave 9:
 
 let min_liste2 = ["Heisann", 2, 3.14, false, -19];
 
@@ -81,7 +103,7 @@ console.log(min_liste2.length);
 // Svar: ___________________
 
 
-// Oppgave 8:
+// Oppgave 10:
 
 let min_liste3 = [1, 2, 3, ["a", "b", "c"]]
 
@@ -89,7 +111,7 @@ console.log(min_liste3[3][1]);
 
 // Svar: ________________
 
-// Oppgave 9:
+// Oppgave 11:
 
 for(let i=10; i < 15; i++) {
     console.log(i);
@@ -97,12 +119,13 @@ for(let i=10; i < 15; i++) {
 
 // Svar: _______________
 
-// Oppgave 10:
+// Oppgave 12:
 
 let min_liste4 = [4,3,6,8,1];
 
-for(x in min_liste){
-    console.log(x);
+for(x in min_liste4){
+    if(x % 2 != 0 || x > 7) {
+        console.log(x);
 }
 
 // Svar: __________________
