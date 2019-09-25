@@ -6,6 +6,8 @@ I nesten alle programmer vil man før eller siden få behov for å teste eller s
 
 If-kommandoen bruker operatorer til å sammenlikne to verdier, og resultatet av en if-test er enten sann eller falsk.
 
+** Tester i JavaScript sjekker som resultatet av sammelikningsoperatorern er `true` eller `false` **
+
 ``` javascript
 const tall1 = verdi;
 const tall2 = verdi;
@@ -55,8 +57,8 @@ Noen ganger kan det være nødvendig å kombinere flere typer uttrykk og operato
 
 ``` javascript
 //To tester med if og else-if
-const tall1 = verdi;
-const tall2 = verdi;
+const tall1 = verdi_1;
+const tall2 = verdi_2;
 
 //Første test
 if(tall1 >= tall2 && tall2 % 2 == 0){
