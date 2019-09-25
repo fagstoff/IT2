@@ -20,7 +20,7 @@ console.log("Hallo verden!");
 // Oppgave 1:
 
 let navn = "Tom Jarle";
-console.log(`Heisann ${navn}! Hvordan har du det i dag`);
+console.log(`Heisann ${navn}! Hvordan har du det i dag?`);
 
 // Svar: ______________________________________________
 
@@ -92,7 +92,7 @@ for(x in min_liste){
 
 // Oppgave 8:
 
-let min_liste1 = [4, 1, 2, -3, 7, 4]
+let min_liste1 = [4, 1, 2, -3, 7, 4];
 
 console.log(min_liste1[2]);
 
@@ -109,7 +109,7 @@ console.log(min_liste2.length);
 
 // Oppgave 10:
 
-let min_liste3 = [1, 2, 3, ["a", "b", "c"]]
+let min_liste3 = [1, 2, 3, ["a", "b", "c"]];
 
 console.log(min_liste3[3][1]);
 
