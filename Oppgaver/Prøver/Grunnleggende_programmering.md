@@ -1,0 +1,113 @@
+```javascript
+
+/*
+Øveprøve i grunnleggende JavaScript-programmering
+Du skal kun skrive ut resultatet av koden.
+*/
+
+// Navn: _________________________________
+
+// Oppgave 0:
+
+console.log("Hallo verden!");
+
+// Svar: __________________________
+
+// Oppgave 1:
+
+let navn = "Tom Jarle";
+console.log(`Heisann ${navn}! Hvordan har du det i dag`);
+
+// Svar: ______________________________________________
+
+// Oppgave 2:
+
+let tall1 = "7";
+let tall2 = "3";
+
+console.log(tall1 + tall2);
+
+// Svar: _____________________
+
+// Oppgave 3:
+
+let tall2 = 7;
+let tall3 = 3;
+
+let resultat = 7 % 3;
+
+console.log(resultat);
+
+// Svar: ___________________
+
+// Oppgave 4:
+
+let tall4 = 8;
+
+console.log(tall4 % 2 == 0);
+
+// Svar: __________________
+
+// Oppgave 5:
+
+let tall5 = 9;
+
+if(tall5 % 2 != 0 && tall5 >= 9) {
+    console.log("Utfall 1");
+}
+else if (tall5 < 10) {
+    console.log("Utfall 2");
+}
+else {
+    console.log("Utfall 3");
+}
+
+// Svar: ______________________
+
+// Oppgave 6:
+
+let min_liste1 = [4, 1, 2, -3, 7, 4]
+
+console.log(min_liste[2]);
+
+// Svar: _______________
+
+// Oppgave 7:
+
+let min_liste2 = ["Heisann", 2, 3.14, false, -19];
+
+console.log(min_liste2.length);
+
+// Svar: ___________________
+
+
+// Oppgave 8:
+
+let min_liste3 = [1, 2, 3, ["a", "b", "c"]]
+
+console.log(min_liste3[3][1]);
+
+// Svar: ________________
+
+// Oppgave 9:
+
+for(let i=10; i < 15; i++) {
+    console.log(i);
+}
+
+// Svar: _______________
+
+// Oppgave 10:
+
+let min_liste4 = [4,3,6,8,1];
+
+for(x in min_liste){
+    console.log(x);
+}
+
+// Svar: __________________
+
+
+```
+
+
