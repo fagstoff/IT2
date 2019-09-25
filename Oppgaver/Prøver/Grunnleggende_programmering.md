@@ -3,6 +3,9 @@
 /*
 Øveprøve i grunnleggende JavaScript-programmering
 Du skal kun skrive ut resultatet av koden.
+
+Oppgavene bør løses UTEN hjelpemidler for å vise at du har kompetanse i grunnleggende programmering
+
 */
 
 // Navn: _________________________________
