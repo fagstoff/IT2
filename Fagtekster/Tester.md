@@ -6,7 +6,7 @@ I nesten alle programmer vil man før eller siden få behov for å teste eller s
 
 If-kommandoen bruker operatorer til å sammenlikne to verdier, og resultatet av en if-test er enten sann eller falsk.
 
-** Tester i JavaScript sjekker som resultatet av sammelikningsoperatorern er `true` eller `false` **
+**Tester i JavaScript sjekker som resultatet av sammelikningsoperatorern er `true` eller `false`**
 
 ``` javascript
 const tall1 = verdi;
