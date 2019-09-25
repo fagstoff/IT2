@@ -58,7 +58,7 @@ for(let i=0;i<mineFag.length;i++){
 // Lager en liste med tre elementer
 let minListe = ['a', 'b', 'c'];
 
-// forEach traverserer listen og skriver ut hvert enkelt element.
+// forEach traverserer listen og kjører en funksjon på hvert enkelt element.
 minListe.forEach(function(element) {
     console.log(element);
 });

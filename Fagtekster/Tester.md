@@ -13,7 +13,7 @@ const tall1 = verdi;
 const tall2 = verdi;
 
 if(tall1 == tall2){
-    //kode som skal kjøres kun hvis tall1 er lik tall2
+    // kode som skal kjøres kun hvis tall1 er lik tall2
 }
 ```
 
@@ -27,26 +27,26 @@ La oss se på flere eksempel der vi kombinerer ulike operatorer.
 const tall1 = verdi;
 const tall2 = verdi;
 
-//Test som sjekker om tall1 er lik tall2
+// Test som sjekker om tall1 er lik tall2
 if(tall1 == tall2){
-    //kode som skal kjøres kun hvis tall1 er lik tall2
+    // kode som skal kjøres kun hvis tall1 er lik tall2
     console.log("tall1 er lik tall2");
 }
 
-//Test som sjekker om tall1 er større enn tall2
+// Test som sjekker om tall1 er større enn tall2
 if(tall1 > tall2){
     //kode som skal kjøres kun hvis tall1 er større enn tall2
     console.log("tall1 er større enn tall2");
 }
 
-//Test som sjekker om tall1 er større eller lik tall2
+// Test som sjekker om tall1 er større eller lik tall2
 if(tall1 >= tall2){
     //kode som skal kjøres kun hvis tall1 er større eller lik tall2
     console.log("tall1 er større eller lik tall2");
 }
-//Test som sjekker om tall1 er ulik tall2
+// Test som sjekker om tall1 er ulik tall2
 if(tall1 != tall2){
-    //kode som skal kjøres kun hvis tall1 er ulik tall2
+    // kode som skal kjøres kun hvis tall1 er ulik tall2
     console.log("tall1 er ulik tall2");
 }
 ```
@@ -56,20 +56,20 @@ if(tall1 != tall2){
 Noen ganger kan det være nødvendig å kombinere flere typer uttrykk og operatorer for å få testet det man ønsker.
 
 ``` javascript
-//To tester med if og else-if
+// To tester med if og else-if
 const tall1 = verdi_1;
 const tall2 = verdi_2;
 
-//Første test
+// Første test
 if(tall1 >= tall2 && tall2 % 2 == 0){
     //kode som skal kjøres kun hvis tall1 er større eller lik tall2
     console.log("tall1 er større eller lik tall2 OG tall2 er et partall");
 }
-//Neste test som kun kjøres hvis ikke den første slår til
+// Neste test som kun kjøres hvis ikke den første slår til
 else if(tall1 != tall2 || tall1 + tall2 > 10){
      console.log("tall1 er ulik tall2 ELLER tall1 pluss tall2 er større enn 10");
 }
-//Hvis ingen av testene slår til
+// Hvis ingen av testene slår til
 else{
      console.log("Ingen av de foregående if-testene slo til når dette vises");
 }
@@ -81,7 +81,7 @@ Hvis man ønsker å teste et begrenset antall utfall kan det være hensiktsmessi
 
 ``` javascript
 
-//Programmet henter ut nummeret (0 til 6) på dagens dag,
+// Programmet henter ut nummeret (0 til 6) på dagens dag,
 // og legger dette i variabelen dag. Kommandoen break; hopper ut av testen.
 
 const dag = new Date().getDay();
@@ -109,11 +109,11 @@ case 6:
   x = "lørdag";
   break;
 
-//Standardverdi hvis ingen av valgene over slår til
+// Standardverdi hvis ingen av valgene over slår til
 default:
   x = "Verdien er ikke en gyldig ukedag";
 }
 
-//Skriver ut hvilken dag det er.
+// Skriver ut hvilken dag det er.
 console.log(`Dagen i dag er ${x}`);
 ```

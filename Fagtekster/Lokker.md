@@ -23,13 +23,13 @@ for(let i=0; i<10; i++){
 }
 ```
 
-## forEach
+Andre varianter av for-løkker er _forEach_, _for of_ og _for in_. Disse er veldig nyttige når man skal traversere alle elementene i en liste eller andre kolleksjoner av variabler.
 
-En annen variant av for-løkker er _forEach_ og _for of_. Disse er veldig nyttige når man skal traversere alle elementene i en liste eller andre kolleksjoner av variabler.
+## forEach
 
 ``` javascript
 
-// forEach-løkke
+// forEach-løkke kjører en funksjon for hvert element i lista
 // Lager en liste med tre elementer
 let minListe = ['a', 'b', 'c'];
 
@@ -41,7 +41,7 @@ minListe.forEach(function(element) {
 
 ## for of
 
-`for of` brukes når man skal traversere lister.
+`for of` er mye brukt og veldig nyttig nå brukes når man skal traversere lister. Denne løkka finner selv ut hvor lang listen er.
 
 ``` javascript
 
@@ -74,21 +74,21 @@ En while-løkke har veldig lik funksjonalitet som for-løkker. Forskjellen er at
 
 ``` javascript
 
-//Deklarasjon av tellervariabel
+// Deklarasjon av tellervariabel
 let i=0;
-//Deklarasjon av en while-løkke
+// Deklarasjon av en while-løkke
 while (i<5){
      console.log("Verdien av i er: " + i);
-     i++;  //Telleren må økes i koden som gjentas
+     i++;  // Telleren må økes i koden som gjentas
 }
 
-//Deklarasjon av tellevariabel
+// Deklarasjon av tellevariabel
 let i=10;
-//Deklarasjon av en do-while-løkke
+// Deklarasjon av en do-while-løkke
 do
   {
   console.log("Verdien av i er: " +i);
 }
-while (i<5); //Verdien til i er 10, men koden kjøres allikevel en gang
+while (i<5); // Verdien til i er 10, men koden kjøres allikevel en gang
 
 ```
