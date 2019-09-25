@@ -1,8 +1,9 @@
 ```javascript
 
 /*
+
 Øveprøve i grunnleggende JavaScript-programmering
-Du skal kun skrive ut resultatet av koden.
+Du skal KUN skrive ut resultatet som det ville bli vist i konsollen.
 
 Oppgavene bør løses UTEN hjelpemidler for å vise at du har kompetanse i grunnleggende programmering
 
