@@ -38,7 +38,7 @@ console.log(tall1 + tall2);
 let tall2 = 7;
 let tall3 = 3;
 
-let resultat = 7 % 3;
+let resultat = tall2 % tall3;
 
 console.log(resultat);
 
