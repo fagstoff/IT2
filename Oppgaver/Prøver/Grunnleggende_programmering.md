@@ -81,7 +81,7 @@ for(let i = 0; i < 100; i++) {
 
 let min_liste = [4,3,6,8,1];
 
-for (x in min_liste) {
+for (let x of min_liste) {
     console.log(x);
 }
 
