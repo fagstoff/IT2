@@ -56,13 +56,11 @@ console.log(tall4 % 2 == 0);
 
 let tall5 = 9;
 
-if(tall5 % 2 != 0 && tall5 >= 9) {
+if (tall5 % 2 != 0 && tall5 >= 9) {
     console.log("Utfall 1");
-}
-else if (tall5 < 10) {
+} else if (tall5 < 10) {
     console.log("Utfall 2");
-}
-else {
+} else {
     console.log("Utfall 3");
 }
 
@@ -71,8 +69,8 @@ else {
 
 // Oppgave 6:
 
-for(let i = 0; i < 100; i++){
-    if( i % 57 == 0) {
+for(let i = 0; i < 100; i++) {
+    if( i % 57 == 0 ) {
         console.log(i)
     }
 }
@@ -83,7 +81,7 @@ for(let i = 0; i < 100; i++){
 
 let min_liste = [4,3,6,8,1];
 
-for(x in min_liste){
+for (x in min_liste) {
     console.log(x);
 }
 
@@ -117,7 +115,7 @@ console.log(min_liste3[3][1]);
 
 // Oppgave 11:
 
-for(let i=10; i < 15; i++) {
+for (let i=10; i < 15; i++) {
     console.log(i);
 }
 
@@ -127,7 +125,7 @@ for(let i=10; i < 15; i++) {
 
 let min_liste4 = [4,3,6,8,1];
 
-for(x in min_liste4){
+for (let x of min_liste4) {
     if(x % 2 != 0 || x > 7) {
         console.log(x);
 }
