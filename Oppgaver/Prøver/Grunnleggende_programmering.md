@@ -3,7 +3,7 @@
 /*
 
 Øveprøve i grunnleggende JavaScript-programmering
-Du skal KUN skrive ut resultatet som det ville bli vist i konsollen.
+Du skal KUN skrive ut resultatet slik det vil bli vist i konsollen.
 
 Oppgavene bør løses UTEN hjelpemidler for å vise at du har kompetanse i grunnleggende programmering
 
