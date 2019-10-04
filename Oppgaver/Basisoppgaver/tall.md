@@ -9,7 +9,7 @@ Lag en liste som inneholder 50 tilfeldige tall og:
 1. Skriv ut summen av tallene.
 1. Skriv ut gjennomsnittet av tallene.
 1. Skriv ut det største tallet i lista.
-1. Fjern alle tall som er mindre enn gjennomsnittet.
+1. Lag en ny liste med alle tall som er mindre enn gjennomsnittet.
 1. Lag en ny liste som inneholder alle tallene i den første lista som er delelig med 2.
 1. Gang alle tallene med 4 og legg resultatet i en ny liste. (Hint: bruk [map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map))
 
