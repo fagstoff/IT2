@@ -156,3 +156,5 @@ for (let x of liste4) {
         console.log(x + y)
     }
 }
+
+// Svar: ___________________
