@@ -16,6 +16,29 @@ function minFunksjon(){
 
 ```
 
+## Introduksjon til funksjoner med inn- og utparameter
+
+For å øke nytteverdien til en funksjon ytterligere, kan det være nyttig å sende med, og få tilbake behandlet data. I eksempelet under ganges to tall sammen ved å sende de med som paramtere i funksjonskallet. Resultatet returneres og kan skrives ut direkte der man kaller funksjonen.
+
+```javascript
+
+//Funksjonen ganger sammen to tall som er
+//sendt med som innparameter.
+//Resultatet returneres
+
+function gangeToTall(a,b)
+{
+return a * b;
+}
+
+let resultat = gangeToTall(3, 5); // Resultat -> 15
+
+console.log(gangeToTall(4, 3)); // Skriver ut 12 i konsollen:
+
+```
+
+
+
 ## Tidsstyrte funksjoner
 
 Noen ganger kan det være behov for å kjøre en funksjon ved faste tidsintervall. Til dette brukes kommandoen setInterval. I eksempelet under kjøres funksjonen en gang hvert sekundet.
