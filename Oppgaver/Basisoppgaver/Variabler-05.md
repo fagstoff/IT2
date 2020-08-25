@@ -14,8 +14,9 @@ For eksempel skal innverdien 123 skrives ut som 2 minutt(er) og 3 sekund(er)
 ## Vurderingskriterier
 
 * Siden skal validere uten feil og advarsler i konsollvinduet.
-* Programmet beregne riktig antall timer, minutter og sekunder.
+* Programmet beregne riktig antall minutter og sekunder.
 * Det skal komme klart frem av forklaringen hvordan du har løst problemet.
+* **Bonus:** Programmet konverterer også til timer
 
 ## Kompetansemål
 
